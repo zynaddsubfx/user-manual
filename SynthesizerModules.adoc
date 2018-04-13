@@ -1,0 +1,68 @@
+As you probably know, synthesizers are built from modules. Oscillators, filters, envelope generators, amplifiers... These are all building blocks that put together in a certian way make a (hopefully) musical instrument.
+
+Zyn-Fusion is no different. Let's talk about various types of modules that you'll encounter exploring Zyn-Fusion. If you take some time to familiarize yourself with these - you'll have a much easier time finding your way through the interface for each of the synthesizing engines found in Zyn-Fusion, as you'll recognize different modules and their functions.
+
+=== Oscillator Module
+
+image::imgs/20180328-183503.png[]
+
+This module creates cyclic waveforms. You might feel intimidated by how complex this thing looks. But don't worry - we're gonna break it down and you'll realize it's not very complicated.
+
+The oscillator module comprises of four main sections:
+
+* Two big waveform displays,
+* A bunch of controls between the two,
+* An array of sliders on the bottom.
+
+==== Base Waveform display
+
+On the left side you'll see the base function used for the oscillator. You can change that by using the Base Func. dropdown menu and it's Shape slider.
+
+==== Partials
+
+The slider table on the bottom is a list of harmonic partials. You'll notice that by default only the first one on the left is activated. That's the firt partial, also known as the fundamental, the second slider adds a copy of the Base Waveform, but at twice the frequency as the fundamental. The thirds slider is the same but for 3 times the frequency fo the fundamental etc. The top for of sliders defines amplitude of each partial, the bottom for defines the phase offset. Below the bottom row of phase offset sliders is a scroll bar that will let you access more partials, up to 127.
+
+==== Full Oscillator display
+
+As opposed to the Base Waveform, this displays your final waveform that will be produced by the oscillator module.
+
+==== Oscillator controls
+
+Now let's dismantle this mysterious section in the middle:
+
+image::imgs/20180328-192654.png[]
+
+=== Filter Module
+
+image::imgs/20180413-143939.png[]
+==== Filter Classes
+
+image::imgs/20180413-143956.png[]
+==== Analog Filter Types
+
+image::imgs/20180413-144027.png[]
+==== State Variable filter types
+
+image::imgs/20180413-144058.png[]
+==== Formant filter
+
+image::imgs/20180413-144131.png[]
+=== Envelope Module
+
+image::imgs/20180413-144343.png[]
+* ADSR
+* Free mode
+
+=== LFO Module
+
+image::imgs/20180413-144358.png[]
+=== amplifier (?)
+
+image::imgs/20180413-144157.png[]
+* vol
+* scale
+* pan
+* stretch
+* punch strength and time
+
+=== Pitch control (?)

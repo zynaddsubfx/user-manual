@@ -1,0 +1,15 @@
+=== What is Zyn-Fusion?
+
+Zyn-Fusion is a powerful, modern, multiplatform, open-source software sound synthesizer. Zyn-Fusion is a successor to ZynAddSubFX, bringing in a new graphical user interface, and improved backend. It can work as a standalone application, or as a VST, LV2 or DSSI plugin.
+
+TODO:: anything else?
+
+=== Main features
+
+TODO:: Maybe it's not a good idea to repeat the feature list from the main page? Or maybe it's a good idea to try to update that instead
+
+* Zyn-Fusion is actually three synthesizers in one box - they can play together
+* multitimbral: can play multiple patches at once using different MIDI channels, or simply layer then together for complex sounds
+* we can layers sounds like no one else (parts, kits, addsynth voices, multiple engines)
+* Built in effects
+* 16 macro slots for automation or live control - everything can be automated (unlike the old ZynAddSubFX interface)

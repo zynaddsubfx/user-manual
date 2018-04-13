@@ -1,0 +1,10 @@
+image::imgs/20180413-144959.png[]
+* what is ADDsynth and why is it called this way?
+* signal routing diagram
+* global settings
+* voice
+* osc
+* mod-osc
+* modulation
+* voice list
+* resonance
