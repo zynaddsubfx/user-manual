@@ -2,6 +2,8 @@
 
 NOTE:: This document is work-in-progress and is far from completion.
 
+NOTE: testing Git upload
+
 ---
 
 == Introduction
@@ -49,14 +51,14 @@ image::imgs/20180328-183524.png[]
 
 As you can see it is divided into multiple panels.
 
-NOTE:: TODO list the panels and briefly explain their function
+TODO:: list the panels and briefly explain their function
 
 * top panel
 * bottom panel
 * main panel
 * side bar
 
-NOTE:: TODO Then we'll split up each into parts and describe what each part does in detail, covering every button and field. When a button opens Ia dialog of another window. For example clicking on the the logo opens up settings - we can branch out and cover that in a different section if it's approperiate. For example a chapter about Zyn preferences and simply say "here are user preferences - more on that in chapter X"
+TODO:: Then we'll split up each into parts and describe what each part does in detail, covering every button and field. When a button opens Ia dialog of another window. For example clicking on the the logo opens up settings - we can branch out and cover that in a different section if it's approperiate. For example a chapter about Zyn preferences and simply say "here are user preferences - more on that in chapter X"
 
 ==== Top Panel
 
