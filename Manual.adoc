@@ -1,7 +1,6 @@
 = __Zyn-Fusion User Manual__
-=== _Table of Contents for the Writers_
 
-NOTE:: This document is intended as an armature for the Zyn-Fusion user manual writers to fill in.
+NOTE:: This document is work-in-progress and is far from completion.
 
 ---
 
@@ -9,11 +8,13 @@ NOTE:: This document is intended as an armature for the Zyn-Fusion user manual w
 
 === What is Zyn-Fusion?
 
-Zyn-Fusion is a powerful, modern, multiplatform, open-source software sound synthesizer. Zyn-Fusion is a successor to ZynAddSubFX, bringing in a new graphical user interface, and improved backend. It can work as a standalone application, or as a VST, LV2 or DSSI plugin. ==anything else¿==
+Zyn-Fusion is a powerful, modern, multiplatform, open-source software sound synthesizer. Zyn-Fusion is a successor to ZynAddSubFX, bringing in a new graphical user interface, and improved backend. It can work as a standalone application, or as a VST, LV2 or DSSI plugin.
+
+TODO:: anything else?
 
 === Main features
 
-NOTE:: TODO Maybe it's not a good idea to repeat the feature list from the main page¿ Or maybe it's a good idea to try to update that instea
+TODO:: Maybe it's not a good idea to repeat the feature list from the main page? Or maybe it's a good idea to try to update that instead
 
 * Zyn-Fusion is actually three synthesizers in one box - they can play together
 * multitimbral: can play multiple patches at once using different MIDI channels, or simply layer then together for complex sounds
@@ -25,13 +26,15 @@ NOTE:: TODO Maybe it's not a good idea to repeat the feature list from the main 
 
 === User interface conventions
 
-NOTE:: TODO describe app-wide patterns that the user should know to work more efficiently
+TODO:: describe app-wide patterns that the user should know to work more efficiently
 
-There are a few types of controls:
+There are a few standard types of controls (provide screenshot for each)
 
 * Buttons
 * Sliders
 * Knobs
+* Number fields
+* anything else?
 
 Holding down Ctrl will temporarily activate Learn mode - any control touched will be assigned to a macro.
 Holding down Shift will temporarily activate Fine mode - this will greatly increate the input resolution allowing for more precise manipulation.
@@ -82,9 +85,9 @@ Use the Side Bar to slelect what should be displayed here.
 
 There's not much to say about this region of the interface, becasue it's looks and functions will vary wildly based on the context, which leads us to talking about the...
 
-=== Side Bar
+=== Side Panel
 
-The side bar is used to navigate between different parts of the user interface.
+The side panel is used to navigate between different parts of the user interface.
 Whatever you'll activate here will be opened in the Main Panel.
 
 * Part settings
@@ -100,13 +103,11 @@ Whatever you'll activate here will be opened in the Main Panel.
 * Subsynth
 * Padsynth
 
-(yay! we're done! with this part)
-
 === Modules
 
 As you probably know, synthesizers are built from modules. Oscillators, filters, envelope generators, amplifiers... These are all building blocks that put together in a certian way make a (hopefully) musical instrument.
 
-Zyn-Fusion is no different. Let's talk about various types of modules that you'll encounter exploring Zyn-Fusion. If you take some time to familiarize yourself with these - you'll have a much easier time finding your way through the interface for each of the synthesizing engines found in Zyn-Fusion.
+Zyn-Fusion is no different. Let's talk about various types of modules that you'll encounter exploring Zyn-Fusion. If you take some time to familiarize yourself with these - you'll have a much easier time finding your way through the interface for each of the synthesizing engines found in Zyn-Fusion, as you'll recognize different modules and their functions.
 
 ==== Oscillator module
 
@@ -140,6 +141,4 @@ image::imgs/20180328-192654.png[]
 
 ==== Filter module
 
-=== Macro Learn
-
-NOTE:: TODO ==everything about assigning and using macros==
+TODO:: add a screenshot
