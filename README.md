@@ -9,7 +9,7 @@ The Manual is in `AsciiDoc` format https://powerman.name/doc/asciidoc
 
 For a powerful editor with live preview for Linux, check `AsciidocFX` https://github.com/asciidocfx/AsciidocFX
 
-If youneed a different tool, look here: https://asciidoctor.org/docs/editing-asciidoc-with-live-preview/
+If you need a different tool, look here: https://asciidoctor.org/docs/editing-asciidoc-with-live-preview/
 
 ## Files
 
