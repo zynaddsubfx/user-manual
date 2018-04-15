@@ -1,4 +1,5 @@
 = Zyn-Fusion User Manual
+:icons: font
 
 == Introduction
 include::Introduction.adoc[]
