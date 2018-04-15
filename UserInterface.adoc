@@ -1,6 +1,117 @@
 === User interface conventions
+=== Panels
+When you run Zyn-Fusion you'll be presented with this window:
 
-There are a few standard types of controls (provide screenshot for each)
+image::imgs/20180328-183524.png[]
+
+As you can see it is divided into multiple panels, each with their own use.
+When navigating between different _views_, you'll consistently see the status
+panel on top of the window, the navigation panel on the left, and the bottom the
+virtual keyboard.
+In the middle of all of those is the content view which you can expect to change
+when navigating around Zyn-Fusion
+
+.Status Panel
+The status panel is where you'll find a few global parameters, the file menu,
+automation-learn/fine-tuning mode selectors, the panic button, master VU meter,
+and the information tray.
+
+Panic button:: 
+    When getting started you'll want to be familiar with the panic button as
+    it will instantly silence the audio produced by Zyn, no matter what state
+    the synth is in.
+Master VU meter::
+    This meter will display the current audio output levels.
+    It's important to watch this output to avoid clipping.
+Fine indicator::
+    This indicator shows when parameters are being finely adjusted. Fine adjust
+    is trigged by holding *SHIFT* and it can be toggled by clicking on the
+    indicator.
+Learn indicator::
+    This indicator shows when automation learning is in progress.
+Information Tray::
+    The information tray will show tooltips about Zyn's parameters, current
+    parameter values, as well as other status information.
+
+.Screenshot todo
+NOTE: There should be a screenshot for the 'information tray'
+
+.Under Construction
+NOTE: At a later point is may be worth describing: NRPN - currently
+      non-functional, audio capture (may be worth removing at some point), etc,
+      but there are higher priority things to document at the moment
+
+////
+unfa:
+NOTE: Then we'll split up each into parts and describe what each part does in detail, covering every button and field.
+      When a button opens a dialog of another window.
+      For example clicking on the logo opens up settings - we can branch out and cover that in a different section
+      if it's appropriate.
+      For example a chapter about Zyn preferences and simply say "here are user preferences - more on that in chapter X"
+
+fundamental:
+Contrary to this I'd say do *not* detail everything. Detail what's important and
+what can be integrated with the section's flow easily.
+The overall guide should help users and not serve as a full specification
+////
+
+
+////
+Commented out since this appears to be discussed later
+=== Virtual Keyboard
+
+* Virtual keyboard (also usable with QWERTY keyboard - that's important!)
+* Virtual keyboard knobs
+* MIDI CC selector
+
+unfa Q: can we use this to with that pitch bend?
+fundamental A: I don't think it's wired up that way at the moment as pitch bend
+has a different parameter resolution comared to others. This can change in a
+future version however
+
+unfa Q: can we fake MIDI CC input for Macro learn?
+fundamental A: If it does behave that way now, I'd think it would be wise to
+make it not behave that way in the future.
+////
+
+=== Navigation Panel
+
+The left side of the screen can be used to change what view the content panel is
+actively presenting.
+The side panel is used to navigate between different parts of the user
+interface.
+From here you can change the view in the main panel to:
+
+* Part settings
+* Part Grid - the active part id
+* Browser
+* Mixer
+* Kits
+* Kit Grid - the active kit id
+* Macro Learn
+* Effects
+* Add synth
+* Add synth Voice Grid - the active voice id
+* Sub synth
+* Pad synth
+
+For all of the grid selectors you can change the active id with the left mouse
+button or you can enable/disable the selected ID via the middle mouse button.
+
+=== Main Panel
+
+Here's where the most of the action happens.
+When you start Zyn-Fusion it'll begin by showing you the Browser.
+Use the Side Bar to select what should be displayed here.
+
+There's not much to say about this region of the interface, because its
+looks and functions will vary wildly based on the context selected by the
+navigation panel.
+
+=== General conventions
+The Zyn-Fusion GUI tries to maintain a consistent language through it's
+controls.
+The ones you'll see most commonly are:
 
 * Buttons
 * Sliders
@@ -20,67 +131,9 @@ Zyn-Fusion lets you use the keyboard in two ways:
 For example you can play a C-4 note by pressing the Q key
 
 Holding down Ctrl will temporarily activate Learn mode - any control touched will be assigned to a macro.
-Holding down Shift will temporarily activate Fine mode - this will greatly increate the input resolution allowing for more precise manipulation.
+Holding down Shift will temporarily activate Fine mode - this will greatly increase the input resolution allowing for more precise manipulation.
 
-
-
-=== Panels
-When you run Zyn-Fusion you'll be presented with this window:
-
-image::imgs/20180328-183524.png[]
-
-As you can see it is divided into multiple panels.
-
-TODO:: list the panels and briefly explain their function
-
-* top panel
-* bottom panel
-* main panel
-* side bar
-
-TODO:: Then we'll split up each into parts and describe what each part does in detail, covering every button and field. When a button opens Ia dialog of another window. For example clicking on the the logo opens up settings - we can branch out and cover that in a different section if it's approperiate. For example a chapter about Zyn preferences and simply say "here are user preferences - more on that in chapter X"
-
-==== Top Panel
-
-* Logo
-* File menu
-* Audio capture controls
-* MIDI and Learn buttons
-* Information bar
-* Fine control toggle
-* NPRN button
-* global volume nad key shift controls
-* master level meter
-* Panic button
-
-=== Bottom Panel
-
-* Virtual keyboard (also usable with QWERTY keaboard - that;s important!)
-* Virtual keyboard knobs
-* MIDI CC selector (can we use this to with that pitch bend? can we fake MIDI CC input for Macro learn?)
-
-=== Main Panel
-
-Here's where the most of the action happens.
-When you start Zyn-Fusion it'll begin by showing you the Browser.
-Use the Side Bar to slelect what should be displayed here.
-
-There's not much to say about this region of the interface, becasue it's looks and functions will vary wildly based on the context, which leads us to talking about the...
-
-=== Side Panel
-
-The side panel is used to navigate between different parts of the user interface.
-Whatever you'll activate here will be opened in the Main Panel.
-
-* Part settings
-* Part Grid (LMB- select, MMB - enable/disable)
-* Browser
-* Mixer
-* Kits
-* Kit Grid (mouse actions same as with Part Grid)
-* Macro Learn
-* Effects
-* Addsynth
-* Addsynth Voice Grid
-* Subsynth
-* Padsynth
+.Documentation Idea
+NOTE: It would be great to have an automated method for generating a cheat-sheet
+like view for the keybindings like discussed in
+https://tex.stackexchange.com/questions/44581/creating-keyboard-layout-diagrams
