@@ -1,15 +1,108 @@
-=== What is Zyn-Fusion?
+////
+I'd say this section is a good place to give a very sparse high level idea of
+what the synth is about, provide links to subsections, and provide a quickstart
+////
 
-Zyn-Fusion is a powerful, modern, multiplatform, open-source software sound synthesizer. Zyn-Fusion is a successor to ZynAddSubFX, bringing in a new graphical user interface, and improved backend. It can work as a standalone application, or as a VST, LV2 or DSSI plugin.
+ZynAddSubFX is a powerful multi-platform open-source software sound synthesizer.
+Zyn provides a variety of sound creation options including 3 core synthesis
+engines, 10+ filter options, lfos/envelopes for modulation, microtonal support,
+multi-parameter automation support, as well as many other features.
+Zyn can be run both as a standalone application as well as a VST/LV2/DSSI plugin
+within your favorite DAW.
+ZynAddSubFX can be controlled through multiple interfaces, though this manual
+will focus on the new and powerful Zyn-Fusion interface.
 
-TODO:: anything else?
 
-=== Main features
+=== Quick start
 
-TODO:: Maybe it's not a good idea to repeat the feature list from the main page? Or maybe it's a good idea to try to update that instead
+.Under Construction
+WARNING: This section is under construction
+
+.Section outline
+* Focus on a single plugin host (i.e. ardour) but keep host specific details to a minimum
+* Show the steps to open the synth and how to load up a simple and (very
+  importantly) a good sounding patch
+* This would be the place to talk about some very simple key bindings as well as
+  file load/save operations
+* Really keep stuff basic here at the expense of repeating details which will be
+  covered in more detail down the line
+* The user should learn how to:
+** open the program
+** navigate the bank browser
+** load a patch from a file
+** save a patch
+** Play with the virtual keyboard
+** Play with a MIDI keyboard/host input if they have one (talk about MIDI
+channels very briefly)
+
+.Random thought
+NOTE: It might make sense to have these "the user should learn X" goals stored
+in a consistent place or at least in a consistent format for each section
+
+////
+XXX Each one of these bullet points should be expanded upon somewhere else IMO
 
 * Zyn-Fusion is actually three synthesizers in one box - they can play together
 * multitimbral: can play multiple patches at once using different MIDI channels, or simply layer then together for complex sounds
 * we can layers sounds like no one else (parts, kits, addsynth voices, multiple engines)
 * Built in effects
 * 16 macro slots for automation or live control - everything can be automated (unlike the old ZynAddSubFX interface)
+////
+
+=== Tutorial One: The Super Saw
+
+////
+This may be something geared better for the ADsynth section rather than here,
+but we've got to start somewhere
+////
+
+.Under Construction
+WARNING: This section is under construction
+
+.Goals
+NOTE: This section will teach the absolute basics about Add synth, editing a
+multi-voice ADD synth based instrument, the basics of the oscillator view,
+copy/paste, unison, and the cutoff frequency of a filter (maybe).
+Overall this should be a way to introduce a person with near zero knowledge
+about synthesis and zyn to instrument creation.
+
+The previous section talked about how to load an use existing patches, but the
+majority of the power of ZynAddSubFX is to tune synthesis parameters to create
+new sounds and to adjust existing sounds to harmonize with the rest of the
+instruments
+Now that you know how to load and use existing patches, let's take a look at how
+to build new patches.
+
+
+.Section Outline
+* Sub Part 1: The oscillator
+**  Get the user to navigate to the oscillator view
+*** Talk briefly about harmonics and low/high frequency content
+*** Get the user to change the shape to saw
+**** Talk about waveform shapes
+*** Get the user to change the waveform par to a classic rising up sawtooth wave
+**** Look at the harmonics again
+*** Prompt the user to play the sound and make a note about what it looks like
+* Sub Part 2: A Voice
+** Prompt the user through the process of creating the same sawtooth on voice 2
+*** This should be used to re-enforce the process
+** Move to voice parameters
+*** Move to frequency parameters
+*** Get them to change detune
+*** Prompt the user to play
+** As the user to repeat the process on voice 3 with notes about copy/paste for
+    the oscillator
+* Sub Part 3: A pause to talk about what a super saw really is
+** Diagrams about signal routine
+** Talk about what a unison is
+* Sub Part 4: Putting it all together
+** Tell user "Make a sawtooth"
+** Show user unison control
+** Say let's have some fun playing with this (reference harmonic information
+    from part 1 and general super-saw notes from part 3) to motivate next step
+** As an optional exploration subsection show low pass filter cutoff and
+    basically say it sounds different, but near zero details here (that's
+    reserved for a later tutorial)
+
+NOTE: At this point there should be a small summary and a stepping stone for
+the next area of the user manual
