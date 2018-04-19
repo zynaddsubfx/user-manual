@@ -64,12 +64,12 @@ NOTE: This section will teach the absolute basics about Add synth, editing a
 multi-voice ADD synth based instrument, the basics of the oscillator view,
 copy/paste, unison, and the cutoff frequency of a filter (maybe).
 Overall this should be a way to introduce a person with near zero knowledge
-about synthesis and zyn to instrument creation.
+about synthesis and Zyn to instrument creation.
 
 The previous section talked about how to load an use existing patches, but the
 majority of the power of ZynAddSubFX is to tune synthesis parameters to create
 new sounds and to adjust existing sounds to harmonize with the rest of the
-instruments
+instruments.
 Now that you know how to load and use existing patches, let's take a look at how
 to build new patches.
 
