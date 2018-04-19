@@ -1,6 +1,6 @@
-Synthesizers are built out of a collection of modules ranging form oscillators,
+Synthesizers are built out of a collection of modules ranging from oscillators,
 to filters, envelope generators, amplifiers, and more.
-These are all building blocks that put together in a certian way make a (hopefully) musical instrument.
+These are all building blocks that put together in a certai way make a (hopefully) musical instrument.
 
 Zyn-Fusion is no different.
 Let's talk about various types of modules that you'll encounter exploring Zyn-Fusion.
@@ -26,7 +26,7 @@ On the left side you'll see the base function used for the oscillator. You can c
 
 ==== Partials
 
-The slider table on the bottom is a list of harmonic partials. You'll notice that by default only the first one on the left is activated. That's the firt partial, also known as the fundamental, the second slider adds a copy of the Base Waveform, but at twice the frequency as the fundamental. The thirds slider is the same but for 3 times the frequency fo the fundamental etc. The top for of sliders defines amplitude of each partial, the bottom for defines the phase offset. Below the bottom row of phase offset sliders is a scroll bar that will let you access more partials, up to 127.
+The slider table on the bottom is a list of harmonic partials. You'll notice that by default only the first one on the left is activated. That's the first partial, also known as the fundamental, the second slider adds a copy of the Base Waveform, but at twice the frequency as the fundamental. The thirds slider is the same but for 3 times the frequency fo the fundamental etc. The top for of sliders defines amplitude of each partial, the bottom for defines the phase offset. Below the bottom row of phase offset sliders is a scroll bar that will let you access more partials, up to 127.
 
 ==== Full Oscillator display
 
