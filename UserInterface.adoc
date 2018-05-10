@@ -133,6 +133,10 @@ For example you can play a C-4 note by pressing the Q key, or play the C-3 note 
 TODO::
 Here should be a reference to an appropriate Global Settings subchapter
 
+TIP: you can learn more about this in the <<Global Settings>> chapter.
+
+// above is a non-working reference to another chapter. How do we make this work? Related issue: https://github.com/zynaddsubfx/user-manual/issues/3
+
 Holding down Ctrl will temporarily activate Learn mode - any control touched will be assigned to a macro.
 
 TODO::
