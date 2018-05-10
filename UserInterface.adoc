@@ -144,3 +144,5 @@ Holding down Shift will temporarily activate Fine mode - this will greatly incre
 NOTE: It would be great to have an automated method for generating a cheat-sheet
 like view for the keybindings like discussed in
 https://tex.stackexchange.com/questions/44581/creating-keyboard-layout-diagrams
+
+ISSUE:: https://github.com/zynaddsubfx/user-manual/issues/7

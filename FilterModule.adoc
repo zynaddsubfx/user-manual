@@ -1,0 +1,13 @@
+image::imgs/20180413-143939.png[]
+==== Filter Classes
+
+image::imgs/20180413-143956.png[]
+==== Analog Filter Types
+
+image::imgs/20180413-144027.png[]
+==== State Variable filter types
+
+image::imgs/20180413-144058.png[]
+==== Formant filter
+
+image::imgs/20180413-144131.png[]

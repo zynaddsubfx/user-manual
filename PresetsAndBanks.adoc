@@ -1,23 +1,27 @@
 === Presets
 
-What are presets?
+* [x] What are presets?
+* [ ] What types of presets we have in Zyn? (XMZ, XIZ, microtonal, MIDI bindings, ...)
+* [ ] How to load presets?
+* [ ] How to save presets?
+* [ ] How to add metadata to presets?
+* [ ] How to exchange presets with other users?
 
-What types of presets we have in Zyn? (XMZ, XIZ, ... )
+==== What are presets?
 
-How to load presets?
+Presets are a way of storing some settings on disk, to allow restoring them back from the file later. They can be used to save your work or to share it with other people.
 
-How to save presets?
+NOTE: When using Zyn-Fusion as a plug-in inside a host, usually the host will take care of storing and restoring your patch upon saving/loading your project. However you can still use the Zyn-Fusion's own preset system as a backup solution or to take the patch out of one host and bring it into another.
 
-How to exchange presets with other users?
+TODO:: Anything more?
 
 === Banks
 
-What are banks?
+* [ ] What are banks?
+* [ ] How to read from banks?
+* [ ] How to create a new bank?
+* [ ] How to save presets to banks?
+* [ ] How to add metadata to banks?
+* [ ] How to exchange banks with other users?
 
-How to read from banks?
-
-How to create a new bank?
-
-How to save presets to banks?
-
-How to exchange banks with other users?
+TODO:: Anything more?

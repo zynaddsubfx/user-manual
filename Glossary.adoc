@@ -1,0 +1,3 @@
+TODO:: Here goes all the term definitions the user might need to reference while reading the manual.
+
+TODO:: We need to figure out a way to sort the items here alphabetically

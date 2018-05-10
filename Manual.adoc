@@ -21,8 +21,17 @@ include::SUBsynth.adoc[]
 === PADsynth
 include::PADsynth.adoc[]
 
+== Part Settings
+include::PartSettings.adoc[]
+
+== Kits
+include::Kits.adoc[]
+
+== Presets and Banks
+include::PresetsAndBanks.adoc[]
+
 == Settings
 include::Settings.adoc[]
 
-== Presets and banks
-include::PresetsAndBanks.adoc[]
+== Glossary
+include::Glossary.adoc[]
