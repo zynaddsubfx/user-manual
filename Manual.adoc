@@ -4,6 +4,8 @@
 == Introduction
 include::Introduction.adoc[]
 
+= Basic Topics
+
 == User Interface
 include::UserInterface.adoc[]
 
@@ -33,5 +35,9 @@ include::PresetsAndBanks.adoc[]
 == Settings
 include::Settings.adoc[]
 
-== Glossary
+= Glossary
 include::Glossary.adoc[]
+
+= Advanced Topics
+
+// Once we have eveything written, we'll put here stuff that's unnecesarily detailed and would trip up new users

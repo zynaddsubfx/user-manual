@@ -19,4 +19,28 @@ If you need a different tool, look here: https://asciidoctor.org/docs/editing-as
 
 ## How to contribute?
 
-If you'd like to share your knowlege abotu ZynAddSubFX and help fill in the gaps - first take a look at the Manual.adoc file and read. When you'll find something that you feel comfortable writing about, find the appropriate `.adoc` chapter file and contribute there. You migth find some notes like `TODO:: Maybe we should write XYZ here?` you can also add your own. However if you do so - a good idea might be to also file an Issue - this way everyone will see your question or concert without having to stumble upon your note in the documents themselves. Then they can go there, see your note and do something about it. The notes inside the `.adoc` files can contain hyperlinks to related Issues.
+If you'd like to share your knowlege about ZynAddSubFX and help fill in the gaps of this User Manual - first take a look at the Manual.adoc file and read.
+
+When you'll find something that you feel comfortable writing about, find the appropriate `.adoc` chapter file and contribute there.
+
+You'll find some comments that are intended as a messages to editors, not as content for end users.
+
+In Asciidoc the comments are done as follows:
+
+Every line starting with `//` is regarded as a comment.
+Multi-line text enclosed between lines containing only `////` is regarded as a comment to.
+
+    // example one line comment
+    
+    ////
+    example
+    multi-line
+    comment
+    ////
+
+If you have any questions, or suggestions - feel free to create an Issue, and link it in a comment in the appropreiate `.adoc` file. For example:
+
+    // Here goes all the term definitions the user might need to reference while reading the manual.
+    // We need to figure out a way to sort the items here alphabetically
+    // https://github.com/zynaddsubfx/user-manual/issues/6
+

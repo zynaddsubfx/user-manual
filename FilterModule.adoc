@@ -1,13 +1,36 @@
 image::imgs/20180413-143939.png[]
-==== Filter Classes
 
+==== Filter Classes
+.Filter Classes
 image::imgs/20180413-143956.png[]
+
+Zyn-Fusion features three classes of filters.
+
+===== Analog Filters
+
+// fundamental, could you fill this in? - unfa
+
+===== State Variable Filters
+
+// fundamental, could you fill this in? - unfa
+
+===== Formant Filter
+
+The formant filter is a separate class on it's own. It's a complex filter that will let you define presets of peak filters, arrange them in a sequence and then smoothly interpolate between them. This way you can apply very complex and animated filtering to shape the harmonic profile of your sounds and make it evolve over time. More on that later in this chapter.
+
+
+
 ==== Analog Filter Types
 
+
+.Analog Filter Types
 image::imgs/20180413-144027.png[]
 ==== State Variable filter types
 
+.State Variable Filter Types
 image::imgs/20180413-144058.png[]
 ==== Formant filter
+
+The formant filter is a separate class on it's own. It's a complex filter that will let you define presets of peak filters, arrange them in a sequence and then smoothly interpolate between them. This way you can apply very complex and animated filtering to shape the harmonic profile of your sounds and make it evolve over time.
 
 image::imgs/20180413-144131.png[]

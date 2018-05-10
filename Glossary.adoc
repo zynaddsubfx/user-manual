@@ -1,3 +1,5 @@
-TODO:: Here goes all the term definitions the user might need to reference while reading the manual.
+// Here goes all the term definitions the user might need to reference while reading the manual.
+// We need to figure out a way to sort the items here alphabetically
+// https://github.com/zynaddsubfx/user-manual/issues/6
 
-TODO:: We need to figure out a way to sort the items here alphabetically
+NOTE: Here by glossary!

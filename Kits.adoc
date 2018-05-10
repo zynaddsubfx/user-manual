@@ -1,1 +1,5 @@
-NOTE: What are kits?
+image::imgs/Selection_428b.png[]
+
+- [ ] What are kits?
+- [ ] No kits, Multi kit and Single Kit
+- [ ] What is Drum Mode?

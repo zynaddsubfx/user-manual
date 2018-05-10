@@ -21,8 +21,10 @@ Panic button::
     it will instantly silence the audio produced by Zyn, no matter what state
     the synth is in. It's a safety device in case the sounds go out of control.
 Master VU meter::
-    This meter will display the current audio output levels.
-    It's important to watch this output to avoid clipping.
+    This meter will display the current audio output levels. It can be useful for a few things:
+    * It'll let you decide on choosing an optimal sound level for your patch.
+    * It might be helpful to find out which instance of Zyn-Fusion is currently making sounds, if you're working with a few of them at once.
+    * It'll help you make sure your MIDI keyboard is connected properly.
 Fine indicator::
     This indicator shows when parameters are being finely adjusted. Fine adjust
     is trigged by holding *SHIFT* and it can be toggled by clicking on the
@@ -31,8 +33,9 @@ Learn indicator::
     This indicator shows when automation learning is in progress.
 Information Tray::
     The information tray will show tooltips about Zyn's parameters, current
-    parameter values, as well as other status information.
+    parameter values, as well as other status information. image:imgs/Selection_437.png[]
 
+////
 .Screenshot todo
 NOTE: There should be a screenshot for the 'information tray'
 
@@ -40,6 +43,7 @@ NOTE: There should be a screenshot for the 'information tray'
 NOTE: At a later point is may be worth describing: NRPN - currently
       non-functional, audio capture (may be worth removing at some point), etc,
       but there are higher priority things to document at the moment
+////
 
 ////
 unfa:
@@ -53,6 +57,8 @@ fundamental:
 Contrary to this I'd say do *not* detail everything. Detail what's important and
 what can be integrated with the section's flow easily.
 The overall guide should help users and not serve as a full specification
+
+unfa: ok, but then -  is there a place for the full specification? I think it's also needed. Do you mean a destinction between a User Manual and a Reference Manual?
 ////
 
 
@@ -130,8 +136,7 @@ Zyn-Fusion lets you use the keyboard in two ways:
 
 For example you can play a C-4 note by pressing the Q key, or play the C-3 note with the Z key. You can also change the keyboard layout between QWERTY and AZERTY in the Global Settings.
 
-TODO::
-Here should be a reference to an appropriate Global Settings subchapter
+// Here should be a reference to an appropriate Global Settings subchapter
 
 TIP: you can learn more about this in the <<Global Settings>> chapter.
 
@@ -139,14 +144,15 @@ TIP: you can learn more about this in the <<Global Settings>> chapter.
 
 Holding down Ctrl will temporarily activate Learn mode - any control touched will be assigned to a macro.
 
-TODO::
-Here should be a reference to chapter about Macro Learn
+// Here should be a reference to chapter about Macro Learn
 
 Holding down Shift will temporarily activate Fine mode - this will greatly increase the input resolution allowing for more precise manipulation.
 
+////
 .Documentation Idea
 NOTE: It would be great to have an automated method for generating a cheat-sheet
 like view for the keybindings like discussed in
 https://tex.stackexchange.com/questions/44581/creating-keyboard-layout-diagrams
 
 ISSUE:: https://github.com/zynaddsubfx/user-manual/issues/7
+////

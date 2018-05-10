@@ -13,7 +13,7 @@ Presets are a way of storing some settings on disk, to allow restoring them back
 
 NOTE: When using Zyn-Fusion as a plug-in inside a host, usually the host will take care of storing and restoring your patch upon saving/loading your project. However you can still use the Zyn-Fusion's own preset system as a backup solution or to take the patch out of one host and bring it into another.
 
-TODO:: Anything more?
+// Anything more?
 
 === Banks
 
@@ -24,4 +24,4 @@ TODO:: Anything more?
 * [ ] How to add metadata to banks?
 * [ ] How to exchange banks with other users?
 
-TODO:: Anything more?
+// Anything more?
