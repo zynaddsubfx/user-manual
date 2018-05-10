@@ -1,0 +1,12 @@
+=== Accessing settings
+
+To access the settings view, click twice on the Zyn logo in the top left corner.
+
+=== Global settings
+image::imgs/Selection_422.png[]
+
+=== Bank settings
+image::imgs/Selection_423.png[]
+
+=== Preset settings
+image::imgs/Selection_424.png[]

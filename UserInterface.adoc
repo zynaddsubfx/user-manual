@@ -19,7 +19,7 @@ and the information tray.
 Panic button:: 
     When getting started you'll want to be familiar with the panic button as
     it will instantly silence the audio produced by Zyn, no matter what state
-    the synth is in.
+    the synth is in. It's a safety device in case the sounds go out of control.
 Master VU meter::
     This meter will display the current audio output levels.
     It's important to watch this output to avoid clipping.
@@ -128,9 +128,16 @@ Zyn-Fusion lets you use the keyboard in two ways:
 * playing notes with the alpha-numeric keyboard
 * accessing special functions with modifier keys
 
-For example you can play a C-4 note by pressing the Q key
+For example you can play a C-4 note by pressing the Q key, or play the C-3 note with the Z key. You can also change the keyboard layout between QWERTY and AZERTY in the Global Settings.
+
+TODO::
+Here should be a reference to an appropriate Global Settings subchapter
 
 Holding down Ctrl will temporarily activate Learn mode - any control touched will be assigned to a macro.
+
+TODO::
+Here should be a reference to chapter about Macro Learn
+
 Holding down Shift will temporarily activate Fine mode - this will greatly increase the input resolution allowing for more precise manipulation.
 
 .Documentation Idea

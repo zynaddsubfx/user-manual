@@ -80,9 +80,9 @@ to build new patches.
 *** Talk briefly about harmonics and low/high frequency content
 *** Get the user to change the shape to saw
 **** Talk about waveform shapes
-*** Get the user to change the waveform par to a classic rising up sawtooth wave
+*** Get the user to change the waveform parameter to a classic rising up sawtooth wave
 **** Look at the harmonics again
-*** Prompt the user to play the sound and make a note about what it looks like
+*** Prompt the user to play the sound and make a note about what it sounds like
 * Sub Part 2: A Voice
 ** Prompt the user through the process of creating the same sawtooth on voice 2
 *** This should be used to re-enforce the process
@@ -90,10 +90,11 @@ to build new patches.
 *** Move to frequency parameters
 *** Get them to change detune
 *** Prompt the user to play
-** As the user to repeat the process on voice 3 with notes about copy/paste for
+** Ask the user to repeat the process on voice 3 with notes about copy/paste for
     the oscillator
+    
 * Sub Part 3: A pause to talk about what a super saw really is
-** Diagrams about signal routine
+** Diagrams about signal routing
 ** Talk about what a unison is
 * Sub Part 4: Putting it all together
 ** Tell user "Make a sawtooth"

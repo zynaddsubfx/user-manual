@@ -1,0 +1,23 @@
+=== Presets
+
+What are presets?
+
+What types of presets we have in Zyn? (XMZ, XIZ, ... )
+
+How to load presets?
+
+How to save presets?
+
+How to exchange presets with other users?
+
+=== Banks
+
+What are banks?
+
+How to read from banks?
+
+How to create a new bank?
+
+How to save presets to banks?
+
+How to exchange banks with other users?
