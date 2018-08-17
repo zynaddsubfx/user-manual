@@ -5,6 +5,7 @@ To access the settings view, click twice on the Zyn logo in the top left corner.
 image::imgs/Selection_435.png[]
 
 === Global Settings
+[[global-settings]]
 image::imgs/Selection_422.png[]
 
 These settings affect the whole ZynAddSubFX instance.

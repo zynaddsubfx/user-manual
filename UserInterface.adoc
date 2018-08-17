@@ -1,44 +1,40 @@
-=== User interface conventions
-=== Panels
-When you run Zyn-Fusion you'll be presented with this window:
+= Zyn-Fusion UI overview
 
+This section contains an overview of Zyn-Fusion's UI and how to interact with it.
+
+== Zyn-Fusion panels
 image::imgs/20180328-183524.png[]
 
-As you can see it is divided into multiple panels, each with their own use.
-When navigating between different _views_, you'll consistently see the status
-panel on top of the window, the navigation panel on the left, and the bottom the
-virtual keyboard.
-In the middle of all of those is the content view which you can expect to change
-when navigating around Zyn-Fusion
+Zyn-Fusion's UI is divided into panels:
 
-.Status Panel
-The status panel is where you'll find a few global parameters, the file menu,
-automation-learn/fine-tuning mode selectors, the panic button, master VU meter,
-and the information tray.
+* Status Panel
+* Navigation Panel
+* Main Panel
+// * Virtual Keyboard
 
-Panic button:: 
-    When getting started you'll want to be familiar with the panic button as
-    it will instantly silence the audio produced by Zyn, no matter what state
-    the synth is in. It's a safety device in case the sounds go out of control.
+The status panel contains application-relevant information, like the file menu. The navigation panel displays different views in the main panel, which is where most of the editing happens in Zyn-Fusion.
+
+=== Status panel
+The status panel is where shows global parameters, the file menu,
+automation-learn/fine-tuning mode selectors, the panic button, master VU meter,and the information tray.
+
+Panic button::
+    Silences all audio produced by Zyn-Fusion, regardless of what state the synthesizer is in.
 Master VU meter::
-    This meter will display the current audio output levels. It can be useful for a few things:
-    * It'll let you decide on choosing an optimal sound level for your patch.
-    * It might be helpful to find out which instance of Zyn-Fusion is currently making sounds, if you're working with a few of them at once.
-    * It'll help you make sure your MIDI keyboard is connected properly.
+    Displays the current audio output levels. Can be used for the folowing tasks:
+    * Deciding on an optimal sound level for a patch.
+    * Showing whether or not an instance of Zyn-Fusion is currently producing sound. This is useful if you are using more than one instance of Zyn-Fusion simultaneously.
+    * Ensuring your MIDI keyboard is connected.
 Fine indicator::
-    This indicator shows when parameters are being finely adjusted. Fine adjust
-    is trigged by holding *SHIFT* and it can be toggled by clicking on the
-    indicator.
+    Shows when parameters are being finely adjusted. Fine adjust
+    is trigged by holding the *Shift* key on a keyboard or by using the indicator.
 Learn indicator::
-    This indicator shows when automation learning is in progress.
+    Shows when automation learning is in progress.
 Information Tray::
-    The information tray will show tooltips about Zyn's parameters, current
+    Shows tooltips about Zyn's parameters, current
     parameter values, as well as other status information. image:imgs/Selection_437.png[]
 
 ////
-.Screenshot todo
-NOTE: There should be a screenshot for the 'information tray'
-
 .Under Construction
 NOTE: At a later point is may be worth describing: NRPN - currently
       non-functional, audio capture (may be worth removing at some point), etc,
@@ -80,31 +76,32 @@ fundamental A: If it does behave that way now, I'd think it would be wise to
 make it not behave that way in the future.
 ////
 
-=== Navigation Panel
+=== Navigation panel
 
-The left side of the screen can be used to change what view the content panel is
+The left panel, or navigation panel, changes what view the content panel is
 actively presenting.
-The side panel is used to navigate between different parts of the user
-interface.
-From here you can change the view in the main panel to:
+
+The following views are available:
+
+// Note (celestehorgan): it might be a good idea to include a small description of each view :)
 
 * Part settings
-* Part Grid - the active part id
+* Part Grid - the active part ID
 * Browser
 * Mixer
 * Kits
-* Kit Grid - the active kit id
+* Kit Grid - the active kit ID
 * Macro Learn
 * Effects
 * Add synth
-* Add synth Voice Grid - the active voice id
+* Add synth Voice Grid - the active voice ID
 * Sub synth
 * Pad synth
 
-For all of the grid selectors you can change the active id with the left mouse
-button or you can enable/disable the selected ID via the middle mouse button.
+For all of the grid selectors you can change the active IDs with the left mouse button or enable/disable the selected ID via the middle mouse button.
 
-=== Main Panel
+=== Main panel
+
 
 Here's where the most of the action happens.
 When you start Zyn-Fusion it'll begin by showing you the Browser.
@@ -114,39 +111,45 @@ There's not much to say about this region of the interface, because its
 looks and functions will vary wildly based on the context selected by the
 navigation panel.
 
-=== General conventions
-The Zyn-Fusion GUI tries to maintain a consistent language through it's
-controls.
-The ones you'll see most commonly are:
+
+== Interacting with Zyn-Fusion
+
+=== Using the UI controls
+Zyn-Fusion uses a number of UI controls, including:
 
 * Buttons
 * Sliders
 * Knobs
 * Number fields
-* anything else?
+// * Anything else?
 
-The knobs and sliders can be reset to their default position with a double-click or a middle-mouse-click.
+==== Resetting a knob or slider
 
-=== Using the Keyboard
+To reset a knob or slider to its default position, either double-click the left mouse button or click the middle mouse button.
+
+=== Using the keyboard
 
 Zyn-Fusion lets you use the keyboard in two ways:
 
-* playing notes with the alpha-numeric keyboard
-* accessing special functions with modifier keys
+* Playing musical notes with the alpha-numeric keyboard
+* Keyboard shortcuts
 
-For example you can play a C-4 note by pressing the Q key, or play the C-3 note with the Z key. You can also change the keyboard layout between QWERTY and AZERTY in the Global Settings.
+==== Playing musical notes with the alphanumeric keyboard
 
-// Here should be a reference to an appropriate Global Settings subchapter
+Zyn-Fusion allows you to use the alphanumeric keyboard to play nots on the virtual keyboard. For example, pressing the **Q** key plays a C-4 note, and pressing the **Z** key plays a C-3 note.
 
-TIP: you can learn more about this in the <<Global Settings>> chapter.
+TIP: For more information, see <<Settings.adoc#global-settings>>.
 
 // above is a non-working reference to another chapter. How do we make this work? Related issue: https://github.com/zynaddsubfx/user-manual/issues/3
 
-Holding down Ctrl will temporarily activate Learn mode - any control touched will be assigned to a macro.
+==== Keyboard shortcuts
 
-// Here should be a reference to chapter about Macro Learn
+Zyn-Fusion supports the following keyboard shortcuts to access global controls:
 
-Holding down Shift will temporarily activate Fine mode - this will greatly increase the input resolution allowing for more precise manipulation.
+* **Ctrl**: Hold down to activate **Learn** mode. Any control selected is assigned to a macro.
+// Here should be a reference to chapter about Macro Learn.
+
+* **Shift**: Hold down to activate **Fine** mode. Increases input resolution for more precise manipulation.
 
 ////
 .Documentation Idea
