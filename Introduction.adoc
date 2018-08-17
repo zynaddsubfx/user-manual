@@ -1,26 +1,36 @@
+== Introduction
+
 ////
 I'd say this section is a good place to give a very sparse high level idea of
 what the synth is about, provide links to subsections, and provide a quickstart
 ////
 
-ZynAddSubFX is a powerful multi-platform open-source software sound synthesizer.
-Zyn provides a variety of sound creation options including 3 core synthesis
-engines, 10+ filter options, lfos/envelopes for modulation, microtonal support,
-multi-parameter automation support, as well as many other features.
-Zyn can be run both as a standalone application as well as a VST/LV2/DSSI plugin
-within your favorite DAW.
-ZynAddSubFX can be controlled through multiple interfaces, though this manual
-will focus on the new and powerful Zyn-Fusion interface.
+ZynAddSubFX is a multi-platform open-source software sound synthesizer, providing a variety of sound creation options including:
 
+* 3 core synthesis engines
+* 10+ filter options
+* LFOs/envelopes for modulation
+* Microtonal support
+* Multi-parameter automation support
+
+ZynAddSubFX can be run both as a standalone application as well as a VST/LV2/DSSI plugin
+within your favorite DAW. ZynAddSubFX can be controlled through multiple interfaces, though this manual
+will focus on the Zyn-Fusion interface.
+
+
+// Note: celestehorgan – I would actually suggest removng this section entirely. It will end up being hard to maintain in future/will get out of sync, and it doesn't add much.
 === About the User Manual
 
-The Manual was divided into several sections:
+The Manual is divided into the following sections:
 
-Introduction:: is the first part of the Manual, we're starting with a few simple tutorials to get the user hands-on with the synthesizer as fast as possible.
-Basic:: is the second part where we start to cover everything from top to bottom. If you're fairly new to Zyn-Fusion ,this part should provide you with a comprehensive, yet not overwhelming instruction.
-Advanced:: the third part, where we go into more detail nad cover things that were skipped in the previous part. More advanced users should benefit from this part, adding depth to their understanding of hte synthesizer. For newcomers this part might be too confusing.
-Glossary:: ths part is a glossary appendix with various terms indexed alphabetically
-Routing Diagrams:: the last part is a set are signal routing diagrams that should let you gain a deep understanding of the inner workings of the synthesizer.
+Introduction:: An overview of ZynAddSubFX, installation instructions, and quick start tutorials.
+Basic:: Information on the ZynAddSubFX interface, synthesizer modules, synthesis engines, and more.
+Advanced:: Information on performing advanced tasks in ZynAddSubFX.
+Glossary:: A glossary of specific terms and words.
+Routing Diagrams:: A set of signal routing diagrams which display the inner workings of the synthesizer.
+
+
+
 
 === Quick start
 
@@ -101,7 +111,7 @@ to build new patches.
 *** Prompt the user to play
 ** Ask the user to repeat the process on voice 3 with notes about copy/paste for
     the oscillator
-    
+
 * Sub Part 3: A pause to talk about what a super saw really is
 ** Diagrams about signal routing
 ** Talk about what a unison is
