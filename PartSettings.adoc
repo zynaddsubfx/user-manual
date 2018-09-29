@@ -1,6 +1,6 @@
 === Introduction
 
-Part settings - among other things - let you determine how the part will respond to incoming MIDI data. Settings like MIDI channel, mono/poly/legato or portamento reside here. Here you can also define a custom microtonal tuning or split the keyboard between different parts.
+Part settings - among other things - let you determine how the part will respond to incoming MIDI data. Settings like MIDI channel, mono/poly/legato or portamento reside here. Here you can also define a custom micro-tonal tuning or split the keyboard between different parts.
 
 // Anything more?
 
@@ -8,13 +8,13 @@ Part settings - among other things - let you determine how the part will respond
 
 === Accessing the Part Settings
 
-To access the part settings, click on the "Part Settings" button in the sidebar 
+To access the part settings, click on the "Part Settings" button in the sidebar
 
 image::imgs/Selection_440.png[]
 
 === What are parts?
 
-ZynFusion is a multitimbral synthesizer - that means it can perform with multiple patches (timbres) at the same time. All 16 parts function independently and by default respond to respective MIDI channels. Sound output from all part is mixed to a stereo sum.
+ZynFusion is a multi-timbre synthesizer - that means it can perform with multiple patches (timbres) at the same time. All 16 parts function independently and by default respond to respective MIDI channels. Sound output from all part is mixed to a stereo sum.
 
 === Selecting and enabling Parts
 
