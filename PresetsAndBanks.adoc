@@ -1,7 +1,7 @@
 === Presets
 
 * [x] What are presets?
-* [ ] What types of presets we have in Zyn? (XMZ, XIZ, micro-tonal, MIDI bindings, ...)
+* [ ] What types of presets we have in Zyn? (XMZ, XIZ, microtonal, MIDI bindings, ...)
 * [ ] How to load presets?
 * [ ] How to save presets?
 * [ ] How to add metadata to presets?
