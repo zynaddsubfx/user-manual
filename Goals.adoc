@@ -12,7 +12,7 @@ If we want to create a decent user manual, we need t understand why is it needed
 
 Let's list key features that will make the user manual helpful and a joy to read.
 
-1. Searchability - the content needs to be clearly devidied into sections and easy to find. Chapters and subchapters are a tool for that. The chapter names should be as searchable as possible. Avoid chapter titles like _You won't believe what this does..._ but rather use titles like _Frequency modulation_. We want users asking questions abount ZynAddSubFX in DuckDuckGo to land here.
+1. Searchability - the content needs to be clearly divided into sections and easy to find. Chapters and subchapters are a tool for that. The chapter names should be as searchable as possible. Avoid chapter titles like _You won't believe what this does..._ but rather use titles like _Frequency modulation_. We want users asking questions abount ZynAddSubFX in DuckDuckGo to land here.
 2. Accessibility - the content should be as easy to absorb by inexperienced users as possible. This however has to be balanced against the needs of experienced users - we can't have "pro" and "noob" editions of the manual. If necessary - basic concepts should be explained in additional frames or chapters to make it easier for experienced users to skip them, but still - to provide such information for the less experienced, or less hurried users if they need or want it. This also means that any specilized language that will be used should be explained within the document _somewhere_. It could be a Glossary at the end of the document - to avoid putting all the definitions directly into the text - as it could be distracting for the experienced users).
 3. Structure - the manual usually will be subject to random access. However if a user decides to study it from the first page to the last - the experience should still be smooth and fulfilling. Hence the basic information should be presented first, to be later extended with detail that could be confusing at first glance. Broad strokes, first, minute details later.
 4. Linking - references between chapters like _more about this in chapter 27.3_ or _as you probably remember from chapter 8_ (for users who jump around a lot and didn't read the chapter 8 first) are a good way to help users find what they might want to learn other things along the way. It's letting them know that there's more information they could obtain if they wish. A manual is in a way a wiki - it can and should be linking to itself. It should allow the users to go on an exciting journey of discovery, it should provide leads for them to follow if they please. We all know the thrill of reading through Wikipedia articles deeper and deeper until we forgot why came here in the first place. The Zyn-Fusion user manual should allow users to dive into it in a similar way.
@@ -23,11 +23,11 @@ Let's list key features that will make the user manual helpful and a joy to read
 ==== Screenshots pipeline
 
 The visual consistency requires a repeatable way to prepare and annotate GUI screenshots.
-Becasue the GUI may and will change I (unfa) would advise to prepare a workflow that would allow updating the screenshots with minimal manual effort. The pipeline could be as follows:
+Because the GUI may and will change I (unfa) would advise to prepare a workflow that would allow updating the screenshots with minimal manual effort. The pipeline could be as follows:
 
 ===== Approach 1: directories for different types of data
 
-1. A directory to keep raw PNG screnshots [A] - a tool like Shutter could be used for capturing these.
+1. A directory to keep raw PNG screenshots [A] - a tool like Shutter could be used for capturing these.
 2. A directory to keep SVG files referencing the raw screenshots and adding annotations [B] - the SVG files could crop the whole Zyn-Fusion window and focus on a specific part to allow this to be defined in the SVG file and make replacing screenshots easier (just screenshot the whole window at a specified size.
 3. A directory to keep annotated PNG screenshots [C] - exported from the SVG files
 4. A directory to keep lossly compressed JPG or size-reduced PNG versions (D) of the annotated PNG screenshots [C] - converted with Imagemagick or PNGcrush, or other tools.
@@ -42,14 +42,14 @@ Updating a screenshot would require:
 This could also allow different people to take screenshots and annotate them.
 
 To keep the pipeline smooth we need to define clear and repeatable way to take screenshots that will not break.
-I (unfa) would propose to use commandline `import` utility, as it will ignore window decoration and hence - make the screenshots taken by different people consistent, regardless of their graphical environment or system configuration:
+I (unfa) would propose to use command line `import` utility, as it will ignore window decoration and hence - make the screenshots taken by different people consistent, regardless of their graphical environment or system configuration:
 
 --------------------------------------------------------------------------------
 $ import -window "ZynAddSubFX 3.0.3" Zyn.png
 $ display Zyn.png
 --------------------------------------------------------------------------------
 
-As long as teh default Zyn-Fusion window size (or poportions are not going to change we can simply run `zynaddsubfx` to prepare a screnshot.
+As long as the default Zyn-Fusion window size (or proportions are not going to change we can simply run `zynaddsubfx` to prepare a screenshot.
 
 If this is subject to change we could override the window size with another command.
 
@@ -67,7 +67,7 @@ Instead of having 4 directories for different types of data, we have a main __sc
 * _addsynth_global_amplitude_01_
 * _standard_lfo_module_
 
-Then each subdirecotry would contain a few files with standarized names:
+Then each subdirectory would contain a few files with standardized names:
 
 * _A.png_ - the source screenshot take with `import`,
 * _B.svg_ - the svg file that provides cropping and annotations,
@@ -84,4 +84,4 @@ The only thing that changes is the subdirectory name and file contents. Thus ref
 <img src="screenshots/formant_filter_main_01/D.png">
 --------------------------------------------------------------------------------
     
-The standard _A B C D_ names migth be changed if something else proves to be more convenient. They key is to keep this consistent after a scheme is picked, or the system will break, will require tons of manual labor and we will gain nothing.
+The standard _A B C D_ names might be changed if something else proves to be more convenient. They key is to keep this consistent after a scheme is picked, or the system will break, will require tons of manual labor and we will gain nothing.
