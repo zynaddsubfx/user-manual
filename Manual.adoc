@@ -40,4 +40,4 @@ include::Glossary.adoc[]
 
 = Advanced Topics
 
-// Once we have eveything written, we'll put here stuff that's unnecesarily detailed and would trip up new users
+// Once we have eveything written, we'll put here stuff that's unnecessarily detailed and would trip up new users

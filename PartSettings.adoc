@@ -50,7 +50,7 @@ To name a part, just click in the Part List and type in a name:
 
 image::imgs/Selection_440c.png[]
 
-Tjhe name will be displayed in the Par List, and in the Mixer.
+The name will be displayed in the Par List, and in the Mixer.
 
 
 === Instrument settings

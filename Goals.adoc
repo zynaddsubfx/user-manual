@@ -23,7 +23,7 @@ Let's list key features that will make the user manual helpful and a joy to read
 ==== Screenshots pipeline
 
 The visual consistency requires a repeatable way to prepare and annotate GUI screenshots.
-Becasue the GUI may and will change I (unfa) would advise to prepare a workflow that would allow updating the screenshots with minimal manual effort. The pipeline could be as follows:
+Because the GUI may and will change I (unfa) would advise to prepare a workflow that would allow updating the screenshots with minimal manual effort. The pipeline could be as follows:
 
 ===== Approach 1: directories for different types of data
 
@@ -49,7 +49,7 @@ $ import -window "ZynAddSubFX 3.0.3" Zyn.png
 $ display Zyn.png
 --------------------------------------------------------------------------------
 
-As long as teh default Zyn-Fusion window size (or poportions are not going to change we can simply run `zynaddsubfx` to prepare a screnshot.
+As long as the default Zyn-Fusion window size (or poportions are not going to change we can simply run `zynaddsubfx` to prepare a screnshot.
 
 If this is subject to change we could override the window size with another command.
 
