@@ -19,7 +19,7 @@ If you need a different tool, look here: https://asciidoctor.org/docs/editing-as
 
 ## How to contribute?
 
-If you'd like to share your knowlege about ZynAddSubFX and help fill in the gaps of this User Manual - first take a look at the Manual.adoc file and read.
+If you'd like to share your knowledge about ZynAddSubFX and help fill in the gaps of this User Manual - first take a look at the Manual.adoc file and read.
 
 When you'll find something that you feel comfortable writing about, find the appropriate `.adoc` chapter file and contribute there.
 
