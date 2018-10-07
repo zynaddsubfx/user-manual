@@ -49,6 +49,7 @@ $ import -window "ZynAddSubFX 3.0.3" Zyn.png
 $ display Zyn.png
 --------------------------------------------------------------------------------
 
+
 As long as the default Zyn-Fusion window size (or proportions are not going to change we can simply run `zynaddsubfx` to prepare a screenshot.
 
 If this is subject to change we could override the window size with another command.
