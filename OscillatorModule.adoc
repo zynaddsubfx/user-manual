@@ -1,4 +1,4 @@
-image::imgs/20180328-183503.png[]
+image::imgs/osc-overall.png[]
 
 This module creates cyclic waveforms. You might feel intimidated by how complex this thing looks. But don't worry - we're gonna break it down and you'll realize it's not very complicated.
 
@@ -24,4 +24,4 @@ As opposed to the Base Waveform, this displays your final waveform that will be 
 
 Now let's dismantle this mysterious section in the middle:
 
-image::imgs/20180328-192654.png[]
+image::imgs/osc-tight.png[]

@@ -16,16 +16,17 @@ include::FilterModule.adoc[]
 
 === Envelope Module
 
-image::imgs/20180413-144343.png[]
+image::imgs/env.png[]
 * ADSR
 * Free mode
 
 === LFO Module
 
-image::imgs/20180413-144358.png[]
+image::imgs/lfo.png[]
+
 === amplifier (?)
 
-image::imgs/20180413-144157.png[]
+image::imgs/amp-control.png[]
 * vol
 * scale
 * pan

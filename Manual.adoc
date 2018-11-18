@@ -4,40 +4,40 @@
 == Introduction
 include::Introduction.adoc[]
 
-= Basic Topics
+== Basic Topics
 
-== User Interface
+=== User Interface
 include::UserInterface.adoc[]
 
-== Synthesizer Modules
+=== Synthesizer Modules
 include::SynthesizerModules.adoc[]
 
-== Synthesis Engines
+=== Synthesis Engines
 
-=== ADDsynth
+==== ADDsynth
 include::ADDsynth.adoc[]
 
-=== SUBsynth
+==== SUBsynth
 include::SUBsynth.adoc[]
 
-=== PADsynth
+==== PADsynth
 include::PADsynth.adoc[]
 
-== Part Settings
+=== Part Settings
 include::PartSettings.adoc[]
 
-== Kits
+=== Kits
 include::Kits.adoc[]
 
-== Presets and Banks
+=== Presets and Banks
 include::PresetsAndBanks.adoc[]
 
-== Settings
+=== Settings
 include::Settings.adoc[]
 
-= Glossary
+== Glossary
 include::Glossary.adoc[]
 
-= Advanced Topics
+== Advanced Topics
 
 // Once we have eveything written, we'll put here stuff that's unnecessarily detailed and would trip up new users

@@ -1,4 +1,4 @@
-image::imgs/20180413-144959.png[]
+image::imgs/add-synth.png[]
 * what is ADDsynth and why is it called this way?
 * signal routing diagram
 * global settings

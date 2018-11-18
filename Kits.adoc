@@ -1,4 +1,4 @@
-image::imgs/Selection_428b.png[]
+image::imgs/kit.png[]
 
 - [ ] What are kits?
 - [ ] No kits, Multi kit and Single Kit

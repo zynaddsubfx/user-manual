@@ -1,36 +1,46 @@
 image::imgs/20180413-143939.png[]
 
 ==== Filter Classes
-.Filter Classes
-image::imgs/20180413-143956.png[]
 
 Zyn-Fusion features three classes of filters.
+
+State variable filters:: Limited filter types, but good under heavy modulation
+Analog filters:: Standard Biquad formulations for a variety of shapes
+Formant filters:: Good for modeling speech spectral shapes. Composed by many
+sub-filters.
 
 ===== Analog Filters
 
 // fundamental, could you fill this in? - unfa
+image::imgs/filter-analog.png[]
+
+LP1:: One pole low pass
+HP1:: One pole high pass
+LP2:: Two pole low pass
+HP2:: Two pole high pass
+BP::  Bandpass
+Notch:: Notch
+Peak:: Peak
+L.Shelf:: low shelf
+H.Shelf:: high shelf
 
 ===== State Variable Filters
 
 // fundamental, could you fill this in? - unfa
+image::imgs/filter-svf.png[]
+
+Low::  Two pole low pass
+High:: Two pole high pass
+Band:: Bandpass
+Notch:: Notch
 
 ===== Formant Filter
 
-The formant filter is a separate class on it's own. It's a complex filter that will let you define presets of peak filters, arrange them in a sequence and then smoothly interpolate between them. This way you can apply very complex and animated filtering to shape the harmonic profile of your sounds and make it evolve over time. More on that later in this chapter.
-
-
-
-==== Analog Filter Types
-
-
-.Analog Filter Types
-image::imgs/20180413-144027.png[]
-==== State Variable filter types
-
-.State Variable Filter Types
-image::imgs/20180413-144058.png[]
-==== Formant filter
-
-The formant filter is a separate class on it's own. It's a complex filter that will let you define presets of peak filters, arrange them in a sequence and then smoothly interpolate between them. This way you can apply very complex and animated filtering to shape the harmonic profile of your sounds and make it evolve over time.
+The formant filter is a separate class on it's own.
+It's a complex filter that will let you define presets of peak filters,
+arrange them in a sequence and then smoothly interpolate between them.
+This way you can apply very complex and animated filtering to shape the
+harmonic profile of your sounds and make it evolve over time.
+More on that later in this chapter.
 
 image::imgs/20180413-144131.png[]

@@ -10,7 +10,7 @@ Part settings - among other things - let you determine how the part will respond
 
 To access the part settings, click on the "Part Settings" button in the sidebar
 
-image::imgs/Selection_440.png[]
+image::imgs/part-settings-button.png[]
 
 === What are parts?
 
@@ -22,7 +22,7 @@ ZynFusion is a multitimbre synthesizer - that means it can perform with multiple
 
 You can select and enable/disable parts using the grid dial below the "Part Settings" button:
 
-image::imgs/Selection_440a.png[]
+image::imgs/part-settings-selection.png[]
 
 Left-click will select the chosen part and let you interact with it. Middle-click will enable/disable the chosen part.
 
@@ -30,9 +30,10 @@ Left-click will select the chosen part and let you interact with it. Middle-clic
 
 When you open up the Part Settings panel, you'll see a list of all parts on the left side:
 
-image::imgs/Selection_440b.png[]
+image::imgs/part-settings-labelenable.png[]
 
-Clicking on a button with a Part's number will enable/disable that part. Clicking in the empty name fileds will select a part and bring up it's parameters in the rest of the panel.
+Clicking on a button with a Part's number will enable/disable that part.
+Clicking in the empty name fields will select a part and bring up it's parameters in the rest of the panel.
 
 You can also type in a name for your part here.
 
@@ -44,32 +45,28 @@ Parts can be viewed, enabled and renamed also in the Mixer view. More in the <<M
 
 === Naming parts
 
-Each part has a unique number, which cannot be changed, but can also be assigned a name. It's useful to name your parts when using more than one to keep thinkgs organized.
+Each part has a unique number, which cannot be changed, but can also be assigned a name. It's useful to name your parts when using more than one to keep things organized.
 
 To name a part, just click in the Part List and type in a name:
 
-image::imgs/Selection_440c.png[]
+image::imgs/part-settings-labelenable-close.png[]
 
-The name will be displayed in the Par List, and in the Mixer.
+The name will be displayed in the part list, and in the Mixer.
 
 
 === Instrument settings
 
 
-image::imgs/Selection_424a.png[]
+image::imgs/part-settings-instrument.png[]
 
 === Controllers
 
-image::imgs/Selection_425.png[]
+image::imgs/part-settings-controllers.png[]
 
 === Portamento
 
-image::imgs/Selection_426.png[]
+image::imgs/part-settings-portamento.png[]
 
 === Scale Settings
 
-image::imgs/Selection_427.png[]
-
-=== Tunings and Key mapping
-
-image::imgs/Selection_428.png[]
+image::imgs/part-settings-scale.png[]

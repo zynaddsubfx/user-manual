@@ -1,3 +1,3 @@
-image::imgs/20180413-145013.png[]
+image::imgs/sub-synth.png[]
 * what is subsynth and why it's named this way?
 * signal routing diagram

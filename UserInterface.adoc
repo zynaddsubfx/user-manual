@@ -2,7 +2,7 @@
 === Panels
 When you run Zyn-Fusion you'll be presented with this window:
 
-image::imgs/20180328-183524.png[]
+image::imgs/bank-read.png[]
 
 As you can see it is divided into multiple panels, each with their own use.
 When navigating between different _views_, you'll consistently see the status
@@ -16,7 +16,7 @@ The status panel is where you'll find a few global parameters, the file menu,
 automation-learn/fine-tuning mode selectors, the panic button, master VU meter,
 and the information tray.
 
-Panic button:: 
+Panic button::
     When getting started you'll want to be familiar with the panic button as
     it will instantly silence the audio produced by Zyn, no matter what state
     the synth is in. It's a safety device in case the sounds go out of control.
@@ -33,7 +33,7 @@ Learn indicator::
     This indicator shows when automation learning is in progress.
 Information Tray::
     The information tray will show tooltips about Zyn's parameters, current
-    parameter values, as well as other status information. image:imgs/Selection_437.png[]
+    parameter values, as well as other status information. image:imgs/info-tray.png[]
 
 ////
 .Screenshot todo
