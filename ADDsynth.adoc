@@ -31,7 +31,7 @@ Zyn-Fusion includes the following LFOs _globally_ *and* _per voice_: *Amplitude 
 .27 possible LFOs
 NOTE: You will find 3 global as well as 3 individual LFO settings (per voice), one in each of the Amplitude, Frequency, and Filter tabs for a possible total of 27 LFOs. (8 voices x 3 LFO per voice = 24 + 3 global = 27)
 
-image::imgs/add-synth-global-amp-lfo.png[]
+image::imgs/lfo.png[]
 
 - *Freq:* LFO Frequency
 - *Depth:* LFO Depth
@@ -50,7 +50,7 @@ Zyn-Fusion offers several different types of filters, which can be used to shape
 - *Stages:* The number of stages in a given filter describes how sharply it is able to make changes in the frequency response.
 
 ====== General
-image::imgs/add-synth-global-filter-general.png[]
+image::imgs/filter-analog.png[]
 
 - *Cutoff:* Cutoff frequency.
 - *Q:* Level of resonance for the filter.
@@ -76,28 +76,35 @@ The Envelopes share the same basic parameters:
 - *Stretch:* How the envelope is stretched according to the note. On the higher notes the envelopes are shorter than lower notes.
 - *Forced release:* If this option is turned on the release will go to the final value, even if the sustain stage is not reached.
 
-===== Amplitude & Filter Envelopes
-Amplitude envelopes control the amplitude of the sound while filter envelopes control the cutoff frequency of the filters.
+===== Amplitude Envelopes
+Amplitude envelopes control the amplitude of the sound.
 
-They share the same configuration options.
+image::imgs/env.png[] 
 
-image::imgs/add-synth-global-filter-envelope.png[]
 
 - *A.DT:* Attack duration.
 - *D.DT:* Decay duration.
 - *R.DT:* Release duration.
+- *S.VAL:* Sustain value.
+- *Stretch:*  In the leftmost value, the stretch is zero. The rightmost use a stretch of 200%; this means that the envelope is stretched about 4 times/octave.
+- *FRCR:* Forced release. Usually, this must be set.
+- *LIN/LOG:* If this option is set, the envelope is linear, otherwise, it will be logarithmic.
+
+===== Filter Envelopes
+Filter envelopes control the cutoff frequency of the filters. They share the same configuration options as the Amplitude envelopes while introducing the following new ones:
+
+image::imgs/env-filter.png[]
+
 - *A.VAL:* Attack value.
 - *D.VAL:* Decay value.
 - *R.VAL:* Release value.
-- *Stretch:*  In the leftmost value, the stretch is zero. The rightmost use a stretch of 200%; this means that the envelope is stretched about 4 times/octave.
-- *FRCR:* Forced release. Usually, this must be set.
 
 ===== Frequency Envelopes
 These envelopes control the frequency (more exactly, the pitch) of the oscillators.
 
 They share the same confiuration options as the other envelopes, minus the decay options.
 
-image::imgs/add-synth-global-frequency-envelope.png[]
+image::imgs/env-frequency.png[]
 
 
 ==== Global settings
@@ -107,7 +114,7 @@ These settings will be applied to all voices.
 image::imgs/add-synth.png[]
 
 ====== Amplitude - general global settings
-image::imgs/add-synth-global-amp-general.png[]
+image::imgs/amp-control.png[]
 - *Vol:* Controls the overall output volume of the synth.
 - *Sense:* Velocity sensing. (100% to the right to disable).
 - *Pan:* Panning. (100% to the left is random).
@@ -118,12 +125,12 @@ image::imgs/add-synth-global-amp-general.png[]
 - *RND GRP:* Enable/disable harmonic amplitude randomness of voices with a common oscllator.
 
 ===== Frequency
-image::imgs/add-synth-global-frequency.png[]
+image::imgs/frequency.png[]
 
 ====== Frequency - general global settings
 These are your "detune" options.
 
-image::imgs/add-synth-global-frequency-general.png[]
+image::imgs/frequency-general.png[]
 
 - *Fine:* Fine detune; amount of detune of all voices
 - *Octave:* Raise/lower the octave note offset.
