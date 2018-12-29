@@ -1,10 +1,98 @@
+=== ADDsynth
+
+AdSynth, a primarily _additive synthesis_ engine, is one of the three major synthesis engines available in Zyn-Fusion. The basic concept of this engine is the summation of a collection of voices, each of which consist of oscillators.
+
+.Additive Synthesis
+NOTE: Additive synthesis creates sound by combining multiple sin waves of varying phases and amplitudes; typically starting with a single sin wave (carrier) and modulating it with other sin waves (modulators).
+
+==== Global settings
+These settings will be applied to all voices.
+
+===== Amplitude
 image::imgs/add-synth.png[]
-* what is ADDsynth and why is it called this way?
-* signal routing diagram
-* global settings
-* voice
-* osc
-* mod-osc
-* modulation
-* voice list
-* resonance
+
+====== General
+image::imgs/add-synth-global-amp-general.png[]
+
+====== Envelope
+image::imgs/add-synth-global-amp-envelope.png[]
+
+====== LFO
+image::imgs/add-synth-global-amp-lfo.png[]
+
+===== Frequency
+image::imgs/add-synth-global-frequency.png[]
+
+====== General
+image::imgs/add-synth-global-frequency-general.png[]
+
+====== Envelope
+image::imgs/add-synth-global-frequency-envelope.png[]
+
+====== LFO
+image::imgs/add-synth-global-frequency-lfo.png[]
+
+===== Filter
+image::imgs/add-synth-global-filter.png[]
+
+==== Voice settings
+The Voice settings allow you to modify setting _per voice_. These options include all of the `Global Settings` above as well as new ones such as the modulator, oscillator, and unison features.
+
+.Helpful Tip
+NOTE: The output of any single voice will always include a combination of individual Voice settings being applied on top of Global settings. Global settings will be applied to an active voices _before_ any individual voice settings are applied.
+
+===== Amplitude
+image::imgs/add-synth-voice-amplitude.png[]
+
+====== General
+image::imgs/add-synth-voice-amplitude-general.png[]
+
+====== Envelope
+image::imgs/add-synth-voice-amplitude-envelope.png[]
+
+====== LFO
+image::imgs/add-synth-voice-amplitude-lfo.png[]
+
+===== Frequency
+image::imgs/add-synth-voice-frequency.png[]
+
+====== General
+image::imgs/add-synth-voice-frequency-general.png[]
+
+====== Envelope
+image::imgs/add-synth-voice-frequency-envelope.png[]
+
+====== LFO
+image::imgs/add-synth-voice-frequency-lfo.png[]
+
+===== Filter
+image::imgs/add-synth-voice-filter.png[]
+
+====== General
+image::imgs/add-synth-voice-filter-general.png[]
+
+====== Envelope
+image::imgs/add-synth-voice-filter-envelope.png[]
+
+====== LFO
+image::imgs/add-synth-voice-filter-lfo.png[]
+
+==== osc / mod-osc
+image::imgs/osc-overall.png[]
+
+==== modulation
+
+===== Amplitude
+image::imgs/add-synth-modulation-amplitude.png[]
+
+===== Frequency
+image::imgs/add-synth-modulation-frequency.png[]
+
+==== voice list
+image::imgs/add-synth-voice-list.png[]
+
+==== resonance
+image::imgs/add-synth-resonance.png[]
+
+
+* [TODO] signal routing diagram
