@@ -143,12 +143,12 @@ image::imgs/add-synth-voice-amplitude.png[]
 ====== Amplitude - general voice settings
 image::imgs/add-synth-voice-amplitude-general.png[]
 
-- *Vol:* 
-- *Sense:*
-- *Pan:*
-- *Delay:*
-- *Bypass GL Filter:*
-- *RESON:*
+- *Vol:* Controls the overall output volume of the voice.
+- *Sense:* Velocity sensing. (100% to the right to disable).
+- *Pan:* Panning. (100% to the left is random).
+- *Delay:* delay before the voice starts.
+- *Bypass GL Filter:* If the voice signal bypasses the global filter.
+- *RESON:* Enable/Disable the resonance of the voice.
 
 ===== Frequency
 image::imgs/add-synth-voice-frequency.png[]
@@ -158,13 +158,13 @@ image::imgs/add-synth-voice-frequency-general.png[]
 
 - *Fine:* Fine detune; amount of detune of all voices
 - *Octave:* Raise/lower the octave note offset.
-- *ET:*
-- *Type:* Detune scaling type; sets "Fine" and "Coarse" detune behavior 
+- *ET:* when disabled the synth will use Equal Temperament 12 notes/octave.
+- *Type:* Detune scaling type; sets "Fine" and "Coarse" detune behavior.
 - *Coarse:* Coarse detune.
-- *Fixed:*
+- *Fixed:* Enable if frequency is fixed.
 
 ==== osc / mod-osc
-image::imgs/osc-overall.png[]
+This is your oscillator and modulator-oscillator. Full documentation link:OscillatorModule.adoc[available here]
 
 ==== modulation
 
