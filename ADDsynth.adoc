@@ -156,7 +156,7 @@ image::imgs/add-synth-global-filter-lfo.png[]
 - *Sync:* ???
 
 ==== Voice settings
-The Voice settings allow you to modify setting _per voice_. These options include all of the `Global Settings` above as well as new ones such as the modulator, oscillator, and unison features.
+The Voice settings allow you to modify settings _per voice_. These options include all of the `Global Settings` we covered above as well as new ones such as the modulator, oscillator, and unison features.
 
 .Helpful Tip
 NOTE: The output of any single voice will always include a combination of individual Voice settings being applied on top of Global settings. Global settings will be applied to an active voices _before_ any individual voice settings are applied.
@@ -167,11 +167,35 @@ image::imgs/add-synth-voice-amplitude.png[]
 ====== General
 image::imgs/add-synth-voice-amplitude-general.png[]
 
+- *Vol:* 
+- *Sense:*
+- *Pan:*
+- *Delay:*
+- *Bypass GL Filter:*
+- *RESON:*
+
 ====== Envelope
 image::imgs/add-synth-voice-amplitude-envelope.png[]
 
+- *A.DT:* Attack duration.
+- *D.DT:* Decay duration.
+- *S.VAL:* Sustain value.
+- *R.DT:* Release duration.
+- *Stretch:* How the envelope is stretched according the note. On the higher notes the envelopes are shorter than lower notes. In the leftmost value, the stretch is zero. The rightmost use a stretch of 200%; this means that the envelope is stretched about 4 times/octave.
+- *FRCR:* Forced release. This means that if this option is turned on, the release will go to the final value, even if the sustain stage is not reached. Usually, this must be set.
+- *LIN/LOG:* If this option is set, the envelope is linear, otherwise, it will be logarithmic.
+
 ====== LFO
 image::imgs/add-synth-voice-amplitude-lfo.png[]
+
+- *Freq:* LFO Frequency
+- *Depth:* LFO Depth
+- *Start:* LFO Start Phase - If this knob is at the lowest value, the LFO Start Phase will be random.
+- *Str.:* LFO Stretch
+- *Delay:* LFO Delay
+- *A.R.:* LFO Amplitude Randomness
+- *F.R.:* LFO Frequency Randomness
+- *Sync:* ???
 
 ===== Frequency
 image::imgs/add-synth-voice-frequency.png[]
@@ -179,11 +203,34 @@ image::imgs/add-synth-voice-frequency.png[]
 ====== General
 image::imgs/add-synth-voice-frequency-general.png[]
 
+- *Fine:* Fine detune; amount of detune of all voices
+- *Octave:* Raise/lower the octave note offset.
+- *ET:*
+- *Type:* Detune scaling type; sets "Fine" and "Coarse" detune behavior 
+- *Coarse:* Coarse detune.
+- *Fixed:*
+
 ====== Envelope
 image::imgs/add-synth-voice-frequency-envelope.png[]
 
+- *A.DT:* Attack duration.
+- *R.DT:* Release duration.
+- *A.VAL:* Attack value.
+- *R.VAL:* Release value.
+- *Stretch:* How the envelope is stretched according the note. On the higher notes the envelopes are shorter than lower notes. In the leftmost value, the stretch is zero. The rightmost use a stretch of 200%; this means that the envelope is stretched about 4 times/octave.
+- *FRCR:* Forced release. This means that if this option is turned on, the release will go to the final value, even if the sustain stage is not reached. Usually, this must be set.
+
 ====== LFO
 image::imgs/add-synth-voice-frequency-lfo.png[]
+
+- *Freq:* LFO Frequency
+- *Depth:* LFO Depth
+- *Start:* LFO Start Phase - If this knob is at the lowest value, the LFO Start Phase will be random.
+- *Str.:* LFO Stretch
+- *Delay:* LFO Delay
+- *A.R.:* LFO Amplitude Randomness
+- *F.R.:* LFO Frequency Randomness
+- *Sync:* ???
 
 ===== Filter
 image::imgs/add-synth-voice-filter.png[]
@@ -191,11 +238,40 @@ image::imgs/add-synth-voice-filter.png[]
 ====== General
 image::imgs/add-synth-voice-filter-general.png[]
 
+- *Cutoff:* Cutoff frequency.
+- *Q:* Level of resonance for the filter.
+- *F.Track:* Frequency tracking amount. When this parameter is positive, higher note frequencies shift the filter’s cutoff frequency higher.
+- *V.Scale:* ???
+- *V.Sense:* Velocity sensing. (100% to the right to disable).
+- *Stages:* Filter stages.
+- *Class:* Category of synth.
+- *Type:* Type of filter to use.
+- *Gain:* Additional gain/attenuation for filter.
+
 ====== Envelope
 image::imgs/add-synth-voice-filter-envelope.png[]
 
+- *A.DT:* Attack duration.
+- *D.DT:* Decay duration.
+- *R.DT:* Release duration.
+- *A.VAL:* Attack value.
+- *D.VAL:* Decay value.
+- *R.VAL:* Release value.
+- *Stretch:* How the envelope is stretched according the note. On the higher notes the envelopes are shorter than lower notes. In the leftmost value, the stretch is zero. The rightmost use a stretch of 200%; this means that the envelope is stretched about 4 times/octave.
+- *FRCR:* Forced release. This means that if this option is turned on, the release will go to the final value, even if the sustain stage is not reached. Usually, this must be set.
+
 ====== LFO
 image::imgs/add-synth-voice-filter-lfo.png[]
+
+- *Freq:* LFO Frequency
+- *Depth:* LFO Depth
+- *Start:* LFO Start Phase - If this knob is at the lowest value, the LFO Start Phase will be random.
+- *Str.:* LFO Stretch
+- *Delay:* LFO Delay
+- *A.R.:* LFO Amplitude Randomness
+- *F.R.:* LFO Frequency Randomness
+- *Sync:* ???
+
 
 ==== osc / mod-osc
 image::imgs/osc-overall.png[]
