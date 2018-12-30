@@ -24,29 +24,7 @@ Routing Diagrams:: the last part is a set are signal routing diagrams that shoul
 
 === Quick start
 
-.Under Construction
-WARNING: This section is under construction
-
-.Section outline
-* Focus on a single plugin host (i.e. Ardour) but keep host specific details to a minimum
-* Show the steps to open the synth and how to load up a simple and (very
-  importantly) a good sounding patch
-* This would be the place to talk about some very simple key bindings as well as
-  file load/save operations
-* Really keep stuff basic here at the expense of repeating details which will be
-  covered in more detail down the line
-* The user should learn how to:
-** open the program
-** navigate the bank browser
-** load a patch from a file
-** save a patch
-** Play with the virtual keyboard
-** Play with a MIDI keyboard/host input if they have one (talk about MIDI
-channels very briefly)
-
-.Random thought
-NOTE: It might make sense to have these "the user should learn X" goals stored
-in a consistent place or at least in a consistent format for each section
+link:QuickStart.adoc[Quick Start Guide ]
 
 ////
 XXX Each one of these bullet points should be expanded upon somewhere else IMO
