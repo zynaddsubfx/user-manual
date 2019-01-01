@@ -92,6 +92,7 @@ We're going to shorten the *Release* of the Global amplitude envelope, or in sim
 image::screenshots/global-amp-env-rdt.png[]
 
 By now it should be resembling something approaching the sound of a kick drum.
+
 .TIP
 NOTE: Notice the area outlined in yellow below, it will display the value of the knobs/dials you manipulate.
 
