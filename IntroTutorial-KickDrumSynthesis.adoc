@@ -178,6 +178,9 @@ Almost there. It's sounding somewhat like a heartbeat now, a bit too echoey. Let
 * Adjust `Q` to `.3`
 ** What do you notice about how the sound changes?
 
+.TIP
+NOTE: You can temporarily disable `VCE 1` so that you can listen to `VCE 2` in isolation to get a clearer picture of what it's adding. To disable a voice you can simply use the `+/-` button to navigate to the voice and then click the power button so that it's greyed out. (The opposite of how you added `VCE 2` above)
+
 ==== Save your instrument
 Congratulations, you've crafted a kick drum - starting with a single sin wave and using additive synthesis!
 
