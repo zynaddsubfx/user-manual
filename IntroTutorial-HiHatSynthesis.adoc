@@ -9,6 +9,7 @@ Hopefully you have begun to feel comfortable enough with the general layout of Z
 When you're finished with this project you'll know to:
 
 - synthesize a custom snare hi-hat cymbal using ADDsynth and *envelopes* and *filters*
+- use modulator unison settings
 
 .Prerequisites
 WARNING: This tutorial assumes that you have completed Project 2: Snare Drum Synthesis
