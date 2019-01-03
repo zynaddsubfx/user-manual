@@ -1,3 +1,5 @@
+== Intro Tutorial 1: Kick Drum Synthesis
+
 === Goals
 In the previous section you learned how to load and use existing patches, but the real power of ZynAddSubFX is the ability to create new sounds and adjust existing sounds to harmonize with the rest of the instruments. Now that you know how to load and use existing patches, let’s take a look at how to build new patches.
 

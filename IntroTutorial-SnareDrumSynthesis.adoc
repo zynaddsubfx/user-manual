@@ -1,3 +1,4 @@
+== Intro Tutorial 2: Snare Drum Synthesis
 === Goals
 In the previous section you learned how to use the ADDsynth to create a kick drum. Let's build on what you learned to create a simple snare drum.
 
