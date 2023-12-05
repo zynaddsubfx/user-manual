@@ -38,9 +38,12 @@ image::imgs/lfo.png[]
 - *Start:* LFO Start Phase - If this knob is at the lowest value, the LFO Start Phase will be random.
 - *Str.:* LFO Stretch
 - *Delay:* LFO Delay
+- *LP:* Cutoff frequency of the lowpass filter applied to the lfo output. (i.e. how much the output is smoothed) 
+- *F.In:* Time it takes to fade in the lfo amplitude up to depth after the delay time 
+- *F.Out:* Time it takes to fade the amplitude out after key release.
 - *A.R.:* LFO Amplitude Randomness
 - *F.R.:* LFO Frequency Randomness
-- *Sync:* ???
+- *Sync:* if this option enabled the lfo oscillates in phase for all notes
 
 ==== Filters
 Zyn-Fusion offers several different types of filters, which can be used to shape the spectrum of a signal. The primary parameters that affect the characteristics of the filter are the cutoff, resonance, filter stages, and the filter type.
@@ -55,8 +58,8 @@ image::imgs/filter-analog.png[]
 - *Cutoff:* Cutoff frequency.
 - *Q:* Level of resonance for the filter.
 - *F.Track:* Frequency tracking amount. When this parameter is positive, higher note frequencies shift the filter’s cutoff frequency higher.
-- *Scale:* ???
-- *Sense:* Velocity sensing. (100% to the right to disable).
+- *Scale:* Velocity sensing amount 
+- *Sense:* Velocity sensing shape. with higher values the sensivity is shifted towards low velocities
 - *Stages:* Filter stages.
 - *Class:* Category of synth.
 - *Type:* Type of filter to use.
@@ -75,6 +78,8 @@ The Envelopes share the same basic parameters:
 - *Decay:* The volume drops from the maximum value to a level called "Sustain level"
 - *Stretch:* How the envelope is stretched according to the note. On the higher notes the envelopes are shorter than lower notes.
 - *Forced release:* If this option is turned on the release will go to the final value, even if the sustain stage is not reached.
+- *Repeat:* If this option is active the envelope is started again when reaching release
+
 
 ===== Amplitude Envelopes
 Amplitude envelopes control the amplitude of the sound.
@@ -155,6 +160,7 @@ image::imgs/add-synth-voice-amplitude-general.png[]
 - *Pan:* Panning. (100% to the left is random).
 - *Delay:* delay before the voice starts.
 - *Bypass GL Filter:* If the voice signal bypasses the global filter.
+- *F. Ctl Bypass:* If the voices filter is not affected by cutoff midi CC
 - *RESON:* Enable/Disable the resonance of the voice.
 
 ===== Frequency
