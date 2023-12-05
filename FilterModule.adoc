@@ -8,6 +8,8 @@ State variable filters:: Limited filter types, but good under heavy modulation
 Analog filters:: Standard Biquad formulations for a variety of shapes
 Formant filters:: Good for modeling speech spectral shapes. Composed by many
 sub-filters.
+Moog filters:: Good for a warmer feeling - especially with some gain
+Comb filters:: Good for string like effects or intense spectral and phase effects
 
 ===== Analog Filters
 
@@ -42,5 +44,32 @@ arrange them in a sequence and then smoothly interpolate between them.
 This way you can apply very complex and animated filtering to shape the
 harmonic profile of your sounds and make it evolve over time.
 More on that later in this chapter.
+
+===== Moog Filter
+
+The moog filter is made in resemblence to the moog diode ladder filter.
+
+LP:: low pass
+HP:: high pass
+BP:: Bandpass
+
+===== Comb Filter
+The Comb Filter is a tunable delay line that can be used to simulate reflections.
+The name comb is derived from the spectral shape of alternating destructive and constructive resonances
+between original signal and the delayed one. 
+
+BWD:: adds a delayed version of the output signal. the feedback structure leads to heavy resonance
+FWD:: adds a delayed version of the input signal. the feed forward structure leads to more subtle phase effects
+both:: combination of BWD and FWD. heavy resonances are dominant 
+BWDN:: subtracts a delayed version of the output signal. can be used for example to remove even harmonics
+
+===== Poor Mans Physical Modelling
+The comb filter can be used as a string like oscillator. 
+To accomplisgh that apply it as voice filter to a burst of noise. 
+But Make sure the amplitude envelope doesn't go too fast to zero as that would turn off the voice.
+If F.Track is 100% it's frequencies are proportional to the pitch.
+To keep in tune you may set Scale to 0 (no velocity impact) 
+and enable "F. Ctl Bypass" in the voices Amplitude General Settings (no midi cc impact)
+
 
 image::imgs/20180413-144131.png[]
