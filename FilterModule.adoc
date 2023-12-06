@@ -45,6 +45,8 @@ This way you can apply very complex and animated filtering to shape the
 harmonic profile of your sounds and make it evolve over time.
 More on that later in this chapter.
 
+image::imgs/20180413-144131.png[]
+
 ===== Moog Filter
 
 The moog filter is made in resemblence to the moog diode ladder filter.
@@ -63,7 +65,7 @@ FWD:: adds a delayed version of the input signal. the feed forward structure lea
 both:: combination of BWD and FWD. heavy resonances are dominant 
 BWDN:: subtracts a delayed version of the output signal. can be used for example to remove even harmonics
 
-===== Poor Mans Physical Modelling
+====== Poor Mans Physical Modelling
 The comb filter can be used as a string like oscillator. 
 To accomplisgh that apply it as voice filter to a burst of noise. 
 But Make sure the amplitude envelope doesn't go too fast to zero as that would turn off the voice.
@@ -72,4 +74,3 @@ To keep in tune you may set Scale to 0 (no velocity impact)
 and enable "F. Ctl Bypass" in the voices Amplitude General Settings (no midi cc impact)
 
 
-image::imgs/20180413-144131.png[]
