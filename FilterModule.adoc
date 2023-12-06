@@ -49,6 +49,8 @@ image::imgs/20180413-144131.png[]
 
 ===== Moog Filter
 
+image::imgs/filter-moog.png[]
+
 The moog filter is made in resemblence to the moog diode ladder filter.
 
 LP:: low pass
@@ -56,6 +58,9 @@ HP:: high pass
 BP:: Bandpass
 
 ===== Comb Filter
+
+image::imgs/filter-comb.png[]
+
 The Comb Filter is a tunable delay line that can be used to simulate reflections.
 The name comb is derived from the spectral shape of alternating destructive and constructive resonances
 between original signal and the delayed one. 
