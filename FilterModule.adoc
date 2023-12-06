@@ -51,7 +51,8 @@ image::imgs/20180413-144131.png[]
 
 image::imgs/filter-moog.png[]
 
-The moog filter is made in resemblence to the moog diode ladder filter.
+The Moog filter type is an attempt to emulate the renowned diode ladder filter found in classic Moog synthesizers. 
+It employs the Zero Delay Feedback (ZDF) approach to ensure a level of accuracy in replicating the filter's behavior. 
 
 LP:: low pass
 HP:: high pass
@@ -61,14 +62,21 @@ BP:: Bandpass
 
 image::imgs/filter-comb.png[]
 
-The Comb Filter is a tunable delay line that can be used to simulate reflections.
-The name comb is derived from the spectral shape of alternating destructive and constructive resonances
-between original signal and the delayed one. 
+The Comb Filter operates as a tunable delay line, introducing a series of notches and peaks 
+in the frequency spectrum due to the interaction between the original signal and its delayed version. 
+The term "comb" aptly depicts the spectral pattern resembling the teeth of a comb, 
+showcasing the alternating constructive and destructive interference patterns. 
+
+This filter is commonly used to simulate various acoustic effects, such as reflections, 
+chorus-like sounds, or enhancing the perception of spaciousness in audio signals.
 
 BWD:: adds a delayed version of the output signal. the feedback structure leads to heavy resonance
 FWD:: adds a delayed version of the input signal. the feed forward structure leads to more subtle phase effects
 both:: combination of BWD and FWD. heavy resonances are dominant 
-BWDN:: subtracts a delayed version of the output signal. can be used for example to remove even harmonics
+BWDN:: subtracts a delayed version of the output signal. similar to BWD. can be used for example to remove even harmonics
+FWDN:: Subtracts a delayed input signal, emphasizing frequency cancellation for targeted harmonic removal or notching in the spectrum.
+bothN:: Utilizes subtraction from both input and output signals
+
 
 ====== Poor Mans Physical Modelling
 The comb filter can be used as a string like oscillator. 
