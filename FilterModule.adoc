@@ -51,7 +51,7 @@ image::imgs/20180413-144131.png[]
 
 image::imgs/filter-moog.png[]
 
-The Moog filter type is an attempt to emulate the renowned diode ladder filter found in classic Moog synthesizers. 
+The Moog filter type is an attempt to emulate the renowned transistor or diode ladder filter found in Moog and other classic analog synthesizers. 
 It employs the Zero Delay Feedback (ZDF) approach to ensure a level of accuracy in replicating the filter's behavior. 
 
 LP:: low pass
@@ -77,13 +77,15 @@ BWDN:: subtracts a delayed version of the output signal. similar to BWD. can be 
 FWDN:: Subtracts a delayed input signal, emphasizing frequency cancellation for targeted harmonic removal or notching in the spectrum.
 bothN:: Utilizes subtraction from both input and output signals
 
-
-====== Poor Mans Physical Modelling
+[NOTE]
+ 
+Poor Mans Physical Modelling
+======
 The comb filter can be used as a string like oscillator. 
-To accomplisgh that apply it as voice filter to a burst of noise. 
-But Make sure the amplitude envelope doesn't go too fast to zero as that would turn off the voice.
+To accomplish that apply it as voice filter to a burst of noise. 
+But make sure the amplitude envelope doesn't go too fast to zero as that would turn off the voice.
 If F.Track is 100% it's frequencies are proportional to the pitch.
 To keep in tune you may set Scale to 0 (no velocity impact) 
 and enable "F. Ctl Bypass" in the voices Amplitude General Settings (no midi cc impact)
-
+======
 
