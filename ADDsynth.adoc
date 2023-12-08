@@ -181,19 +181,32 @@ This is your oscillator and modulator-oscillator. Full documentation link:Oscill
 
 ==== modulation
 
-===== Mix
-
-===== Ring
 image::imgs/add-synth-modulation-amplitude.png[]
 
-===== AM
 
+===== Mix
+Mix is actually not a modulation type but something like wave morphing or one dimension of a vector synthesis.
+The modulation amount set with the "Vol." knob and the Amp envelope represents the mixing ratio between "modulator" and "carrier" oscillator.
+
+===== Ring
+Ring modulation was used in the Roland D50 but also in many classic analog synthesizers for example from Oberheim.
+The values of modulator and carrier are simply multiplied.
+Used with sine oscillators for both modulator and carrier that adds the sum and the difference of their frequencies to the spectrum.
+It can be used to create inharmonics for metallic or bell like sounds.
 
 ===== Phase
-The value of the modulator is applied as phase offset. That's what Yamaha calls FM.
+The value of the modulator is applied as phase offset. That's what Yamaha called FM in the famous DX7.
+By modulating the phase angle of the oscillator, phase modulation alters the frequency content of the sound, 
+allowing for the creation of complex, evolving timbres and textures.
 
 ===== FM
-The value of the modulator is applied as frequency offset. Because of the wide applicable range it is nearly impossible to prevent aliasing at high amounts.
+The value of the modulator is applied as frequency offset. 
+[WARNING]
+Aliasing
+====
+Because of the wide applicable range it is nearly impossible to prevent aliasing at high FM amounts.
+====
+
 image::imgs/add-synth-modulation-frequency.png[]
 
 ===== PWM
@@ -222,4 +235,4 @@ The curve can also be smoothed. The resulting diagram can be shifted or scaled w
 === signal routing diagram
 image::imgs/flow_add_voice.png[]
 
-simplified signal routing for a single voice
+The diagram shows a simplified signal routing for a single voice.
