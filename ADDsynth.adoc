@@ -181,12 +181,14 @@ This is your oscillator and modulator-oscillator. Full documentation link:Oscill
 
 ==== modulation
 
-image::imgs/add-synth-modulation-amplitude.png[]
+image::imgs/add-synth-modulation-none.png[]
 
 
 ===== Mix
 Mix is actually not a modulation type but something like wave morphing or one dimension of a vector synthesis.
 The modulation amount set with the "Vol." knob and the Amp envelope represents the mixing ratio between "modulator" and "carrier" oscillator.
+
+image::imgs/add-synth-modulation-mix.png[]
 
 ===== Ring
 Ring modulation was used in the Roland D50 but also in many classic analog synthesizers for example from Oberheim.
@@ -194,10 +196,15 @@ The values of modulator and carrier are simply multiplied.
 Used with sine oscillators for both modulator and carrier that adds the sum and the difference of their frequencies to the spectrum.
 It can be used to create inharmonics for metallic or bell like sounds.
 
+image::imgs/add-synth-modulation-ring.png[]
+
 ===== Phase
 The value of the modulator is applied as phase offset. That's what Yamaha called FM in the famous DX7.
 By modulating the phase angle of the oscillator, phase modulation alters the frequency content of the sound, 
 allowing for the creation of complex, evolving timbres and textures.
+
+image::imgs/add-synth-modulation-pm.png[]
+
 
 ===== FM
 The value of the modulator is applied as frequency offset. 
@@ -207,10 +214,12 @@ Aliasing
 Because of the wide applicable range it is nearly impossible to prevent aliasing at high FM amounts.
 ====
 
-image::imgs/add-synth-modulation-frequency.png[]
+image::imgs/add-synth-modulation-fm.png[]
 
 ===== PWM
 An enhancement of phase modulation with pairs om mirrored modulators
+
+image::imgs/add-synth-modulation-pwm.png[]
 
 ==== voice list
 image::imgs/add-synth-voice-list.png[]
