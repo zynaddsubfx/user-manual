@@ -219,7 +219,7 @@ An enhancement of phase modulation with pairs om mirrored modulators
 ==== voice list
 image::imgs/add-synth-voice-list.png[]
 
-The AA button enables the anti aliasing sampling filter. Can be usefull when using high range frequency LFOs or FM.
+The AA button enables the anti aliasing sampling filter. Can be useful when using high range frequency LFOs or FM.
 
 ==== resonance
 image::imgs/add-synth-resonance.png[]
