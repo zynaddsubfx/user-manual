@@ -8,6 +8,8 @@ State variable filters:: Limited filter types, but good under heavy modulation
 Analog filters:: Standard Biquad formulations for a variety of shapes
 Formant filters:: Good for modeling speech spectral shapes. Composed by many
 sub-filters.
+Moog filters:: Good for a warmer feeling - especially with some gain
+Comb filters:: Good for string like effects or intense spectral and phase effects
 
 ===== Analog Filters
 
@@ -44,3 +46,46 @@ harmonic profile of your sounds and make it evolve over time.
 More on that later in this chapter.
 
 image::imgs/20180413-144131.png[]
+
+===== Moog Filter
+
+image::imgs/filter-moog.png[]
+
+The Moog filter type is an attempt to emulate the renowned transistor or diode ladder filter found in Moog and other classic analog synthesizers. 
+It employs the Zero Delay Feedback (ZDF) approach to ensure a level of accuracy in replicating the filter's behavior. 
+
+LP:: low pass
+HP:: high pass
+BP:: Bandpass
+
+===== Comb Filter
+
+image::imgs/filter-comb.png[]
+
+The Comb Filter operates as a tunable delay line, introducing a series of notches and peaks 
+in the frequency spectrum due to the interaction between the original signal and its delayed version. 
+The term "comb" aptly depicts the spectral pattern resembling the teeth of a comb, 
+showcasing the alternating constructive and destructive interference patterns. 
+
+This filter is commonly used to simulate various acoustic effects, such as reflections, 
+chorus-like sounds, or enhancing the perception of spaciousness in audio signals.
+
+BWD:: adds a delayed version of the output signal. the feedback structure leads to heavy resonance
+FWD:: adds a delayed version of the input signal. the feed forward structure leads to more subtle phase effects
+both:: combination of BWD and FWD. heavy resonances are dominant 
+BWDN:: subtracts a delayed version of the output signal. similar to BWD. can be used for example to remove even harmonics
+FWDN:: Subtracts a delayed input signal, emphasizing frequency cancellation for targeted harmonic removal or notching in the spectrum.
+bothN:: Utilizes subtraction from both input and output signals
+
+[NOTE]
+ 
+Poor Mans Physical Modelling
+======
+The comb filter can be used as a string like oscillator. 
+To accomplish that apply it as voice filter to a burst of noise. 
+But make sure the amplitude envelope doesn't go too fast to zero as that would turn off the voice.
+If F.Track is 100% it's frequencies are proportional to the pitch.
+To keep in tune you may set Scale to 0 (no velocity impact) 
+and enable "F. Ctl Bypass" in the voices Amplitude General Settings (no midi cc impact)
+======
+
