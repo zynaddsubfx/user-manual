@@ -24,7 +24,7 @@ Routing Diagrams:: the last part is a set are signal routing diagrams that shoul
 
 === Quick start
 
-link:QuickStart.adoc[Quick Start Guide ]
+include::QuickStart.adoc[]
 
 ////
 XXX Each one of these bullet points should be expanded upon somewhere else IMO
@@ -37,4 +37,4 @@ XXX Each one of these bullet points should be expanded upon somewhere else IMO
 ////
 
 === Tutorial One: Kick Drum Synthesis
-link:IntroTutorial-KickDrumSynthesis.adoc[Intro Tutorial - Kick Drum Synthesis]
+include::IntroTutorial-KickDrumSynthesis.adoc[]

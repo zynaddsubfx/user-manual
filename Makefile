@@ -1,2 +1,5 @@
+# You could also pass "asciidoc"
+C=asciidoctor
+
 html:
-	asciidoctor Manual.adoc
+	$(C) -a toc Manual.adoc

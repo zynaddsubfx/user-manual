@@ -1,6 +1,3 @@
-== Intro Tutorial 1: Kick Drum Synthesis
-
-=== Goals
 In the previous section you learned how to load and use existing patches, but the real power of ZynAddSubFX is the ability to create new sounds and adjust existing sounds to harmonize with the rest of the instruments. Now that you know how to load and use existing patches, let’s take a look at how to build new patches.
 
 When you're finished with this project you'll know to:
@@ -10,12 +7,13 @@ When you're finished with this project you'll know to:
 - synthesize a custom kick drum using ADDsynth and *envelopes*, *filters*, *and LFOs*
 
 .Prerequisites
-WARNING: This tutorial assumes that you have completed the Quick Start guide _or understand the content presented within it._
+WARNING: This tutorial assumes that you have completed the Quick Start guide _or understand the content presented within it_.
 
-===== Open your previous Ardour session
-Launch the Ardour session you created for the Quick Start guide.
+==== Open your previous Ardour session
+// Links to Introduction.adoc:Quick start
+Launch the Ardour session you created for the <<quick-start, Quick start guide>>.
 
-===== Add a new midi track
+==== Add a new midi track
 * Create a new Zyn-Fusion midi track for our synthesizer
 ** `Shift + Ctrl + N`
 *** *Name:* Kick
@@ -24,12 +22,12 @@ Launch the Ardour session you created for the Quick Start guide.
 
 image::screenshots/ardour-new-track.png[]
 
-===== Open the piano roll
+==== Open the piano roll
 Expand the track itself by clicking on the lower edge and dragging it down until you see the "piano roll" similar to the picture below.
 
 image::screenshots/ardour-open-piano-roll.png[]
 
-===== Draw your midi area
+==== Draw your MIDI area
 - Enable draw mode.
 
 image::screenshots/ardour-enable-draw-mode.png[]
@@ -38,34 +36,34 @@ image::screenshots/ardour-enable-draw-mode.png[]
 
 image::screenshots/ardour-draw-midi-area.png[]
 
-===== Draw your midi pattern
+==== Draw your midi pattern
 I'm just going to place a simple 4/4 pattern. You can do anything you like, but don't get too crazy yet, it's going to be repeating behind you while you sculpt the sound.
 
 image::screenshots/ardour-midi-4-4-pattern.png[]
 
 This tutorial uses note A4 as our starting note. You can press the `Y` key on your QWERTY keyboard to hear it.
 
-===== Loop your midi pattern
+==== Loop your midi pattern
 Now we're going to tell Ardour to loop this specific region whenever we tell it to play. Right click on your midi area, select "play", and "loop region".
 
 image::screenshots/ardour-loop-region.png[]
 
 You should now here your pattern being played using the default Zyn-fusion synthesizer. Let's transform it into a kick drum.
 
-===== Launch Zyn-Fusion
+==== Launch Zyn-Fusion
 * Select your `Synth` track and then *double-click* on the ZynAddSubFX button (circled in red below)
 
 image::screenshots/ardour-launch-zyn-fusion.png[]
 
-===== Launch ADDsynth
-Launch the ADDsynth by selecting the `ADD` button. 
+==== Launch ADDsynth
+Launch the ADDsynth by selecting the `ADD` button.
 
 image::screenshots/launch-ADDsynth.png[]
 
 .What Key am I in?
 NOTE: We use note `A4` as our starting point. You can press the `Y` key on your QWERTY keyboard to hear this note.
 
-===== Lower the octave
+==== Lower the octave
 By the the repetive beeping has probably started to bother anyone within listening distance, yourself included. Let's drop it a bit and get it closer to the sound we're looking for.
 
 * Navigate to Global >> Frequency
@@ -77,7 +75,7 @@ image::screenshots/global-freq.png[]
 
 _Note that the image above shows a different octave but is for demonstration purposes only; set it to the `-3` value described in these steps please._
 
-===== Modify your amplitude envelope
+==== Modify your amplitude envelope
 Very briefly, envelopes allow us to define how a note behaves over its lifetime. We use an acronymn full of jargon when discussing this behavior - *ADSR*.
 
 .ADSR
@@ -98,7 +96,7 @@ By now it should be resembling something approaching the sound of a kick drum.
 .TIP
 NOTE: Notice the area outlined in yellow below, it will display the value of the knobs/dials you manipulate.
 
-===== Modify your frequency envelope
+==== Modify your frequency envelope
 Now lets adjust the frequency of our sound a bit to give it a bit more "bounce" by adjusting the *Attack Value*.
 
 * Adjust `A.VAL` to `107`
@@ -131,7 +129,7 @@ Ah, now that's starting to sound like a decent kick drum!
 .TIP
 NOTE: The volume of your kick may seem a bit low after dropping the octave to -4. You can always increase it a bit using the `Global >> Amplitude >> Vol` knob.
 
-===== Make the sound more dynamic by adding a second voice
+==== Make the sound more dynamic by adding a second voice
 You can think of each *voice* as another layer that gets applied when crafting you sound. More layers result in more complexity but the potential of a richer fuller sound with more natural harmonics.
 
 Let's try adding a second voice and see how it affects our kick drum.
@@ -146,7 +144,7 @@ image::screenshots/navigate-vce2.png[]
 
 image::screenshots/enable-vce2.png[]
 
-===== Add some noise
+==== Add some noise
 One thing you may have noticed by now is that every single hit sounds _identical_. This isn't necessarily a bad thing, but it can lead to boring sounds. 
 
 Let's try adding some *noise* to this voice so that every hit will include a bit of randomness.
@@ -157,7 +155,7 @@ Let's try adding some *noise* to this voice so that every hit will include a bit
 
 image::screenshots/mod-pink-noise.png[]
 
-===== Apply a filter
+==== Apply a filter
 Now we have too much noise drowing out our primary kick sound.
 
 We can use *filters* to filter out specific frequency ranges. In this case, let's use the default *lowpass* filter (lp2) to remove most of the high pitched sound that is drowing out our kick drum.

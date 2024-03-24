@@ -1,6 +1,12 @@
 = Zyn-Fusion User Manual
 :icons: font
 
+// Sets the ability to treat chapter text as links
+:sectlinks:
+
+// Table of Contents
+:toc:
+
 == Introduction
 include::Introduction.adoc[]
 
