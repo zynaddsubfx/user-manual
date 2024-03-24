@@ -1,5 +1,7 @@
 ===  Goals of this User Manual
-If we want to create a decent user manual, we need t understand why is it needed, who is going to use it and what do they expect. Let's first try to see who and why would want to read the user manual and what would they need to be satisfied with their experience.
+
+If we want to create a decent user manual, we need to understand why is it needed, who is going to use it and what do they expect. Let's first try to see who and why would want to read the user manual and what would they need to be satisfied with their experience.
+
 ## Who will read it - and what for?
 
 * Potential new experienced users - to determine if Zyn-Fusion is the right tool for them, to see the limitations and possibilities of Zyn-Fusion - to see if it's worth dedicating time and money to integrate it in their workflow,
@@ -49,7 +51,6 @@ $ import -window "ZynAddSubFX 3.0.3" Zyn.png
 $ display Zyn.png
 --------------------------------------------------------------------------------
 
-
 As long as the default Zyn-Fusion window size (or proportions are not going to change we can simply run `zynaddsubfx` to prepare a screenshot.
 
 If this is subject to change we could override the window size with another command.
@@ -84,5 +85,5 @@ The only thing that changes is the subdirectory name and file contents. Thus ref
 <img src="screenshots/addsynth_global_01/D.png">
 <img src="screenshots/formant_filter_main_01/D.png">
 --------------------------------------------------------------------------------
-    
+
 The standard _A B C D_ names might be changed if something else proves to be more convenient. They key is to keep this consistent after a scheme is picked, or the system will break, will require tons of manual labor and we will gain nothing.

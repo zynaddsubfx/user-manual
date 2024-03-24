@@ -1,0 +1,3 @@
+# Any and all HTML and PDF files should be left out of the Git index
+*.html
+*.pdf
