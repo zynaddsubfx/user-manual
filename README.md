@@ -12,6 +12,8 @@ For a powerful editor with live preview for Linux, check [`AsciidocFX`](https://
 
 If you need a different tool, look [here](https://asciidoctor.org/docs/editing-asciidoc-with-live-preview/).
 
+The repo includes a [`Makefile`](./Makefile), which compiles the manual and stores it in the, appropriately named, `Manual.html`.
+
 ## Files
 
 [`Manual.adoc`](./Manual.adoc) is the main document, which uses `include` statements to pull chapters from individual files.
@@ -39,7 +41,7 @@ Multi-line text enclosed between lines containing only `////` is regarded as a c
     comment
     ////
 
-If you have any questions, or suggestions - feel free to create an Issue, and link it in a comment in the appropreiate `.adoc` file. For example:
+If you have any questions, or suggestions - feel free to create an Issue, and link it in a comment in the appropriate `.adoc` file. For example:
 
     // Here goes all the term definitions the user might need to reference while reading the manual.
     // We need to figure out a way to sort the items here alphabetically
