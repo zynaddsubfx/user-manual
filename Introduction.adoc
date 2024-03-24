@@ -36,5 +36,13 @@ XXX Each one of these bullet points should be expanded upon somewhere else IMO
 * 16 macro slots for automation or live control - everything can be automated (unlike the old ZynAddSubFX interface)
 ////
 
-=== Tutorial One: Kick Drum Synthesis
+[[tut1]]
+=== Tutorial 1: Kick Drum Synthesis
 include::IntroTutorial-KickDrumSynthesis.adoc[]
+
+[[tut2]]
+=== Tutorial 2: Snare Drum Synthesis
+include::IntroTutorial-SnareDrumSynthesis.adoc[]
+
+=== Tutorial 3: Hi-Hat Synthesis
+include::IntroTutorial-HiHatSynthesis.adoc[]

@@ -13,7 +13,7 @@ WARNING: This tutorial assumes that you have completed the Quick Start guide _or
 // Links to Introduction.adoc:Quick start
 Launch the Ardour session you created for the <<quick-start, Quick start guide>>.
 
-==== Add a new midi track
+==== Add a new MIDI track
 * Create a new Zyn-Fusion midi track for our synthesizer
 ** `Shift + Ctrl + N`
 *** *Name:* Kick
