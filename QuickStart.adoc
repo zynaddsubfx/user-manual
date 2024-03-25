@@ -22,11 +22,10 @@ NOTE: We're choosing to use Ardour primarily for it's session handling, ensuring
 ** I named mine *QuickStart* but you can choose any name you'd like
 
 ==== Add your first track
-* Create a new Zyn-Fusion midi track for our synthesizer
-** `Shift + Ctrl + N`
-*** *Name:* Synth
-*** *Instrument:* ZynAddSubFx
-*** Click `Add and Close`
+* Create a new Zyn-Fusion midi track for our synthesizer, using `Shift + Ctrl + N`
+** *Name:* Synth
+** *Instrument:* ZynAddSubFx
+** Click `Add and Close`
 
 image::screenshots/ardour-new-track.png[]
 

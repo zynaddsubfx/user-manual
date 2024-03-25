@@ -15,11 +15,10 @@ WARNING: This tutorial assumes that you have completed Project 1: Kick Drum Synt
 Launch the Ardour session you used for the <<tut1, kick drum tutorial>>.
 
 ==== Add a new MIDI track
-* Create a new Zyn-Fusion MIDI track for our synthesizer
-** `Shift + Ctrl + N`
-*** *Name:* Snare
-*** *Instrument:* ZynAddSubFx
-*** Click `Add and Close`
+* Create a new Zyn-Fusion MIDI track for our synthesizer, using `Shift + Ctrl + N`
+** *Name:* Snare
+** *Instrument:* ZynAddSubFx
+** Click `Add and Close`
 
 ==== Open the piano roll
 Expand the track itself by clicking on the lower edge and dragging it down until you see the "piano roll" similar to the picture below.
