@@ -61,6 +61,7 @@ image::screenshots/launch-ADDsynth.png[]
 
 .What Key am I in?
 NOTE: We use note `A4` as our starting point. You can press the `Y` key on your QWERTY keyboard to hear this note.
+// TODO: PEKI: QWERTY only?
 
 ==== Lower the octave
 By the the repetive beeping has probably started to bother anyone within listening distance, yourself included. Let's drop it a bit and get it closer to the sound we're looking for.
