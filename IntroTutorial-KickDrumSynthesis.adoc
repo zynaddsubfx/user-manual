@@ -40,14 +40,16 @@ I'm just going to place a simple 4/4 pattern. You can do anything you like, but 
 
 image::screenshots/ardour-midi-4-4-pattern.png[]
 
-This tutorial uses note A4 as our starting note. You can press the `Y` key on your QWERTY keyboard to hear it.
+This tutorial uses note A4 as our starting note.
+You can press the `Y` key on your QWERTY keyboard to hear it.
+// TODO: Other keyboards? Edit > Preferences > MIDI > "Virtual Keyboard Layout:"
 
 ==== Loop your midi pattern
 Now we're going to tell Ardour to loop this specific region whenever we tell it to play. Right click on your midi area, select "play", and "loop region".
 
 image::screenshots/ardour-loop-region.png[]
 
-You should now here your pattern being played using the default Zyn-fusion synthesizer. Let's transform it into a kick drum.
+You should now hear your pattern being played using the default Zyn-fusion synthesizer. Let's transform it into a kick drum.
 
 ==== Launch Zyn-Fusion
 * Select your `Synth` track and then *double-click* on the ZynAddSubFX button (circled in red below)
@@ -61,7 +63,7 @@ image::screenshots/launch-ADDsynth.png[]
 
 .What Key am I in?
 NOTE: We use note `A4` as our starting point. You can press the `Y` key on your QWERTY keyboard to hear this note.
-// TODO: PEKI: QWERTY only?
+// TODO: QWERTY only? Another TODO on line #45.
 
 ==== Lower the octave
 By the the repetive beeping has probably started to bother anyone within listening distance, yourself included. Let's drop it a bit and get it closer to the sound we're looking for.
@@ -85,7 +87,7 @@ You don't need to worry about these terms if you don't already know them, we'll 
 
 We're going to shorten the *Release* of the Global amplitude envelope, or in simpler terms, let's make the note "shorter".
 
-* Adjust `R.DT` to `63`. 
+* Adjust `R.DT` to `63`.
 ** What do you notice about how the sound has changed?
 ** Can you hear a new `clicking` sound?
 
@@ -109,7 +111,7 @@ It's getting closer! Let's add a little more depth to the sound by extending the
 
 image::screenshots/global-freq-env-attack.png[]
 
-It sounds more like a drum now but not quite the _deep_ sound we're looking for in a kick. 
+It sounds more like a drum now but not quite the _deep_ sound we're looking for in a kick.
 
 .Quiz Time
 NOTE: Knowing what you've learned so far, how you attempt to literally _drop the bass_ at this point?

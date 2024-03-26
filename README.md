@@ -7,12 +7,11 @@ This may or may not get merged into zynaddsubfx/zynaddsubfx's doc dir.
 ## Tools of the trade
 
 The Manual is in [`AsciiDoc` format](https://powerman.name/doc/asciidoc).
-
 For a powerful editor with live preview for Linux, check [`AsciidocFX`](https://github.com/asciidocfx/AsciidocFX).
-
 If you need a different tool, look [here](https://asciidoctor.org/docs/editing-asciidoc-with-live-preview/).
 
 The repo includes a [`Makefile`](./Makefile), which compiles the manual and stores it in the, appropriately named, `Manual.html`.
+The `Makefile` builds using [`Asciidoctor`](https://asciidoctor.org/), which can be changed in the file.
 
 ## Files
 

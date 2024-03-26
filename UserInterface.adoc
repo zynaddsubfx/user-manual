@@ -20,20 +20,26 @@ Panic button::
     When getting started you'll want to be familiar with the panic button as
     it will instantly silence the audio produced by Zyn, no matter what state
     the synth is in. It's a safety device in case the sounds go out of control.
+
 Master VU meter::
     This meter will display the current audio output levels. It can be useful for a few things:
     * It'll let you decide on choosing an optimal sound level for your patch.
     * It might be helpful to find out which instance of Zyn-Fusion is currently making sounds, if you're working with a few of them at once.
     * It'll help you make sure your MIDI keyboard is connected properly.
+
 Fine indicator::
     This indicator shows when parameters are being finely adjusted. Fine adjust
     is trigged by holding *SHIFT* and it can be toggled by clicking on the
     indicator.
+
 Learn indicator::
     This indicator shows when automation learning is in progress.
+
 Information Tray::
     The information tray will show tooltips about Zyn's parameters, current
-    parameter values, as well as other status information. image:imgs/info-tray.png[]
+    parameter values, as well as other status information. Image below.
+
+image:imgs/info-tray.png[]
 
 ////
 .Screenshot todo
@@ -82,26 +88,24 @@ make it not behave that way in the future.
 
 === Navigation Panel
 
-The left side of the screen can be used to change what view the content panel is
-actively presenting.
-The side panel is used to navigate between different parts of the user
-interface.
+The left side of the screen can be used to change what view the content panel is actively presenting.
+The side panel is used to navigate between different parts of the user interface.
 From here you can change the view in the main panel to:
 
 * Part settings
-* Part Grid - the active part id
+* Part Grid - the active part ID
 * Browser
 * Mixer
 * Kits
-* Kit Grid - the active kit id
+* Kit Grid - the active kit ID
 * Macro Learn
 * Effects
 * Add synth
-* Add synth Voice Grid - the active voice id
+* Add synth Voice Grid - the active voice ID
 * Sub synth
 * Pad synth
 
-For all of the grid selectors you can change the active id with the left mouse
+For all of the grid selectors you can change the active ID with the left mouse
 button or you can enable/disable the selected ID via the middle mouse button.
 
 === Main Panel
