@@ -13,9 +13,8 @@ When you're finished with this project you'll learn some fundamentals such as:
 .Prerequisites
 WARNING: This guide expects that you are starting with a working installation of Ardour and Zyn-Fusion; at a minimum you should be able to play and hear the Ardour metronome to confirm that your audio is routed properly.
 
+// TODO: Put this on a higher level than the headers below it
 ==== Create your Ardour session
-.If Zyn-Fusion can be used as a standalone tool why are we using it with Ardour?
-NOTE: We're choosing to use Ardour primarily for it's session handling, ensuring that we can save and return to our progress at any time.
 
 ==== Start a new session
 * Launch Ardour and create a new session using the _Empty Template_
@@ -39,11 +38,14 @@ image::screenshots/ardour-new-track.png[]
 image::screenshots/ardour-launch-zyn-fusion.png[]
 
 ==== Play the default ADDsynth
+
 The ADDsynth is an additive synthesizer. It's totally fine if you don't know what that means yet.
 
 You can launch it by selecting the `ADD` button. Try launching it and then playing a few notes by pressing some keys on your keyboard. You should see the corresponding key light up on the virtual keyboard. Listen to the default sound or "voice" of the ADDsynth.
 
 image::screenshots/launch-ADDsynth.png[]
+
+// TODO: There might be a need to specify the little keyboard icon on the plugin
 
 Next try playing around with the virtual keyboard at the bottom of the window.
 
@@ -63,6 +65,7 @@ image::screenshots/browser.png[]
 Play the synth using your keyboard or the virtual keyboard.
 
 ==== Modify an existing patch
+
 Now let's try experimenting with some knobs and dials to see how you can modify the sound.
 
 Try modifying the:
@@ -80,6 +83,7 @@ image::screenshots/global-freq.png[]
 image::screenshots/voice-freq.png[]
 
 ==== Save a patch
+
 Let's save your modifications as a custom instrument so you can reload it at any time.
 
 Click on the `File` drop down that is to the right of the Zyn logo and select `Save Instrument`.
@@ -91,11 +95,13 @@ Navigate to a directory you want to save the patch in and type a file name befor
 image::screenshots/file-manager.png[]
 
 ==== Close and relaunch Ardour
+
 Now that you've saved your patch, let's imagine you just closed everything and forgot to save, in fact, go ahead and close Ardour without saving.
 
 Now reopen Ardour and select your session. If you've followed this guide closely then your session should resume right _after_ you added your Zyn-Fusion track, but _before_ you modified any patches. Luckily, you saved your patch before you closed your last session.
 
 ==== Load your saved instrument
+
 Relaunch Zyn-Fusion from your Ardour session and load your saved instrument.
 
 Click on the `File` drop down that is to the right of the Zyn logo and select `Load Instrument`.

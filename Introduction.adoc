@@ -5,13 +5,10 @@ what the synth is about, provide links to subsections, and provide a quickstart
 
 ZynAddSubFX is a powerful multi-platform open-source software sound synthesizer.
 Zyn provides a variety of sound creation options including 3 core synthesis
-engines, 10+ filter options, lfos/envelopes for modulation, microtonal support,
+engines, 10+ filter options, LFOs/envelopes for modulation, microtonal support,
 multi-parameter automation support, as well as many other features.
 Zyn can be run both as a standalone application as well as a VST/LV2/DSSI plugin
 within your favorite DAW.
-// TODO: The line below this comment is susceptible to change
-ZynAddSubFX can be controlled through multiple interfaces, though this manual
-will focus on the new and powerful Zyn-Fusion interface.
 
 === About the User Manual
 
@@ -22,6 +19,8 @@ Basic:: We start to cover everything from top to bottom. If you're fairly new to
 Advanced:: We go into more detail and cover things that were skipped in the previous part. More advanced users should benefit from this part, adding depth to their understanding of the synthesizer. For newcomers, this part might be too confusing.
 Glossary:: A glossary appendix with various terms indexed alphabetically
 Routing Diagrams:: Signal routing diagrams that should let you gain a deep understanding of the inner workings of the synthesizer.
+
+Even though ZynAddSubFX can be used as a standalone tool, the manual utilizes Ardour, primarily for it's session handling, ensuring that we can save and return to our progress at any time.
 
 === Quick start
 

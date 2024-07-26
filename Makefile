@@ -1,4 +1,4 @@
-# You could also pass "asciidoc"
+# The AsciiDoc compiler. You could also pass "asciidoc".
 C=asciidoctor
 
 html:

@@ -5,6 +5,7 @@
 :sectlinks:
 
 // Table of Contents
+// TODO: Is 2 the proper depth for the TOC?
 :toc:
 
 == Introduction
