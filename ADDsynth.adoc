@@ -160,7 +160,7 @@ image::imgs/add-synth-voice-amplitude-general.png[]
 - *Pan:* Panning. (100% to the left is random).
 - *Delay:* delay before the voice starts.
 - *Bypass GL Filter:* If the voice signal bypasses the global filter.
-- *F. Ctl Bypass:* If the voices filter is not affected by cutoff midi CC
+- *F. Ctl Bypass:* If the voices filter is not affected by cutoff MIDI CC
 - *RESON:* Enable/Disable the resonance of the voice.
 
 ===== Frequency

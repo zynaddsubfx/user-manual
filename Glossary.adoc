@@ -1,5 +1,4 @@
 // Here goes all the term definitions the user might need to reference while reading the manual.
-// We need to figure out a way to sort the items here alphabetically
-// https://github.com/zynaddsubfx/user-manual/issues/6
 
-NOTE: Here by glossary!
+[glossary]
+Term:: Definition

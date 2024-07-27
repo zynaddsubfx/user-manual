@@ -1,5 +1,6 @@
 *This quick-start will guide you through the process of using Ardour to launch Zyn-Fusion and then using Zyn-Fusion to open an existing patch and modify it.*
 
+// TODO: Were the unfamiliar terms covered? Maybe just get rid of this sentence and update the glossary.
 Don't worry if some or most of these terms are unfamiliar, we'll cover them soon but for now we want to get you having fun making sounds!
 
 When you're finished with this project you'll learn some fundamentals such as:
@@ -21,9 +22,9 @@ WARNING: This guide expects that you are starting with a working installation of
 ** I named mine *QuickStart* but you can choose any name you'd like
 
 ==== Add your first track
-* Create a new Zyn-Fusion midi track for our synthesizer, using `Shift + Ctrl + N`
+* Create a new Zyn-Fusion MIDI track for our synthesizer, using `Shift + Ctrl + N`
 ** *Name:* Synth
-** *Instrument:* ZynAddSubFx
+** *Instrument:* ZynAddSubFX
 ** Click `Add and Close`
 
 image::screenshots/ardour-new-track.png[]

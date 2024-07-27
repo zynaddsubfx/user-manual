@@ -12,10 +12,12 @@ within your favorite DAW.
 
 === About the User Manual
 
+// TODO: This manual aims to teach the user...
+
 The Manual was divided into several sections:
 
 Introduction:: We're starting with a few simple tutorials to get the user hands-on with the synthesizer as fast as possible.
-Basic:: We start to cover everything from top to bottom. If you're fairly new to Zyn-Fusion ,this part should provide you with a comprehensive, yet not overwhelming instruction.
+Basic:: We start to cover everything from top to bottom. If you're fairly new to Zyn-Fusion, this part should provide you with a comprehensive, yet not overwhelming instruction.
 Advanced:: We go into more detail and cover things that were skipped in the previous part. More advanced users should benefit from this part, adding depth to their understanding of the synthesizer. For newcomers, this part might be too confusing.
 Glossary:: A glossary appendix with various terms indexed alphabetically
 Routing Diagrams:: Signal routing diagrams that should let you gain a deep understanding of the inner workings of the synthesizer.

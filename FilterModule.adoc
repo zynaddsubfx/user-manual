@@ -86,6 +86,6 @@ To accomplish that apply it as voice filter to a burst of noise.
 But make sure the amplitude envelope doesn't go too fast to zero as that would turn off the voice.
 If F.Track is 100% it's frequencies are proportional to the pitch.
 To keep in tune you may set Scale to 0 (no velocity impact) 
-and enable "F. Ctl Bypass" in the voices Amplitude General Settings (no midi cc impact)
+and enable "F. Ctl Bypass" in the voices Amplitude General Settings (no MIDI CC impact)
 ======
 

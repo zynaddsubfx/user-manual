@@ -18,7 +18,7 @@ Launch the Ardour session you used for <<tut2, snare drum tutorial>>.
 ==== Add a new MIDI track
 * Create a new Zyn-Fusion MIDI track for our synthesizer, using `Shift + Ctrl + N`
 ** *Name:* HiHat
-** *Instrument:* ZynAddSubFx
+** *Instrument:* ZynAddSubFX
 ** Click `Add and Close`
 
 ==== Open the piano roll

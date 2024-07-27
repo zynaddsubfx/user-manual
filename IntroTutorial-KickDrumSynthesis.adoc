@@ -2,8 +2,8 @@ In the previous section you learned how to load and use existing patches, but th
 
 When you're finished with this project you'll know to:
 
-- use the Ardour piano roll to write a basic midi pattern
-- use Ardour to loop a basic midi pattern
+- use the Ardour piano roll to write a basic MIDI pattern
+- use Ardour to loop a basic MIDI pattern
 - synthesize a custom kick drum using ADDsynth and *envelopes*, *filters*, *and LFOs*
 
 .Prerequisites
@@ -14,9 +14,9 @@ WARNING: This tutorial assumes that you have completed the Quick Start guide _or
 Launch the Ardour session you created for the <<quick-start, Quick start guide>>.
 
 ==== Add a new MIDI track
-* Create a new Zyn-Fusion midi track for our synthesizer, using `Shift + Ctrl + N`
+* Create a new Zyn-Fusion MIDI track for our synthesizer, using `Shift + Ctrl + N`
 ** *Name:* Kick
-** *Instrument:* ZynAddSubFx
+** *Instrument:* ZynAddSubFX
 ** Click `Add and Close`
 
 image::screenshots/ardour-new-track.png[]
@@ -31,11 +31,11 @@ image::screenshots/ardour-open-piano-roll.png[]
 
 image::screenshots/ardour-enable-draw-mode.png[]
 
-- Draw a midi area that is 1 *beat* / 4 *measures* long. Don't worry if you don't know what that means, you can just draw from the `1` to the `2` following the `Bars:Beats` bar. See the image below.
+- Draw a MIDI area that is 1 *beat* / 4 *measures* long. Don't worry if you don't know what that means, you can just draw from the `1` to the `2` following the `Bars:Beats` bar. See the image below.
 
 image::screenshots/ardour-draw-midi-area.png[]
 
-==== Draw your midi pattern
+==== Draw your MIDI pattern
 I'm just going to place a simple 4/4 pattern. You can do anything you like, but don't get too crazy yet, it's going to be repeating behind you while you sculpt the sound.
 
 image::screenshots/ardour-midi-4-4-pattern.png[]
