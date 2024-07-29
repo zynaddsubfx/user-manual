@@ -127,7 +127,7 @@ The ones you'll see most commonly are:
 * Sliders
 * Knobs
 * Number fields
-* anything else?
+* Input boxes
 
 The knobs and sliders can be reset to their default position with a double-click or a middle-mouse-click.
 

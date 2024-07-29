@@ -1,6 +1,5 @@
 *This quick-start will guide you through the process of using Ardour to launch Zyn-Fusion and then using Zyn-Fusion to open an existing patch and modify it.*
 
-// TODO: Were the unfamiliar terms covered? Maybe just get rid of this sentence and update the glossary.
 Don't worry if some or most of these terms are unfamiliar, we'll cover them soon but for now we want to get you having fun making sounds!
 
 When you're finished with this project you'll learn some fundamentals such as:
@@ -14,7 +13,6 @@ When you're finished with this project you'll learn some fundamentals such as:
 .Prerequisites
 WARNING: This guide expects that you are starting with a working installation of Ardour and Zyn-Fusion; at a minimum you should be able to play and hear the Ardour metronome to confirm that your audio is routed properly.
 
-// TODO: Put this on a higher level than the headers below it
 ==== Create your Ardour session
 
 ==== Start a new session
@@ -46,12 +44,11 @@ You can launch it by selecting the `ADD` button. Try launching it and then playi
 
 image::screenshots/launch-ADDsynth.png[]
 
-// TODO: There might be a need to specify the little keyboard icon on the plugin
-
-Next try playing around with the virtual keyboard at the bottom of the window.
+Next try playing around with the virtual keyboard at the bottom of the window, using your mouse.
 
 image::imgs/virtual-keyboard.png[]
 
+// TODO: Patch is never used in Zyn. Instrument is the perfered term.
 ==== Open an existing patch
 
 .What is a patch?

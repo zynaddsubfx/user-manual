@@ -13,6 +13,7 @@ within your favorite DAW.
 === About the User Manual
 
 // TODO: This manual aims to teach the user...
+// Do this when everything else is finished
 
 The Manual was divided into several sections:
 
@@ -38,6 +39,7 @@ XXX Each one of these bullet points should be expanded upon somewhere else IMO
 * 16 macro slots for automation or live control - everything can be automated (unlike the old ZynAddSubFX interface)
 ////
 
+// Done
 [[tut1]]
 === Tutorial 1: Kick Drum Synthesis
 include::IntroTutorial-KickDrumSynthesis.adoc[]
@@ -48,3 +50,5 @@ include::IntroTutorial-SnareDrumSynthesis.adoc[]
 
 === Tutorial 3: Hi-Hat Synthesis
 include::IntroTutorial-HiHatSynthesis.adoc[]
+
+// TODO: We could add a supersaw and a square lead, both excelent way to learn about PADSynth and portamento.

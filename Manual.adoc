@@ -4,8 +4,10 @@
 // Sets the ability to treat chapter text as links
 :sectlinks:
 
+// Enables section numbers
+:sectnums:
+
 // Table of Contents
-// TODO: Is 2 the proper depth for the TOC?
 :toc:
 
 == Introduction
