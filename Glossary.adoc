@@ -1,4 +1,6 @@
 // Here goes all the term definitions the user might need to reference while reading the manual.
 
 [glossary]
-Term:: Definition
+Zyn-Fusion:: The modern descendant of ZynAddSubFX, introducing a new GUI and many other improvements.
+Zyn:: A shorthand for Zyn-Fusion.
+ZynAddSubFX:: The synthesis engine behind Zyn-Fusion, originally created by Paul Nasca Octavian.

@@ -1,7 +1,9 @@
-=== User interface conventions
-=== Panels
+This section aims to introduce the user to Zyn's UI elements and explain their behaviour in detail.
+
+==== Panels
 When you run Zyn-Fusion you'll be presented with this window:
 
+// TODO: Color the elements here and use the colors as help.
 image::imgs/bank-read.png[]
 
 As you can see it is divided into multiple panels, each with their own use.
@@ -70,7 +72,7 @@ unfa: ok, but then -  is there a place for the full specification? I think it's 
 
 ////
 Commented out since this appears to be discussed later
-=== Virtual Keyboard
+==== Virtual Keyboard
 
 * Virtual keyboard (also usable with QWERTY keyboard - that's important!)
 * Virtual keyboard knobs
@@ -86,7 +88,7 @@ fundamental A: If it does behave that way now, I'd think it would be wise to
 make it not behave that way in the future.
 ////
 
-=== Navigation Panel
+==== Navigation Panel
 
 The left side of the screen can be used to change what view the content panel is actively presenting.
 The side panel is used to navigate between different parts of the user interface.
@@ -108,7 +110,7 @@ From here you can change the view in the main panel to:
 For all of the grid selectors you can change the active ID with the left mouse
 button or you can enable/disable the selected ID via the middle mouse button.
 
-=== Main Panel
+==== Main Panel
 
 Here's where the most of the action happens.
 When you start Zyn-Fusion it'll begin by showing you the Browser.
@@ -118,7 +120,7 @@ There's not much to say about this region of the interface, because its
 looks and functions will vary wildly based on the context selected by the
 navigation panel.
 
-=== General conventions
+==== General conventions
 The Zyn-Fusion GUI tries to maintain a consistent language through it's
 controls.
 The ones you'll see most commonly are:
@@ -131,7 +133,7 @@ The ones you'll see most commonly are:
 
 The knobs and sliders can be reset to their default position with a double-click or a middle-mouse-click.
 
-=== Using the Keyboard
+==== Using the Keyboard
 
 Zyn-Fusion lets you use the keyboard in two ways:
 

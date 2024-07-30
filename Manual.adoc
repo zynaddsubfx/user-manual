@@ -10,10 +10,14 @@
 // Table of Contents
 :toc:
 
+// XXX Done
 == Introduction
 include::Introduction.adoc[]
 
 == Basic Topics
+
+// TODO: Is this true?
+This sections covers all the fundamental elements of Zyn-Fusion in detail.
 
 === User Interface
 include::UserInterface.adoc[]
@@ -21,32 +25,32 @@ include::UserInterface.adoc[]
 === Synthesizer Modules
 include::SynthesizerModules.adoc[]
 
-=== Synthesis Engines
+// === Synthesis Engines
 
-==== ADDsynth
-include::ADDsynth.adoc[]
+// ==== ADDsynth
+// include::ADDsynth.adoc[]
 
-==== SUBsynth
-include::SUBsynth.adoc[]
+// ==== SUBsynth
+// include::SUBsynth.adoc[]
 
-==== PADsynth
-include::PADsynth.adoc[]
+// ==== PADsynth
+// include::PADsynth.adoc[]
 
-=== Part Settings
-include::PartSettings.adoc[]
+// === Part Settings
+// include::PartSettings.adoc[]
 
-=== Kits
-include::Kits.adoc[]
+// === Kits
+// include::Kits.adoc[]
 
-=== Presets and Banks
-include::PresetsAndBanks.adoc[]
+// === Presets and Banks
+// include::PresetsAndBanks.adoc[]
 
-=== Settings
-include::Settings.adoc[]
+// === Settings
+// include::Settings.adoc[]
 
 == Glossary
 include::Glossary.adoc[]
 
-== Advanced Topics
+// == Advanced Topics
 
 // Once we have eveything written, we'll put here stuff that's unnecessarily detailed and would trip up new users

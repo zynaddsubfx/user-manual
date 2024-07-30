@@ -1,7 +1,4 @@
-////
-I'd say this section is a good place to give a very sparse high level idea of
-what the synth is about, provide links to subsections, and provide a quickstart
-////
+This section aims to introduce the user to Zyn-Fusion, using a few brief sentences and tutorials.
 
 ZynAddSubFX is a powerful multi-platform open-source software sound synthesizer.
 Zyn provides a variety of sound creation options including 3 core synthesis
@@ -30,7 +27,7 @@ Even though ZynAddSubFX can be used as a standalone tool, the manual utilizes Ar
 include::QuickStart.adoc[]
 
 ////
-XXX Each one of these bullet points should be expanded upon somewhere else IMO
+TODO: Each one of these bullet points should be expanded upon somewhere else IMO
 
 * Zyn-Fusion is actually three synthesizers in one box - they can play together
 * multitimbral: can play multiple patches at once using different MIDI channels, or simply layer then together for complex sounds
