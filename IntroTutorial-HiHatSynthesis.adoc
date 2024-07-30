@@ -6,11 +6,11 @@ Hopefully you have begun to feel comfortable enough with the general layout of Z
 
 When you're finished with this project you'll know to:
 
-- synthesize a custom snare hi-hat cymbal using ADDsynth and *envelopes* and *filters*
-- use modulator unison settings
+- synthesize a custom snare hi-hat cymbal using ADDsynth and *envelopes* and *filters* and
+- use modulator unison settings.
 
 .Prerequisites
-WARNING: This tutorial assumes that you have completed Project 2: Snare Drum Synthesis
+WARNING: This tutorial assumes that you have completed <<tut2, Project 2: Snare Drum Synthesis>>
 
 ==== Open your previous Ardour session
 Launch the Ardour session you used for <<tut2, snare drum tutorial>>.
@@ -116,7 +116,6 @@ Now let's adjust the cutoff frequency.
 ** `Filter >> Cutoff >> 14300 Hz`
 *** 14300 is an approximate number, anything close should be fine.
 
-
 ==== Modify the amplitude envelope
 Listen to that! Believe it or not, we're almost finished. Let's try minimizing the sustain value to shorten the length of our note, I feel like it's dragging on far too long.
 
@@ -129,8 +128,7 @@ That's an interesting sound now, isn't it? What happens if we modify the *decay*
 ** `Amplitude >> Envelope >> D.DT >> 30`
 
 .Tip
-// TODO: PEKI: Is it VOLUME or VOL?
-NOTE: If the hi-hat seems hard to hear when playing with your kick and snare, try increasing the `global >> amplitude >> volume` of the hi-hat.
+NOTE: If the hi-hat seems hard to hear when playing with your kick and snare, try increasing the `GLOBAL >> AMPLITUDE >> VOL` of the hi-hat.
 
 ==== Save your instrument
 Congratulations, you've crafted a hi-hat cymbal - starting with a single sin wave and using additive synthesis!

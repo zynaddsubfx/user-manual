@@ -1,10 +1,10 @@
 In the previous section you learned how to load and use existing patches, but the real power of ZynAddSubFX is the ability to create new sounds and adjust existing sounds to harmonize with the rest of the instruments. Now that you know how to load and use existing patches, let’s take a look at how to build new patches.
 
-When you're finished with this project you'll know to:
+When you're finished with this project you'll know how to:
 
-- use the Ardour piano roll to write a basic MIDI pattern
-- use Ardour to loop a basic MIDI pattern
-- synthesize a custom kick drum using ADDsynth and *envelopes*, *filters*, *and LFOs*
+- use the Ardour piano roll to write a basic MIDI pattern,
+- use Ardour to loop a basic MIDI pattern and
+- synthesize a custom kick drum using ADDsynth and *envelopes*, *filters*, *and LFOs*.
 
 .Prerequisites
 WARNING: This tutorial assumes that you have completed the Quick Start guide _or understand the content presented within it_.
