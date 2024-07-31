@@ -2,4 +2,7 @@
 C=asciidoctor
 
 html:
-	$(C) -a toc Manual.adoc
+	$(C) \
+		-a toc \
+		-a toclevels=4 \
+		Manual.adoc

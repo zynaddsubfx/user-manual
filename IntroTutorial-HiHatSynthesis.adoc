@@ -12,24 +12,24 @@ When you're finished with this project you'll know to:
 .Prerequisites
 WARNING: This tutorial assumes that you have completed <<tut2, Project 2: Snare Drum Synthesis>>
 
-==== Open your previous Ardour session
+.Open your previous Ardour session
 Launch the Ardour session you used for <<tut2, snare drum tutorial>>.
 
-==== Add a new MIDI track
+.Add a new MIDI track
 * Create a new Zyn-Fusion MIDI track for our synthesizer, using `Shift + Ctrl + N`
 ** *Name:* HiHat
 ** *Instrument:* ZynAddSubFX
 ** Click `Add and Close`
 
-==== Open the piano roll
+.Open the piano roll
 Expand the track itself by clicking on the lower edge and dragging it down until you see the "piano roll" similar to the picture below.
 
-==== Draw your MIDI area
+.Draw your MIDI area
 Enable draw mode by clicking on the pencil icon.
 
 - Draw a MIDI area that is 1 *beat* / 4 *measures* long (it should be the same length as your existing kick and snare MIDI areas).
 
-==== Draw your MIDI pattern
+.Draw your MIDI pattern
 I'm just going to place a simple 4/4 pattern. You can do anything you like, but don't get too crazy yet, it's going to be repeating behind you while you sculpt the sound.
 
 image::screenshots/ardour-midi-4-4-with-snare-and-hihat.png[]
@@ -37,7 +37,7 @@ image::screenshots/ardour-midi-4-4-with-snare-and-hihat.png[]
 .Info
 NOTE: This tutorial uses note C4 as our starting note.
 
-==== Loop your MIDI pattern
+.Loop your MIDI pattern
 Now we're going to tell Ardour to loop this specific region whenever we tell it to play. Right click on your MIDI area, select "play", and "loop region".
 
 You should now here your pattern being played with your kick drum and the default Addsynth sound.
@@ -47,16 +47,16 @@ NOTE: You can listen to any track in _solo_ mode by clicking on the `S` button o
 
 image::screenshots/ardour-solo-track.png[]
 
-==== Launch Zyn-Fusion
+.Launch Zyn-Fusion
 * Select your `Synth` track and then *double-click* on the ZynAddSubFX button (circled in red below)
 
-==== Launch ADDsynth
+.Launch ADDsynth
 Launch the ADDsynth by selecting the `ADD` button.
 
 .What Key am I in?
 NOTE: We use note `C4` as our starting point.
 
-==== Change the Oscillator type
+.Change the Oscillator type
 Up to this point we've been using the default sine wave oscillator to generate our tones, but Zyn-Fusion is capable of generating many different types of waves. Each type has unique sound characteristics that we'll dig into later.
 
 For this project we're going to use a *Pulse* wave.
@@ -67,7 +67,7 @@ For this project we're going to use a *Pulse* wave.
 
 image::screenshots/osc-base-function-pulse.png[]
 
-==== Adjust the Modulation
+.Adjust the Modulation
 Now we're going to adjust how the signal is *modulated*. It's ok if you don't know what that means yet, for now think of "modulation" as "changing" a wave.
 
 One of the unique characteristics of cymbals is the "rattle" or "crash" that can often sound like multiple clanging sounds overlapping. We're going to accomplish this goal by increasing the *unison*.
@@ -92,14 +92,14 @@ Now let's disable the default *vibrato* settings.
 
 image::screenshots/mod-unison.png[]
 
-==== Modify the global frequency
+.Modify the global frequency
 Let's detune the frequency a bit again, this time at the global level.
 
 * Navigate to `Global >> Frequency >> General`
 ** Adjust `BW >> 90`
 *** How does the sound change when you adjust the frequency?
 
-==== Modify the global filter
+.Modify the global filter
 Now it's time to play with filters where we will adjust, well, how the sound is filtered.
 
 For starters, let's change from the default lowpass filter to a high-pass filter.
@@ -116,7 +116,7 @@ Now let's adjust the cutoff frequency.
 ** `Filter >> Cutoff >> 14300 Hz`
 *** 14300 is an approximate number, anything close should be fine.
 
-==== Modify the amplitude envelope
+.Modify the amplitude envelope
 Listen to that! Believe it or not, we're almost finished. Let's try minimizing the sustain value to shorten the length of our note, I feel like it's dragging on far too long.
 
 * Navigate to `Global >> Amplitude >> Envelope`
@@ -130,7 +130,7 @@ That's an interesting sound now, isn't it? What happens if we modify the *decay*
 .Tip
 NOTE: If the hi-hat seems hard to hear when playing with your kick and snare, try increasing the `GLOBAL >> AMPLITUDE >> VOL` of the hi-hat.
 
-==== Save your instrument
+.Save your instrument
 Congratulations, you've crafted a hi-hat cymbal - starting with a single sin wave and using additive synthesis!
 
 Now would be a great time to save your Zyn-fusion instrument and Ardour session.
@@ -138,7 +138,7 @@ Now would be a great time to save your Zyn-fusion instrument and Ardour session.
 * Navigate to `File >> Save instrument`
 * Choose a directory and name your file before selecting `Enter`
 
-==== Save your Ardour session
+.Save your Ardour session
 
 * Navigate to your Ardour window
 * `Ctrl + S`

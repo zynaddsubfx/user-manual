@@ -8,20 +8,10 @@
 :sectnums:
 :sectnumlevels: 4
 
-// Table of Contents
-:toc:
-// TODO: This doesn't work
-:toclevels: 3
-
 == Introduction
 include::Introduction.adoc[]
 
-== Basic Topics
-
-// TODO: Is this true?
-This sections covers all the fundamental elements of Zyn-Fusion in detail.
-
-=== User Interface
+== User Interface
 include::UserInterface.adoc[]
 
 // === Synthesizer Modules
@@ -54,5 +44,7 @@ include::UserInterface.adoc[]
 include::Glossary.adoc[]
 
 // == Advanced Topics
+// To each of these, add an INFO block that says
+// "This is considered an advanced topic. Be sure you understand all the previous topics before proceeding."
 
 // Once we have eveything written, we'll put here stuff that's unnecessarily detailed and would trip up new users
