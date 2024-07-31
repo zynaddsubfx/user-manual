@@ -22,8 +22,8 @@ This sections covers all the fundamental elements of Zyn-Fusion in detail.
 === User Interface
 include::UserInterface.adoc[]
 
-=== Synthesizer Modules
-include::SynthesizerModules.adoc[]
+// === Synthesizer Modules
+// include::SynthesizerModules.adoc[]
 
 // === Synthesis Engines
 

@@ -1,11 +1,13 @@
 This section aims to introduce the user to Zyn's UI elements and explain their behaviour in detail.
 
 ==== Panels
+
 When you run Zyn-Fusion you'll be presented with this window:
 
 // TODO: Color the elements here and use the colors as help.
 image::imgs/bank-read.png[]
 
+// TODO: Each panel a color
 As you can see it is divided into multiple panels, each with their own use.
 When navigating between different _views_, you'll consistently see the status
 panel on top of the window, the navigation panel on the left, and the bottom the
@@ -16,7 +18,9 @@ when navigating around Zyn-Fusion
 .Status Panel
 The status panel is where you'll find a few global parameters, the file menu,
 automation-learn/fine-tuning mode selectors, the panic button, master VU meter,
-and the information tray.
+and the information tray. It is always situated at the top of Zyn's UI.
+We will be reading the status panel right-to-left, since you'll most often be using
+the righthand side.
 
 Panic button::
     When getting started you'll want to be familiar with the panic button as
@@ -28,6 +32,12 @@ Master VU meter::
     * It'll let you decide on choosing an optimal sound level for your patch.
     * It might be helpful to find out which instance of Zyn-Fusion is currently making sounds, if you're working with a few of them at once.
     * It'll help you make sure your MIDI keyboard is connected properly.
+
+Volume slider::
+	This slider is used to change the global volume of ZynAddSubFX.
+
+Key shift slider::
+	TODO
 
 Fine indicator::
     This indicator shows when parameters are being finely adjusted. Fine adjust
@@ -41,12 +51,22 @@ Information Tray::
     The information tray will show tooltips about Zyn's parameters, current
     parameter values, as well as other status information. Image below.
 
+// TODO: NRPN is not a thing anymore, we now what the BPM textbox
 image:imgs/info-tray.png[]
 
-////
-.Screenshot todo
-NOTE: There should be a screenshot for the 'information tray'
+// TODO: Mixed indentation, link to the config window UI
+Zyn-Fusion logo box::
+	Clicking on the Zyn-Fusion logo toggles two different windows,
+	one of them is a wall of text dedicated to all the maintainer of Zyn-Fusion and modern ZynAddSubFX,
+	while the other one, more important to you as the user, is the configuration window.
 
+"FILE" button::
+	This button is used to handle all file operations, such as saving, loading and clearing instruments,
+	MIDI bindings, microtonal settings, etc.
+
+// TODO: The play/pause/stop buttons
+
+////
 .Under Construction
 NOTE: At a later point is may be worth describing: NRPN - currently
       non-functional, audio capture (may be worth removing at some point), etc,
@@ -162,3 +182,6 @@ https://tex.stackexchange.com/questions/44581/creating-keyboard-layout-diagrams
 
 ISSUE:: https://github.com/zynaddsubfx/user-manual/issues/7
 ////
+
+// TODO: ==== Configuration window
+// Where does it save configs?
