@@ -6,11 +6,13 @@
 
 // Enables section numbers
 :sectnums:
+:sectnumlevels: 4
 
 // Table of Contents
 :toc:
+// TODO: This doesn't work
+:toclevels: 3
 
-// XXX Done
 == Introduction
 include::Introduction.adoc[]
 

@@ -15,7 +15,8 @@ virtual keyboard.
 In the middle of all of those is the content view which you can expect to change
 when navigating around Zyn-Fusion
 
-.Status Panel
+===== Status Panel
+
 The status panel is where you'll find a few global parameters, the file menu,
 automation-learn/fine-tuning mode selectors, the panic button, master VU meter,
 and the information tray. It is always situated at the top of Zyn's UI.
@@ -34,15 +35,25 @@ Master VU meter::
     * It'll help you make sure your MIDI keyboard is connected properly.
 
 Volume slider::
-	This slider is used to change the global volume of ZynAddSubFX.
+    This slider is used to change the global volume of ZynAddSubFX.
 
+// TODO: This might change
 Key shift slider::
-	TODO
+    Allows shifting the relation between which note would be played originally and which is played now.
+    64 means no keyshifting.
+    Setting the key shift below 64 shifts the keys down by the absolute difference between 64 and the key shift value.
+    Setting it above 64 does the same, except that it shifts the keys up.
+    For example, 63 shift all the keys down by 1, and 65 shifts them up by 1.
 
 Fine indicator::
     This indicator shows when parameters are being finely adjusted. Fine adjust
     is trigged by holding *SHIFT* and it can be toggled by clicking on the
     indicator.
+
+// TODO: More info about this in the manual?
+BPM panel::
+    This panel allows setting the BPM used by LFOs whose frequency is defined with a
+    numerator and denominator.
 
 Learn indicator::
     This indicator shows when automation learning is in progress.
@@ -56,13 +67,13 @@ image:imgs/info-tray.png[]
 
 // TODO: Mixed indentation, link to the config window UI
 Zyn-Fusion logo box::
-	Clicking on the Zyn-Fusion logo toggles two different windows,
-	one of them is a wall of text dedicated to all the maintainer of Zyn-Fusion and modern ZynAddSubFX,
-	while the other one, more important to you as the user, is the configuration window.
+    Clicking on the Zyn-Fusion logo toggles two different windows,
+    one of them is a wall of text dedicated to all the maintainer of Zyn-Fusion and modern ZynAddSubFX,
+    while the other one, more important to you as the user, is the configuration window.
 
 "FILE" button::
-	This button is used to handle all file operations, such as saving, loading and clearing instruments,
-	MIDI bindings, microtonal settings, etc.
+    This button is used to handle all file operations, such as saving, loading and clearing instruments,
+    MIDI bindings, microtonal settings, etc.
 
 // TODO: The play/pause/stop buttons
 
@@ -108,7 +119,7 @@ fundamental A: If it does behave that way now, I'd think it would be wise to
 make it not behave that way in the future.
 ////
 
-==== Navigation Panel
+===== Navigation Panel
 
 The left side of the screen can be used to change what view the content panel is actively presenting.
 The side panel is used to navigate between different parts of the user interface.
@@ -130,7 +141,8 @@ From here you can change the view in the main panel to:
 For all of the grid selectors you can change the active ID with the left mouse
 button or you can enable/disable the selected ID via the middle mouse button.
 
-==== Main Panel
+// TODO: This warrants a huge section
+===== Main Panel
 
 Here's where the most of the action happens.
 When you start Zyn-Fusion it'll begin by showing you the Browser.

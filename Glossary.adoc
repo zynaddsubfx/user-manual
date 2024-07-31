@@ -1,5 +1,9 @@
 // Here goes all the term definitions the user might need to reference while reading the manual.
 
+// TODO: Filter, sync, distortion, fade, pan
+// TODO: LFO, FM, AM, Bandwith, Additive/Subtractive synthesis, ADSR, Envelope and Harmonic
+// Ideally they're more naturally introduced in the text
+
 [glossary]
 Zyn-Fusion:: The modern descendant of ZynAddSubFX, introducing a new GUI and many other improvements.
 Zyn:: A shorthand for Zyn-Fusion.
