@@ -39,11 +39,12 @@ Volume slider::
 
 // TODO: This might change
 Key shift slider::
-    Allows shifting the relation between which note would be played originally and which is played now.
-    64 means no keyshifting.
-    Setting the key shift below 64 shifts the keys down by the absolute difference between 64 and the key shift value.
-    Setting it above 64 does the same, except that it shifts the keys up.
-    For example, 63 shift all the keys down by 1, and 65 shifts them up by 1.
+//    Allows shifting the relation between which note would be played originally and which is played now.
+//    64 means no keyshifting.
+//    Setting the key shift below 64 shifts the keys down by the absolute difference between 64 and the key shift value.
+//    Setting it above 64 does the same, except that it shifts the keys up.
+//    For example, 63 shift all the keys down by 1, and 65 shifts them up by 1.
+    Allows shifting the input note up/down by a specified amount.
 
 Fine indicator::
     This indicator shows when parameters are being finely adjusted. Fine adjust
@@ -52,8 +53,8 @@ Fine indicator::
 
 // TODO: More info about this in the manual?
 BPM panel::
-    This panel allows setting the BPM used by LFOs whose frequency is defined with a
-    numerator and denominator.
+    This panel allows setting the BPM used by the project. This BPM is used
+    by LFOs whose frequency is defined with a numerator and denominator.
 
 Information Tray::
     The information tray will show tooltips about Zyn's parameters, current
@@ -83,8 +84,6 @@ Zyn-Fusion logo box::
     Clicking on the Zyn-Fusion logo toggles two different windows,
     one of them is a wall of text dedicated to all the maintainer of Zyn-Fusion and modern ZynAddSubFX,
     while the other one, more important to you as the user, is the configuration window.
-
-// TODO: The play/pause/stop buttons
 
 ////
 .Under Construction
@@ -130,25 +129,30 @@ make it not behave that way in the future.
 
 ==== Navigation Panel
 
-The left side of the screen can be used to change what view the content panel is actively presenting.
-The side panel is used to navigate between different parts of the user interface.
-From here you can change the view in the main panel to:
+The navigation panel is situated on the left side of the Zyn-Fusion UI and, much like the
+status panel, is always present there.
 
-* Part settings
-* Part Grid - the active part ID
-* Browser
-* Mixer
-* Kits
-* Kit Grid - the active kit ID
-* Macro Learn
-* Effects
-* Add synth
-* Add synth Voice Grid - the active voice ID
-* Sub synth
-* Pad synth
+It is used to change what the main panel is actively presenting.
+The options, from top to bottom, include:
 
-For all of the grid selectors you can change the active ID with the left mouse
-button or you can enable/disable the selected ID via the middle mouse button.
+* PART SETTINGS
+* Part grid
+* BROWSER
+* MIXER
+* KITS
+* Kit grid
+* MACRO LEARN
+* EFFECTS
+* The ADDSynth panel
+* The ADDSynth voice grid
+* The SUBSynth panel
+* The PADSynth panel
+
+Each grid houses multiple elements with the same functionality,
+and has one lit-up square, which is the currently displayed element.
+Each active element has a border around it.
+*To view an element in the grid, left-mouse-click it.*
+*To enable an element in the grid, middle-mouse-click it.*
 
 // TODO: This warrants a huge section
 ==== Main Panel
