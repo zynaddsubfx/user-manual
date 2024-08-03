@@ -151,23 +151,122 @@ The options, from top to bottom, include:
 Each grid houses multiple elements with the same functionality,
 and has one lit-up square, which is the currently displayed element.
 Each active element has a border around it.
-*To view an element in the grid, left-mouse-click it.*
-*To enable an element in the grid, middle-mouse-click it.*
+*To view an element in the grid, left-mouse click it.*
+*To enable an element in the grid, middle-mouse click it.*
 
-// TODO: This warrants a huge section
-==== Main Panel
+// TODO: Capitalize each word?
+==== Main Panel (Introduction)
 
-Here's where the most of the action happens.
-When you start Zyn-Fusion it'll begin by showing you the Browser.
-Use the Side Bar to select what should be displayed here.
+The main panel is where most of the action happens.
 
-There's not much to say about this region of the interface, because its
-looks and functions will vary wildly based on the context selected by the
-navigation panel.
+The scope of that is, understandably, very large, so it warrants its
+own section in this part of the manual, visible below.
+
+=== Main Panel
+
+The main panel covers all the core functionality in Zyn-Fusion,
+in regard to sound design, effects, mixing, and so on.
+
+We'll go over each subpanel from top to bottom as seen in the <<_navigation_panel, navigation panel>>.
+
+==== Part settings
+
+// TODO: Image with colors, or multiple images
+
+This subpanel is dedicated to setting up each the properties of each part.
+
+.What is a part?
+NOTE: A part is a single element in ZynAddSubFX capable of generating sound.
+In one part, any of ZynAddSubFX's three synths can be active.
+So, think of parts like mini synths inside ZynAddSubFX
+which you can use to have multiple layers to sounds,
+// TODO: I don't much like that "maybe with..." part
+have multiple sounds, maybe with different timbres, on one keyboard, etc.
+
+===== Part enabling and naming
+
+This subpanel consists of pairs of a button and a text input box.
+The button enables the appropriate part, and the input box allows naming the part.
+
+===== Instrument settings
+
+VOLUME:: Volume, expressed in dB.
+PAN:: Panning.
+MIN KEY:: The minimum key from which the part starts playing
+MAX KEY:: The maximum key to which the part plays
+
+// TODO
+VEL SENSE::
+    Velocity sensing.
+
+VEL OFFSET::
+    Velocity offset.
+
+KEY SHIFT::
+    Desc
+
+Mn/R/Mx buttons::
+    Desc
+
+Active MIDI channel::
+    Desc
+
+Polyphony type::
+    Desc
+
+Voice limit::
+    Desc
+
+===== Controllers
+
+Controllers
+
+===== Portamento
+
+Portamento
+
+===== Scale settings
+
+// TODO
+This is the only settings settings that is shared by each part.
+
+// TODO: Parts share scale settings, everything else is individual
+
+==== Browser
+
+Browser
+
+==== Mixer
+
+Mixer
+
+==== Kit settings
+
+Kit settings
+
+==== Macro learn panel
+
+Macro learn panel
+
+==== Effects editor
+
+Effects editor
+
+==== ADDSynth
+
+ADDSynth
+
+==== SUBSynth
+
+SUBSynth
+
+==== PADSynth
+
+PADSynth
 
 === General conventions
-The Zyn-Fusion GUI tries to maintain a consistent language through it's
-controls.
+
+The Zyn-Fusion GUI tries to maintain a consistent language through it's controls.
 The ones you'll see most commonly are:
 
 * Buttons
@@ -176,7 +275,9 @@ The ones you'll see most commonly are:
 * Number fields
 * Input boxes
 
-The knobs and sliders can be reset to their default position with a double-click or a middle-mouse-click.
+The knobs and sliders can be reset to their default position with a double-click or a middle-mouse click.
+
+Input boxes can be edited by either left- or right-mouse clicking on the box, and editing is stopped by clicking outside the box.
 
 === Using the Keyboard
 
