@@ -37,14 +37,13 @@ Master VU meter::
 Volume slider::
     This slider is used to change the global volume of ZynAddSubFX.
 
-// TODO: This might change
+// TODO: When this changes, use: Allows shifting the input note up/down by a specified amount.
 Key shift slider::
-//    Allows shifting the relation between which note would be played originally and which is played now.
-//    64 means no keyshifting.
-//    Setting the key shift below 64 shifts the keys down by the absolute difference between 64 and the key shift value.
-//    Setting it above 64 does the same, except that it shifts the keys up.
-//    For example, 63 shift all the keys down by 1, and 65 shifts them up by 1.
-    Allows shifting the input note up/down by a specified amount.
+    Allows shifting the relation between which note would be played originally and which is played now.
+    64 means no keyshifting.
+    Setting the key shift below 64 shifts the keys down by the absolute difference between 64 and the key shift value.
+    Setting it above 64 does the same, except that it shifts the keys up.
+    For example, 63 shift all the keys down by 1, and 65 shifts them up by 1.
 
 Fine indicator::
     This indicator shows when parameters are being finely adjusted. Fine adjust
@@ -203,19 +202,40 @@ VEL OFFSET::
     Velocity offset.
 
 KEY SHIFT::
-    Desc
+    Shifts the key being played, same as KEY SHIFT in the <<_status_panel, Status panel>>.
 
 Mn/R/Mx buttons::
-    Desc
+    These buttons are used to set the minimum and maximum key that can be played.
+    `Mn` sets the minimum key to the key last given to Zyn-Fusion as input,
+    `Mx` does the same, except for the maximum key
+    and `R` resets the limits back to cover the full keyboard.
 
 Active MIDI channel::
-    Desc
+    By default, this is set to the ID of the part, i.e. CH1 for part 1, CH2 for part 2, etc.
+    Shows which MIDI channel the part will except input from.
+    One part can only except input from one MIDI channel.
+    In the case of music made using a DAW, you'll usually do everything on channel 1.
+    In the case of live music, you may use more channels, across different parts of the keyboard.
 
 Polyphony type::
-    Desc
+    *POLY* means that each input will be added to the output as a separate voice.
+    Use this if at any point you have two notes playing at the same time.
+    *MONO* means only one key will be accepted and played back. If a new note is
+    being played while another one is already on, the new one will playback.
+    Once you stop playing the new note, the old one will start playing again.
+    *LEGATO* is exactly what legato means in music typically.
+    Only one note is played back at one time.
+    If you play one note and start playing another one,
+    it will change the frequency of the old note to the frequency of the new note gradually,
+    but quickly. Letting go shifts the frequency back down to the original note.
+    Consider LEGATO to be MONO, but without playing the note from the start every time.
+    *LATCH* TODO
 
 Voice limit::
-    Desc
+    Sets how many voices the part can produce.
+    This setting is very useful for patches which might take up a lot of CPU, because it allows you to limit how many voices it will make.
+    The default is 0 and, ironically, means you can make an arbitrarily large, pracitcally infinite, number of voices.
+    If you have sounds with a lot of release, you might need more voices, so that new ones don't cut the old ones while they're playing back.
 
 ===== Controllers
 
