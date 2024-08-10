@@ -1,5 +1,7 @@
 This section aims to introduce the user to Zyn's UI elements and explain their behaviour in detail.
 
+// TODO: Virtual keyboard panel
+
 === Panels
 
 When you run Zyn-Fusion you'll be presented with this window:
@@ -158,8 +160,35 @@ Each active element has a border around it.
 
 The main panel is where most of the action happens.
 
-The scope of that is, understandably, very large, so it warrants its
-own section in this part of the manual, visible below.
+The scope of that is, understandably, very large, so it warrants
+<<_main_panel, its own section in this part of the manual, visible below>>>>.
+
+==== Virtual keyboard panel
+
+The virtual keyboard is located at the bottom of the Zyn-Fusion interface.
+
+// TODO
+
+Modulation wheel::
+    Desc
+
+Keyboard::
+    Desc
+
+VELOCITY::
+    Desc
+
+VRND::
+    Desc
+
+OCTAVE::
+    Desc
+
+C.VAL::
+    Desc
+
+MIDI CC dropdown menu::
+    Desc
 
 === Main Panel
 
@@ -179,7 +208,6 @@ NOTE: A part is a single element in ZynAddSubFX capable of generating sound.
 In one part, any of ZynAddSubFX's three synths can be active.
 So, think of parts like mini synths inside ZynAddSubFX
 which you can use to have multiple layers to sounds,
-// TODO: I don't much like that "maybe with..." part
 have multiple sounds, maybe with different timbres, on one keyboard, etc.
 
 ===== Part enabling and naming
@@ -211,8 +239,8 @@ Mn/R/Mx buttons::
     and `R` resets the limits back to cover the full keyboard.
 
 Active MIDI channel::
-    By default, this is set to the ID of the part, i.e. CH1 for part 1, CH2 for part 2, etc.
     Shows which MIDI channel the part will except input from.
+    By default, this is set to the ID of the part, i.e. CH1 for part 1, CH2 for part 2, etc.
     One part can only except input from one MIDI channel.
     In the case of music made using a DAW, you'll usually do everything on channel 1.
     In the case of live music, you may use more channels, across different parts of the keyboard.
@@ -224,12 +252,13 @@ Polyphony type::
     being played while another one is already on, the new one will playback.
     Once you stop playing the new note, the old one will start playing again.
     *LEGATO* is exactly what legato means in music typically.
-    Only one note is played back at one time.
+    Only one note is played back at one time, much like in MONO.
     If you play one note and start playing another one,
     it will change the frequency of the old note to the frequency of the new note gradually,
     but quickly. Letting go shifts the frequency back down to the original note.
     Consider LEGATO to be MONO, but without playing the note from the start every time.
-    *LATCH* TODO
+    *LATCH* means that any keys currently playing will keep playing, even when not held down,
+    until a new key, or new keys, are played.
 
 Voice limit::
     Sets how many voices the part can produce.
@@ -239,18 +268,121 @@ Voice limit::
 
 ===== Controllers
 
-Controllers
+// TODO: Write a memo on what each abbrev means
+
+MDW.D::
+    Desc
+
+FC.D::
+    Desc
+
+FQ.D::
+    Desc
+
+BW.D::
+    Desc
+
+PCH.D::
+    Desc
+
+PAN.D::
+    Desc
+
+MDW.EXP::
+    Desc
+
+EXP.RCV::
+    Desc
+
+FMA.RCV::
+    Desc
+
+BW.EXP::
+    Desc
+
+VOL.RCV::
+    Desc
+
+SUS.RCV::
+    Desc
 
 ===== Portamento
 
-Portamento
+// TODO
+
+PRT.CRV::
+    Desc
+
+AUTO::
+    Desc
+
+ENABLE::
+    Desc
+
+>/< buttons::
+    Desc
+
+THRESH number field::
+    Desc
+
+PROP.::
+    Desc
+
+TIME::
+    Desc
+
+UP/DWN::
+    Desc
+
+SCALE::
+    Desc
+
+DEPTH::
+    Desc
 
 ===== Scale settings
 
 // TODO
 This is the only settings settings that is shared by each part.
 
-// TODO: Parts share scale settings, everything else is individual
+ENABLE::
+    Desc
+
+PER/OCT::
+    Desc
+
+REF FREQ::
+    Desc
+
+1/1 MIDI NOTE::
+    Desc
+
+CENTER::
+    Desc
+
+NAME::
+    Desc
+
+COMMENT::
+    Desc
+
+SHIFT::
+    Desc
+
+TUNINGS::
+    Desc
+
+KEY MAPPING::
+    Desc
+
+IMPORT .SCL::
+    Desc
+
+IMPORT .KBM::
+    Desc
+
+RETUNE::
+    Desc
 
 ==== Browser
 
@@ -296,6 +428,9 @@ The ones you'll see most commonly are:
 * Input boxes
 
 The knobs and sliders can be reset to their default position with a double-click or a middle-mouse click.
+
+// TODO: No way to reset the number?
+Number fields house `+` and `-` buttons which allow incrementing and decrementing the numeric value which the field stores.
 
 Input boxes can be edited by either left- or right-mouse clicking on the box, and editing is stopped by clicking outside the box.
 
