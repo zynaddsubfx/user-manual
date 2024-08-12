@@ -268,81 +268,105 @@ Voice limit::
 
 ===== Controllers
 
-// TODO: Write a memo on what each abbrev means
+// TODO: What are these? What is MIDI CC? How does it work? Append appropriate info to glossary.
+
+////
+TODO
+
+Most of these are not covered in detail.
+- What happens when they're set to 0 and 127?
+- What is the modwheel exponential mode?
+- What happens for values of 0 and 127 for most of these?
+  For example, how much does the modwheel bend when it's set to 127?
+  Does it bend by the value dictated by PCH.D?
+- As for the sustain CC, how long is the sustain, where is that set?
+////
 
 MDW.D::
-    Desc
+    Sets the MIDI CC modwheel depth.
 
 FC.D::
-    Desc
+    Sets the MIDI CC filter cutoff frequency.
 
 FQ.D::
-    Desc
+    Sets the MIDI CC filter resonance.
 
 BW.D::
-    Desc
+    Sets the MIDI CC bandwidth depth.
 
 PCH.D::
-    Desc
+    Sets the MIDI pitch wheel depth, expressed in semitones (Of course, 100% of a semitone is one semitone, 200% is two, etc).
+    By default, it's set to two semitones.
 
 PAN.D::
-    Desc
+    Sets the MIDI panning depth.
 
 MDW.EXP::
-    Desc
+    Toggles the modwheel exponential mode.
 
 EXP.RCV::
-    Desc
+    Toggles expression MIDI recieve.
 
 FMA.RCV::
-    Desc
+    Toggles FM amplitude MIDI recieve.
 
 BW.EXP::
-    Desc
+    Toggles bandwidth exponential mode.
 
 VOL.RCV::
-    Desc
+    Toggles volume MIDI recieve.
 
 SUS.RCV::
-    Desc
+    Toggles sustain MIDI recieve.
 
+////
+TODO
+
+- What is the auto mode?
+- Everything here is susceptible to change, since https://zynaddsubfx.sourceforge.io/Doc/#_portamento
+  says the portamento distance is about frequencies and not notes, and that's apparently useful for microtonal.
+  I'll work the basic idea out first, though.
+////
 ===== Portamento
 
-// TODO
+// TODO: What is portamento? Also add that to the glossary.
 
 PRT.CRV::
-    Desc
+    Toggles if ZynAddSubFX will recieve portamento on/off requests from an external MIDI device.
 
 AUTO::
-    Desc
+    TODO
 
 ENABLE::
-    Desc
+    Toggles if portamento is on/off.
 
 >/< buttons::
-    Desc
+    If set to `>`, portamento will occur when the distance between the two keys is greater than the THRESH value.
+    `<` does the same, but for distances smaller than THRESH.
+    By default, it's set to `>`.
 
 THRESH number field::
-    Desc
+    The numeric value which triggers the portamento.
+    The exact behaviour is defined by the `>` / `<` buttons, described above.
 
 PROP.::
-    Desc
+    Proportional portamento. TODO
 
 TIME::
-    Desc
+    Time for which the portamento slides up/down.
 
 UP/DWN::
-    Desc
+    TODO
 
 SCALE::
-    Desc
+    TODO
 
 DEPTH::
-    Desc
+    TODO
 
 ===== Scale settings
 
-// TODO
+// TODO: This whole part
 This is the only settings settings that is shared by each part.
 
 ENABLE::
