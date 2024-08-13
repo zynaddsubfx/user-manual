@@ -6,9 +6,11 @@
 // Ideally they're more naturally introduced in the text
 
 [glossary]
-Key:: A possible input to Zyn-Fusion, with a specific notation. Examples of notation include A4, G#2, etc. Practically, it's the same thing as a note.
-Patch:: A configuration of ZynAddSubFX the user makes or loads up. You can create patches for drums, strings, pads, or something entirely different!
+Key:: A possible input to Zyn-Fusion, with a specific notation (eg. A4, G#2, etc). Practically, it's the same thing as a note.
+Patch:: A configuration of ZynAddSubFX the user makes or loads up. You can create patches for drums, strings, pads, or something entirely different! Other softsynths often call a patch a preset.
+Portamento:: A pitch slide from one note to another.
 Timbre:: The percieved quality of a sound. Different oscillators produce different timbres.
+VU meter:: A meter that displays the average level of an audio signal.
 Voice:: A single instance of sound a synth can produce. If you are limited to three voices, you can only play three notes at one time and expect to hear them in the final sound.
 Zyn-Fusion:: The modern descendant of ZynAddSubFX, introducing a new GUI and many other improvements.
 Zyn:: A shorthand for Zyn-Fusion.

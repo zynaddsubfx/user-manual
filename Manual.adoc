@@ -1,3 +1,10 @@
+////
+TODO:
+
+- A section on automabatable params
+- Use "preset" instead of "patch", to match the UI.
+////
+
 = Zyn-Fusion User Manual
 :icons: font
 

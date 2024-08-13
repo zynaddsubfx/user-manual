@@ -36,11 +36,11 @@ Master VU meter::
     * It might be helpful to find out which instance of Zyn-Fusion is currently making sounds, if you're working with a few of them at once.
     * It'll help you make sure your MIDI keyboard is connected properly.
 
-Volume slider::
+VOLUME slider::
     This slider is used to change the global volume of ZynAddSubFX.
 
 // TODO: When this changes, use: Allows shifting the input note up/down by a specified amount.
-Key shift slider::
+KEY SHIFT slider::
     Allows shifting the relation between which note would be played originally and which is played now.
     64 means no keyshifting.
     Setting the key shift below 64 shifts the keys down by the absolute difference between 64 and the key shift value.
@@ -161,7 +161,7 @@ Each active element has a border around it.
 The main panel is where most of the action happens.
 
 The scope of that is, understandably, very large, so it warrants
-<<_main_panel, its own section in this part of the manual, visible below>>>>.
+<<_main_panel, its own section in this part of the manual, visible below>>.
 
 ==== Virtual keyboard panel
 
@@ -276,7 +276,7 @@ TODO
 Most of these are not covered in detail.
 - What happens when they're set to 0 and 127?
 - What is the modwheel exponential mode?
-- What happens for values of 0 and 127 for most of these?
+- What happens for values of 0 and 127 for these?
   For example, how much does the modwheel bend when it's set to 127?
   Does it bend by the value dictated by PCH.D?
 - As for the sustain CC, how long is the sustain, where is that set?
@@ -296,7 +296,7 @@ BW.D::
 
 PCH.D::
     Sets the MIDI pitch wheel depth, expressed in semitones (Of course, 100% of a semitone is one semitone, 200% is two, etc).
-    By default, it's set to two semitones.
+    By default, it's set to bend by two semitones.
 
 PAN.D::
     Sets the MIDI panning depth.
@@ -329,7 +329,9 @@ TODO
 ////
 ===== Portamento
 
-// TODO: What is portamento? Also add that to the glossary.
+Portamento is a term that describes a pitch-slide from one note to another.
+Protamento can be useful whenever you want a smooth transition between two notes,
+instead of one stopping and another one playing.
 
 PRT.CRV::
     Toggles if ZynAddSubFX will recieve portamento on/off requests from an external MIDI device.
@@ -352,17 +354,19 @@ THRESH number field::
 PROP.::
     Proportional portamento. TODO
 
+// What's the relation between the value and actual time (if there is any, maybe it's bound to frequency)?
 TIME::
     Time for which the portamento slides up/down.
 
+// TODO: Is this true?
 UP/DWN::
-    TODO
+    If less than the middle value, it will slide down faster than up, and vice versa.
 
 SCALE::
-    TODO
+    Portamento proportional scale.
 
 DEPTH::
-    TODO
+    Portamento proportional depth.
 
 ===== Scale settings
 
@@ -410,11 +414,40 @@ RETUNE::
 
 ==== Browser
 
-Browser
+// TODO: Preset/Patch. Use preset, it's what's in the UI.
+// TODO: If not fixed, mention how enabling/disabling a bank shows all the patches.
+// TODO: Image
+
+Allows browsing the ZynAddSubFX collection of ready-made sounds.
+It features a search bar and 4 columns, which can all be clicked to be toggled:
+
+1. *BANK*: The actual preset collection. Hovering over each one shows you where it is in the filesystem.
+2. *TYPE*: Allows selecting a specific type of preset. Useful for filtering.
+3. *TAG*: Further filtering using tags.
+4. *PRESET*: The actual list of presets.
 
 ==== Mixer
 
-Mixer
+// TODO: Images of master and one part strip
+
+The mixer allows mixing of each part (the part mixer strip) as well as the output signal (labeled as "MASTER", the master mixer strip).
+
+.The master strip
+
+The master mixer strip features two vertical segments,
+one being the VU meter,
+and the other being the vertical global volume fader.
+This fader is actually the same one seen in the status panel!
+
+.The part strip
+
+From top to bottom, the part strip contains:
+
+1. A PART ENABLE button, which toggles the part on and off.
+2. The same VU meter and volume fader as in the master strip, only applied to the part.
+3. Part panning. 64 is the default and is also the middle-point.
+4. Active MIDI channel dropdown, identical to the one in the <<_instrument_settings, instrument settings>>.
+5. The EDIT button, which sets the current part as the one you can edit in <<_part_settings, part settings>>.
 
 ==== Kit settings
 
