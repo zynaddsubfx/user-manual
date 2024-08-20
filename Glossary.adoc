@@ -15,3 +15,5 @@ Voice:: A single instance of sound a synth can produce. If you are limited to th
 Zyn-Fusion:: The modern descendant of ZynAddSubFX, introducing a new GUI and many other improvements.
 Zyn:: A shorthand for Zyn-Fusion.
 ZynAddSubFX:: The synthesis engine behind Zyn-Fusion, originally created by Paul Nasca Octavian.
+
+// TODO: Key/Note? https://github.com/zynaddsubfx/user-manual/pull/22#discussion_r1717669181

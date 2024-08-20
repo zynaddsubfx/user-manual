@@ -6,7 +6,8 @@ This section aims to introduce the user to Zyn's UI elements and explain their b
 
 When you run Zyn-Fusion you'll be presented with this window:
 
-// TODO: Color the elements here and use the colors as help.
+// TODO: Color the elements here and use the colors as help, if possible.
+// https://github.com/zynaddsubfx/user-manual/pull/22#discussion_r1717684016
 image::imgs/bank-read.png[]
 
 // TODO: Each panel a color
@@ -52,7 +53,7 @@ Fine indicator::
     is trigged by holding *SHIFT* and it can be toggled by clicking on the
     indicator.
 
-// TODO: More info about this in the manual?
+// TODO: More info about this in the manual? Do tutorials instead.
 BPM panel::
     This panel allows setting the BPM used by the project. This BPM is used
     by LFOs whose frequency is defined with a numerator and denominator.
@@ -136,10 +137,10 @@ status panel, is always present there.
 It is used to change what the main panel is actively presenting.
 The options, from top to bottom, include:
 
-* PART SETTINGS
+* <<_part_settings, PART SETTINGS>>
 * Part grid
-* BROWSER
-* MIXER
+* <<_browser, BROWSER>>
+* <<_mixer, MIXER>>
 * KITS
 * Kit grid
 * MACRO LEARN
@@ -165,30 +166,15 @@ The scope of that is, understandably, very large, so it warrants
 
 ==== Virtual keyboard panel
 
-The virtual keyboard is located at the bottom of the Zyn-Fusion interface.
+While it is true that you will most often pass notes to ZynAddSubFX using MIDI, the virutal
+keyboard panel exists as a way to pass notes directly from the Zyn-Fusion UI!
 
-// TODO
+.How does playing notes from Zyn-Fusion work?
+NOTE: You can play notes from Zyn-Fusion either by clicking on the notes in the vritual keyboard in the UI,
+or pressing on your computer keyboard, which will trigger the notes the same way as mouse-clicking them!
 
-Modulation wheel::
-    Desc
-
-Keyboard::
-    Desc
-
-VELOCITY::
-    Desc
-
-VRND::
-    Desc
-
-OCTAVE::
-    Desc
-
-C.VAL::
-    Desc
-
-MIDI CC dropdown menu::
-    Desc
+From-left-to-right, the panel features a modulation wheel, the keyboard, a set of parameters, those being
+the note velocity, velocity randomness, the octave shift, the MIDI CC value and selection.
 
 === Main Panel
 
@@ -199,7 +185,7 @@ We'll go over each subpanel from top to bottom as seen in the <<_navigation_pane
 
 ==== Part settings
 
-// TODO: Image with colors, or multiple images
+// TODO: Image with colors, or multiple images, if possible
 
 This subpanel is dedicated to setting up each the properties of each part.
 
@@ -217,54 +203,37 @@ The button enables the appropriate part, and the input box allows naming the par
 
 ===== Instrument settings
 
-VOLUME:: Volume, expressed in dB.
-PAN:: Panning.
-MIN KEY:: The minimum key from which the part starts playing
-MAX KEY:: The maximum key to which the part plays
+Here, we set up basic MIDI-related properties of the part.
+This includes properties such as the volume, panning, in what range it accepts MIDI notes,
+velocity sensing and randomness, key shifting, etc.
 
-// TODO
-VEL SENSE::
-    Velocity sensing.
+The minimum and maximum key knobs are used to set the minimum and maximum key that the part will play.
+Additionally, you can use the `Mn` and `Mx` buttons to store the last key ZynAddSubFX accepted as the
+minimum and maximum keys. `R` resets the range to cover the full keyboard!
 
-VEL OFFSET::
-    Velocity offset.
+The "CH-" dropdown box is used to select which MIDI channel the part will accept notes from.
+Since there are 16 parts and 16 MIDI channels, by default each part is assigned to each channel.
+If you layer multiple parts together, you should set them all to the same MIDI channel, so they
+play the same notes!
 
-KEY SHIFT::
-    Shifts the key being played, same as KEY SHIFT in the <<_status_panel, Status panel>>.
+.Layering sounds
+NOTE: If you want to layer multiple parts, set them all to accept notes from the same MIDI channel (usually CH1).
+This way, they'll all play the same notes!
 
-Mn/R/Mx buttons::
-    These buttons are used to set the minimum and maximum key that can be played.
-    `Mn` sets the minimum key to the key last given to Zyn-Fusion as input,
-    `Mx` does the same, except for the maximum key
-    and `R` resets the limits back to cover the full keyboard.
+.Live play
+NOTE: If you play Zyn-Fusion live using a MIDI keyboard, you can have one instrument on one part of the keyboard, another one on another one, etc.
+For example, you can have a bass in range A1-A3, a piano in range A3-A6, and strings in range A6-C7.
+This means you can play three instruments not only using one keyboard, but on Zyn-Fusion instance!
 
-Active MIDI channel::
-    Shows which MIDI channel the part will except input from.
-    By default, this is set to the ID of the part, i.e. CH1 for part 1, CH2 for part 2, etc.
-    One part can only except input from one MIDI channel.
-    In the case of music made using a DAW, you'll usually do everything on channel 1.
-    In the case of live music, you may use more channels, across different parts of the keyboard.
+You can also set the polyphony type using the "Poly/Mono/Legato/Latch" dropbox.
 
-Polyphony type::
-    *POLY* means that each input will be added to the output as a separate voice.
-    Use this if at any point you have two notes playing at the same time.
-    *MONO* means only one key will be accepted and played back. If a new note is
-    being played while another one is already on, the new one will playback.
-    Once you stop playing the new note, the old one will start playing again.
-    *LEGATO* is exactly what legato means in music typically.
-    Only one note is played back at one time, much like in MONO.
-    If you play one note and start playing another one,
-    it will change the frequency of the old note to the frequency of the new note gradually,
-    but quickly. Letting go shifts the frequency back down to the original note.
-    Consider LEGATO to be MONO, but without playing the note from the start every time.
-    *LATCH* means that any keys currently playing will keep playing, even when not held down,
-    until a new key, or new keys, are played.
+- "Poly" means you can play as many notes as the voice limit allows you to play! Use this mode for any case of stacked notes (e.g. chords).
+- "Mono" means you can only play one key. If you play two notes at the same time, only one will actually make a sound (e.g. arppegio).
+- "Legato" is similar to "Mono", except that it will shift the frequency from the perviously played note to the current one (e.g. lead instrument).
+- "Latch" means that any keys currently playing will keep playing, even when not held down, until a new key, or new keys, are played (e.g. live play).
 
-Voice limit::
-    Sets how many voices the part can produce.
-    This setting is very useful for patches which might take up a lot of CPU, because it allows you to limit how many voices it will make.
-    The default is 0 and, ironically, means you can make an arbitrarily large, pracitcally infinite, number of voices.
-    If you have sounds with a lot of release, you might need more voices, so that new ones don't cut the old ones while they're playing back.
+You may have noticed that "Poly" can only play as many notes as the voice limit allows.
+Keep in mind that, if the voice limit is set to 0, it can a practically infinite number of voices.
 
 ===== Controllers
 
@@ -475,7 +444,7 @@ PADSynth
 
 === General conventions
 
-The Zyn-Fusion GUI tries to maintain a consistent language through it's controls.
+The Zyn-Fusion GUI tries to maintain a consistent language through its controls.
 The ones you'll see most commonly are:
 
 * Buttons
