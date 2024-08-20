@@ -1,7 +1,5 @@
 This section aims to introduce the user to Zyn's UI elements and explain their behaviour in detail.
 
-// TODO: Virtual keyboard panel
-
 === Panels
 
 When you run Zyn-Fusion you'll be presented with this window:
@@ -156,8 +154,7 @@ Each active element has a border around it.
 *To view an element in the grid, left-mouse click it.*
 *To enable an element in the grid, middle-mouse click it.*
 
-// TODO: Capitalize each word?
-==== Main Panel (Introduction)
+==== Main panel (Introduction)
 
 The main panel is where most of the action happens.
 
@@ -176,7 +173,7 @@ or pressing on your computer keyboard, which will trigger the notes the same way
 From-left-to-right, the panel features a modulation wheel, the keyboard, a set of parameters, those being
 the note velocity, velocity randomness, the octave shift, the MIDI CC value and selection.
 
-=== Main Panel
+=== Main panel
 
 The main panel covers all the core functionality in Zyn-Fusion,
 in regard to sound design, effects, mixing, and so on.
@@ -251,140 +248,47 @@ Most of these are not covered in detail.
 - As for the sustain CC, how long is the sustain, where is that set?
 ////
 
-MDW.D::
-    Sets the MIDI CC modwheel depth.
+This section is dedicated to MIDI CC and is useful for automation or live play!
 
-FC.D::
-    Sets the MIDI CC filter cutoff frequency.
+MIDI CC (Continous Controllers) is, essentially, used to automate certain properties of your MIDI playback.
+The ones you should be met with are the MIDI modwheel, filter cutoff, filter resonance and pitch-bending.
 
-FQ.D::
-    Sets the MIDI CC filter resonance.
+Use the tooltips visible in the information tray to get information about each knob and button.
 
-BW.D::
-    Sets the MIDI CC bandwidth depth.
+.I produce on a DAW. Should I care about these settings?
+NOTE: _YES!_ Specifically, you should care about "PCH.D", the pitchbend depth.
+In DAWs with MIDI CC automation support (such as Ardour), you can automate pitch-bending, which is very useful.
 
-PCH.D::
-    Sets the MIDI pitch wheel depth, expressed in semitones (Of course, 100% of a semitone is one semitone, 200% is two, etc).
-    By default, it's set to bend by two semitones.
-
-PAN.D::
-    Sets the MIDI panning depth.
-
-MDW.EXP::
-    Toggles the modwheel exponential mode.
-
-EXP.RCV::
-    Toggles expression MIDI recieve.
-
-FMA.RCV::
-    Toggles FM amplitude MIDI recieve.
-
-BW.EXP::
-    Toggles bandwidth exponential mode.
-
-VOL.RCV::
-    Toggles volume MIDI recieve.
-
-SUS.RCV::
-    Toggles sustain MIDI recieve.
-
-////
-TODO
-
-- What is the auto mode?
-- Everything here is susceptible to change, since https://zynaddsubfx.sourceforge.io/Doc/#_portamento
-  says the portamento distance is about frequencies and not notes, and that's apparently useful for microtonal.
-  I'll work the basic idea out first, though.
-////
 ===== Portamento
 
+// TODO: Proportional and auto
+
 Portamento is a term that describes a pitch-slide from one note to another.
-Protamento can be useful whenever you want a smooth transition between two notes,
-instead of one stopping and another one playing.
 
-PRT.CRV::
-    Toggles if ZynAddSubFX will recieve portamento on/off requests from an external MIDI device.
+.When to use it
+NOTE: Use portamento whenever you want to play only one note at a time and have a smooth transition between your notes.
 
-AUTO::
-    TODO
+Once enabled, you can change a couple properties of your portamento.
 
-ENABLE::
-    Toggles if portamento is on/off.
+// TODO: fundamental mentioned that maybe I shouldn't capitalize these.
+You can change how long it takes it to slide using the "TIME" knob.
 
->/< buttons::
-    If set to `>`, portamento will occur when the distance between the two keys is greater than the THRESH value.
-    `<` does the same, but for distances smaller than THRESH.
-    By default, it's set to `>`.
+The "THRESH" number field allows you to set a semitone distance at which the portamento takes place.
+The `>` / `<` buttons set how the limit behaves.
+`>` sets the portamento to be active when the distance between the notes is more than the limit, and vice versa.
 
-THRESH number field::
-    The numeric value which triggers the portamento.
-    The exact behaviour is defined by the `>` / `<` buttons, described above.
+You can change if the portamento slides up or down faster using the "UP/DWN" knob.
+If less than the middle value, it will slide down faster than up, and vice versa.
 
-PROP.::
-    Proportional portamento. TODO
-
-// What's the relation between the value and actual time (if there is any, maybe it's bound to frequency)?
-TIME::
-    Time for which the portamento slides up/down.
-
-// TODO: Is this true?
-UP/DWN::
-    If less than the middle value, it will slide down faster than up, and vice versa.
-
-SCALE::
-    Portamento proportional scale.
-
-DEPTH::
-    Portamento proportional depth.
-
+// TODO: This section, as a whole
 ===== Scale settings
 
-// TODO: This whole part
+This section of the part settings panel is used for making microtonal mappings, so you most likely won't be using it often.
+
 This is the only settings settings that is shared by each part.
-
-ENABLE::
-    Desc
-
-PER/OCT::
-    Desc
-
-REF FREQ::
-    Desc
-
-1/1 MIDI NOTE::
-    Desc
-
-CENTER::
-    Desc
-
-NAME::
-    Desc
-
-COMMENT::
-    Desc
-
-SHIFT::
-    Desc
-
-TUNINGS::
-    Desc
-
-KEY MAPPING::
-    Desc
-
-IMPORT .SCL::
-    Desc
-
-IMPORT .KBM::
-    Desc
-
-RETUNE::
-    Desc
 
 ==== Browser
 
-// TODO: Preset/Patch. Use preset, it's what's in the UI.
-// TODO: If not fixed, mention how enabling/disabling a bank shows all the patches.
 // TODO: Image
 
 Allows browsing the ZynAddSubFX collection of ready-made sounds.
@@ -418,6 +322,10 @@ From top to bottom, the part strip contains:
 4. Active MIDI channel dropdown, identical to the one in the <<_instrument_settings, instrument settings>>.
 5. The EDIT button, which sets the current part as the one you can edit in <<_part_settings, part settings>>.
 
+Even though the part settings offer a volume knob, you can always use the mixer
+to have visual feedback on how loud your parts are relative to each other!
+
+////
 ==== Kit settings
 
 Kit settings
@@ -480,6 +388,7 @@ Holding down Ctrl will temporarily activate Learn mode - any control touched wil
 // Here should be a reference to chapter about Macro Learn
 
 Holding down Shift will temporarily activate Fine mode - this will greatly increase the input resolution allowing for more precise manipulation.
+////
 
 ////
 .Documentation Idea
