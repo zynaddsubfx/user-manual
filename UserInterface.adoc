@@ -325,11 +325,38 @@ From top to bottom, the part strip contains:
 Even though the part settings offer a volume knob, you can always use the mixer
 to have visual feedback on how loud your parts are relative to each other!
 
+==== Kit settings panel
+
+This panel allows you to effictively configure ZynAddSubFX into a kit.
+
+// TODO: A part with one ADD/SUB/PAD is actually a part with one kit with one ADD/SUB/PAD
+
+.What is a kit?
+NOTE: Think of a kit as a subsection of a part. Each part has 16 kits, each of which can be assigned an instance of
+ADDSynth, SUBSynth and PADSynth, as well as any combation of them. A kit gets its name from the fact that it allows
+you to turn any part into a sound kit, with 16 sounds at most. A good example of a kit is a drum kit, where you
+set up each drum to be on a different note (e.g. kick drum is on part 1 and plays on C4, snare is on part 2 and plays on C#4, etc).
+Another example might be a collection of sound effects.
+
+The first settings you'll run into, just above the big wall of repeating settings, is three buttons that determine how the part's kits will act.
+
+- For "NO KITS", only the first kit can be active, while the rest are off
+- For "MULTI-KIT", for any played note, every kit that has that note in its key range will play
+- For "SINGLE-KIT", for any played note, only the first kit that has that note in its key range will play
+
+As for the big wall of settings, we've already ran into these settings perviously, in part settings.
+They function identically as in the part settings, except that they apply to the kit.
+The only new addition is the effect route.
+
+.The effect route
+NOTE: A part has an effect chain consisting of three effects. The order they are processed in is FX1 to FX3.
+The effect route dropbox allows setting the starting point of the effect processing for that kit.
+By default, a kit starts at FX1, meaning that it goes through all three effects.
+There is, of course, an option to not route the kit through the effect chain, in the dropbox.
+
+// TODO: Dropbox or drop-box?
+
 ////
-==== Kit settings
-
-Kit settings
-
 ==== Macro learn panel
 
 Macro learn panel
