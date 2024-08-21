@@ -222,7 +222,7 @@ NOTE: If you play Zyn-Fusion live using a MIDI keyboard, you can have one instru
 For example, you can have a bass in range A1-A3, a piano in range A3-A6, and strings in range A6-C7.
 This means you can play three instruments not only using one keyboard, but on Zyn-Fusion instance!
 
-You can also set the polyphony type using the "Poly/Mono/Legato/Latch" dropbox.
+You can also set the polyphony type using the "Poly/Mono/Legato/Latch" dropdown.
 
 - "Poly" means you can play as many notes as the voice limit allows you to play! Use this mode for any case of stacked notes (e.g. chords).
 - "Mono" means you can only play one key. If you play two notes at the same time, only one will actually make a sound (e.g. arppegio).
@@ -350,21 +350,37 @@ The only new addition is the effect route.
 
 .The effect route
 NOTE: A part has an effect chain consisting of three effects. The order they are processed in is FX1 to FX3.
-The effect route dropbox allows setting the starting point of the effect processing for that kit.
+The effect route dropdown allows setting the starting point of the effect processing for that kit.
 By default, a kit starts at FX1, meaning that it goes through all three effects.
-There is, of course, an option to not route the kit through the effect chain, in the dropbox.
+There is, of course, an option to not route the kit through the effect chain, in the dropdown.
 
-// TODO: Dropbox or drop-box?
-
-////
 ==== Macro learn panel
 
-Macro learn panel
+This panel is where all non-MIDI related automation happens!
+
+Zyn-Fusion gives you the ability to assign almost every knob and fader in the synth to any of the 16 automation slots.
+_"ALMOST every?"_ Yes, the only thing you can't automate with the automation slots are the automation slots!
+Each slot can house 4 different parameters, each of which can be automated with different slopes, meaning that some paramteres can move up,
+while others move down, all using the same automation slot!
+
+*So how do I actually automate a parameter?*
+Select the "Learn" button, which is right next to the information tray, at the top of the UI,
+and change the value of the parameter you wanna automate.
+This will bind it to the active automation slot. You may have noticed there are two types of learning,
+which you can see above the parameter automation slopes, those being
+"Normal learn" (One slope per parameter), or "Macro learn" (One slope for all move parameters).
+
+The panel is split in two halves.
+
+The left half is dedicated to clearing, naming and focusing the automation slot.
+
+Once you focus an automation slot of your choice, using the triangle button, the right half will display the four automation parameter slopes.
 
 ==== Effects editor
 
 Effects editor
 
+////
 ==== ADDSynth
 
 ADDSynth
