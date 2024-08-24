@@ -135,14 +135,14 @@ status panel, is always present there.
 It is used to change what the main panel is actively presenting.
 The options, from top to bottom, include:
 
-* <<_part_settings, PART SETTINGS>>
-* Part grid
-* <<_browser, BROWSER>>
-* <<_mixer, MIXER>>
-* KITS
-* Kit grid
-* MACRO LEARN
-* EFFECTS
+* <<_part_settings, Part settings>>
+* The part selection grid
+* <<_browser, The browser>>
+* <<_mixer, The mixer>>
+* <<_kit_settings_panel, Kit settings>>
+* The kit selection grid
+* <<_macro_learn_panel, The macro learn panel>>
+* <<_effects_panel, The effects panel>>
 * The ADDSynth panel
 * The ADDSynth voice grid
 * The SUBSynth panel
@@ -376,9 +376,50 @@ The left half is dedicated to clearing, naming and focusing the automation slot.
 
 Once you focus an automation slot of your choice, using the triangle button, the right half will display the four automation parameter slopes.
 
-==== Effects editor
+==== Effects panel
 
-Effects editor
+This panel allows adding effects to your sound.
+
+There are three types of effects you can add.
+We'll list them from right to left, since you'll most commonly be using them in that order:
+
+.Part insertion effects
+
+Part insertion effects are added to the part output.
+Each part has its own part insertion effects.
+The effects are processed in-order (1 through 3).
+You can bypass any effect, allowing you to test how the part sounds with and without it.
+This is the only type of effect stack that exports with the instrument.
+
+////
+TODO: Verify the truthfulness of this
+
+Each effect has three options relating to how the effect process chain happens:
+
+1. "Next effect" simply takes the whole output of the signal and moves it to the next effect,
+or the master, if we're at the last effect.
+
+2. "Part out" sends the signal straight to the output after being processed by the signal,
+ignoring all effects below it.
+
+3. "Dry out" combines the previous two, sending a copy of the processed signal both to the output
+and down to the next element in the effect chain.
+////
+
+.Insertion effects
+
+Insertion effects allow you to insert any effect to any part, or directly to the output signal
+(labeled as "master" in the dropdown menu). There are 8 available slots, which are also processed in-order.
+
+.System effects
+
+System effects are quite different from the previous two.
+You have four effect slots, which are shared by each part.
+What each part doesn't share is the amount of the dry signal sent to each of the effects.
+After effect 1 is processed, you can send a certain amount of it to effect 2.
+You can then send the outputs of effect 1 and 2 to 3. The same logic applies for effect 4.
+You choose how much of the part sound is sent to effects using the faders below the effect dropdown,
+and how much of each effect is sent to the next effect using the fader matrix at the bottom of the tab.
 
 ////
 ==== ADDSynth
