@@ -6,14 +6,6 @@ TODO:
 ////
 
 = Zyn-Fusion User Manual
-:icons: font
-
-// Sets the ability to treat chapter text as links
-:sectlinks:
-
-// Enables section numbers
-:sectnums:
-:sectnumlevels: 4
 
 == Introduction
 include::Introduction.adoc[]
