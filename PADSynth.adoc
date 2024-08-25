@@ -1,1 +1,9 @@
 === PADSynth
+
+==== Harmonic structure settings
+
+==== Oscillator editor
+
+==== Envelopes and LFO
+
+==== Resonance editor

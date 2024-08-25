@@ -1,1 +1,7 @@
 === SUBSynth
+
+==== Harmonic settings
+
+==== Global settings
+
+==== Bandwidth settings
