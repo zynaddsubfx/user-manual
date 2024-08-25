@@ -421,15 +421,16 @@ You can then send the outputs of effect 1 and 2 to 3. The same logic applies for
 You choose how much of the part sound is sent to effects using the faders below the effect dropdown,
 and how much of each effect is sent to the next effect using the fader matrix at the bottom of the tab.
 
-==== ADDSynth (Introduction)
+// TODO: When to use each one?
 
-ZynAddSubFX's additive synthesizer. Expanded on <<_addsynth, here>>.
+==== Synthesis engines (Introduction)
 
-==== SUBSynth (Introduction)
+As you probably know, ZynAddSubFX features three synthesis engines.
+Of course, they all have a lot to talk about, so they're described in detail in their own separate sections.
+Feel free to click on any of them to read more about them!
 
-ZynAddSubFX's substractive synthesizer. Expanded on <<_subsynth, here>>.
+The synthesis engines are:
 
-==== PADSynth (Introduction)
-
-ZynAddSubFX's quite unique synthesizer, capable of spreading a certain oscillator sound across a wide bandwidth of frequencies.
-Expanded on <<_padsynth, here>>.
+1. <<_addsynth, ADDSynth, an additive synthesizer.>>
+2. <<_subsynth, SUBSynth, a substractive synthesizer.>>
+3. <<_padsynth, PADSynth, ZynAddSubFX's quite unique synthesizer, capable of spreading a certain oscillator sound across a wide bandwidth of frequencies.>>
