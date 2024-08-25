@@ -363,7 +363,7 @@ _"ALMOST every?"_ Yes, the only thing you can't automate with the automation slo
 Each slot can house 4 different parameters, each of which can be automated with different slopes, meaning that some paramteres can move up,
 while others move down, all using the same automation slot!
 
-*So how do I actually automate a parameter?*
+*_"So how do I actually automate a parameter?"_* I hear you ask!
 Select the "Learn" button, which is right next to the information tray, at the top of the UI,
 and change the value of the parameter you wanna automate.
 This will bind it to the active automation slot. You may have noticed there are two types of learning,

@@ -13,6 +13,10 @@ include::Introduction.adoc[]
 
 == Tutorial
 
+These tutorials are meant to serve as an interactive introduction to Zyn-Fusion.
+We heavily encourage going through these before anything else below,
+as this will give you a good understanding of Zyn-Fusion, from a practical perspective.
+
 include::IntroTutorial-KickDrumSynthesis.adoc[]
 
 include::IntroTutorial-SnareDrumSynthesis.adoc[]
@@ -30,6 +34,8 @@ include::UserInterfaceConv.adoc[]
 include::UserInterface.adoc[]
 
 == Synthesis
+
+include::Synthesis.adoc[]
 
 include::ADDSynth.adoc[]
 

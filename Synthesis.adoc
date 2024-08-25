@@ -1,0 +1,30 @@
+This section is meant to document how ZynAddSubFX generates sound,
+and how you can use that to make any sound that comes to mind!
+
+=== Synthesis Modules
+
+Firstly, before getting into the synthesis engines,
+we should note that certain synthesis modules appear pretty often,
+so it would be very good if we covered those first.
+
+Don't worry, we'll get into the good stuff soon, this section only
+serves so we don't have to explain terms like LFO, ADSR, punch, stretch, velocity sensing and so on
+every time they appear.
+And, as you'll see, no matter how scary Zyn-Fusion might look, the same elements work the same
+in every situation, so it's not as daunting as you might think!
+
+==== Oscillator editor
+
+==== General amplitude settings
+
+==== General frequency settings
+
+==== General filter settings
+
+==== Envelope settings
+
+// TODO: Note how the window above helps
+
+==== LFO settings
+
+// TODO: Note how the window above helps
