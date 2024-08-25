@@ -15,7 +15,52 @@ in every situation, so it's not as daunting as you might think!
 
 ==== Oscillator editor
 
+Here, you can shape the oscillator that will be used either as a main source of sound or a modulator.
+
+You'll notice the window is split into three strips, if you will,
+that being the strip with two oscillator windows and settings in the middle
+and two strips of horizontal faders, along with a scrollbar at the bottom.
+
+*The first strip* has, from left to right, your starting oscillator, oscillator settings,
+and your final oscillator that will be used in your synthesizer of choice, be that ADDSynth or PADSynth.
+
+The settings in the middle include settings like:
+
+- the base oscillator (sine, square, triangle, etc)
+- the waveshaping function
+- the modlation
+- the filter
+
+and so on.
+Feel free to move the "shape" fader below the base oscillator settings,
+it changes the oscillators in interesting ways!
+
+*The second strip* has faders which allow you to add harmonics to your sound.
+The fader sets the amplitude of the first, second, third harmonic, and so on.
+Using the scrollbar, you can go as far as to the 128th.
+
+.What are harmonics?
+NOTE: Harmonics are just your base frequency multiplied by some number.
+The second haronic is your base frequency multiplied by 2, for example.
+Harmonics, as such, add frequency content to your sound, making it more complex and interesting.
+Just don't go too overboard _(but even then, just double-tap the fader to reset it)_!
+
+*The third strip* allows you to set the phase of each harmonic.
+
 ==== General amplitude settings
+
+These settings relate to volume.
+
+Most of them are pretty standard, like volume and panning.
+However, there is an interesting property of amplitude in ZynAddSubFX called "punch".
+
+Punch adds an additional boost in volume at the start of the sound.
+
+You can edit punch strength (how loud it is), time (how long it lasts) and
+stretch (how the length of it changes with the note;
+if you set it to 0, it will sound the same on all notes)
+
+// TODO: Verify this above. Also, what happens for 127?
 
 ==== General frequency settings
 
