@@ -1,3 +1,6 @@
+[[tut2]]
+=== Tutorial 2: Snare Drum Synthesis
+
 In the previous section you learned how to use the ADDsynth to create a kick drum. Let's build on what you learned to create a simple snare drum.
 
 Many of the steps of this project are identical to the steps we took in our first project to create our kick drum, but with different values.

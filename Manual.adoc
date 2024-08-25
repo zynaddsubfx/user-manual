@@ -8,38 +8,37 @@ TODO:
 = Zyn-Fusion User Manual
 
 == Introduction
+
 include::Introduction.adoc[]
 
+== Tutorial
+
+include::IntroTutorial-KickDrumSynthesis.adoc[]
+
+include::IntroTutorial-SnareDrumSynthesis.adoc[]
+
+include::IntroTutorial-HiHatSynthesis.adoc[]
+
+// TODO: We could add a supersaw and a square lead, both excelent way to learn about PADSynth and portamento.
+
+== User Interface Conventions
+
+include::UserInterfaceConv.adoc[]
+
 == User Interface
+
 include::UserInterface.adoc[]
 
-// === Synthesizer Modules
-// include::SynthesizerModules.adoc[]
+== Synthesis
 
-// === Synthesis Engines
+include::ADDSynth.adoc[]
 
-// ==== ADDsynth
-// include::ADDsynth.adoc[]
+include::SUBSynth.adoc[]
 
-// ==== SUBsynth
-// include::SUBsynth.adoc[]
-
-// ==== PADsynth
-// include::PADsynth.adoc[]
-
-// === Part Settings
-// include::PartSettings.adoc[]
-
-// === Kits
-// include::Kits.adoc[]
-
-// === Presets and Banks
-// include::PresetsAndBanks.adoc[]
-
-// === Settings
-// include::Settings.adoc[]
+include::PADSynth.adoc[]
 
 == Glossary
+
 include::Glossary.adoc[]
 
 // == Advanced Topics

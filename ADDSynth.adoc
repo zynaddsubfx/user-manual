@@ -1,0 +1,7 @@
+=== ADDSynth
+
+////
+ADDSynth is ZynAddSubFX's additive synthesizer, featuring 8 voices,
+each of which can be toggled using the power button in the top-left corner of the ADDSynth panel
+or using the voice grid below the ADDSynth panel button.
+////

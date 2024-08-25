@@ -1,3 +1,6 @@
+[[tut3]]
+=== Tutorial 3: Hi-Hat Synthesis
+
 In the previous sections you learned how to use the ADDsynth to create a kick drum and snare drum. Let's round out a ver basic drum kit with a hi-hat cymbal!
 
 Many of the steps of this project are identical to the steps we took in our previous projects, but with different values.
