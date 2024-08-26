@@ -104,6 +104,13 @@ NOTE: LFO stands for "Low Frequency Oscillator".
 It is used for any periodic changes you wanna make to your sound,
 such as vibrato or tremolo.
 
+You can alter all the basic settings, such as oscillator type, frequrency, depth,
+starting phase, delay, ramp-up and ramp-down time.
+
+Additionally, you can connect your LFO's frequency to its BPM.
+The two number fields, allow setting the numerator and denominator of the BPM, expressed in bars
+(e.g. setting it to 1/4 sets the LFO's frequency to match a quarter of a bar).
+
 // TODO
 
 // TODO: Talk about copy-pasting
