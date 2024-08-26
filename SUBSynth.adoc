@@ -5,3 +5,9 @@
 ==== Global settings
 
 ==== Bandwidth settings
+
+////
+image::imgs/sub-synth.png[]
+* what is subsynth and why it's named this way?
+* signal routing diagram
+////
