@@ -1,3 +1,5 @@
+:plusmn: &#177;
+
 This section is meant to document how ZynAddSubFX generates sound,
 and how you can use that to make any sound that comes to mind!
 
@@ -61,15 +63,47 @@ stretch (how the length of it changes with the note;
 if you set it to 0, it will sound the same on all notes)
 
 // TODO: Verify this above. Also, what happens for 127?
+// TODO: Velocity sensing
 
 ==== General frequency settings
 
+These settings relate to pitch.
+
+From here, you can set the octave shift and fine-tune settings.
+
+Fine-tune type offers four options, each being how far the fine-tune can go.
+By default, you can go up or down 35 cents.
+
 ==== General filter settings
+
+These settings relate to the applied filter.
+
+Here, you can set the type, cutoff, resonance, gain, number of stages, and other properties of the filter.
+
+// TODO: Explain the class, f. track, sense and scale
 
 ==== Envelope settings
 
-// TODO: Note how the window above helps
+This section allows editing the ADSR envelope.
+
+NOTE: ADSR stands for "Attack-Decay-Sustain-Release". It is the most common form of envelope out there.
+
+These envelopes are used everywhere in ZynAddSubFX,
+for making alterationgs to amplitude, pitch and frequency.
+
+You can edit the envelope with the ADSR knobs, which is more precise,
+or with the envelope window, where you can move the envelope points around, which is more fun!
+
+If you don't see the envelope window, click on the "Envelope" text seen above the knobs.
 
 ==== LFO settings
 
-// TODO: Note how the window above helps
+This section allows you to edit the LFO.
+
+NOTE: LFO stands for "Low Frequency Oscillator".
+It is used for any periodic changes you wanna make to your sound,
+such as vibrato or tremolo.
+
+// TODO
+
+// TODO: Talk about copy-pasting
