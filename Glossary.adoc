@@ -1,12 +1,14 @@
 // Here goes all the term definitions the user might need to reference while reading the manual.
 
 // Filter, sync, distortion, fade, pan
-// LFO, FM, AM, Bandwith, Additive/Subtractive synthesis, ADSR, Envelope and Harmonic
+// FM, AM, Bandwith, Additive/Subtractive synthesis, Envelope and Harmonic
 
 // Ideally they're more naturally introduced in the text
 
 [glossary]
+ADSR:: Short for "Attack-Decay-Sustain-Release", the most common type of envelope.
 Key:: A possible input to Zyn-Fusion, with a specific notation (eg. A4, G#2, etc). Practically, it's the same thing as a note.
+LFO:: Short for "Low Frequency Oscillator", it's a periodic envelope used for looping and constant changes to your sound.
 Patch:: A configuration of ZynAddSubFX the user makes or loads up. You can create patches for drums, strings, pads, or something entirely different!
 Portamento:: A pitch slide from one note to another.
 Preset:: A ready-made, reusable patch. ZynAddSubFX comes with a bunch of presets you can use!

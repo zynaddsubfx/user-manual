@@ -96,6 +96,18 @@ or with the envelope window, where you can move the envelope points around, whic
 
 If you don't see the envelope window, click on the "Envelope" text seen above the knobs.
 
+===== Free mode
+
+*_"What if I want to make a specific envelope ADSR doesn't allow?"_* - That's entirely possible,
+using the free envelope mode!
+
+To the right of the envelope window, you'll find a couple options that allow you to use the free envelope mode.
+
+Using the "Free" button, we can enable the free mode. The same button disables you, and asks you to confirm the action,
+since free mode points are not remembered if you disable the mode.
+
+You can add and remove points, freely move them around, and set the sustain point!
+
 ==== LFO settings
 
 This section allows you to edit the LFO.

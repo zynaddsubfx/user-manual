@@ -14,9 +14,11 @@ If you haven't tried to use ADDSynth practically, please consult the tutorials.
 
 // TODO: Which tutorials?
 
+// TODO: Group logically
+
 ==== Global ADDSynth parameters
 
-Here, you can edit the properties which will apply to each voice.
+Here, you can edit the properties which will apply to the part as a whole.
 
 That includes changes to the
 *amplitude* and *frequency*,

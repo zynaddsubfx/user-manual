@@ -191,7 +191,8 @@ NOTE: A part is a single element in ZynAddSubFX capable of generating sound.
 In one part, any of ZynAddSubFX's three synths can be active.
 So, think of parts like mini synths inside ZynAddSubFX
 which you can use to have multiple layers to sounds,
-have multiple sounds, maybe with different timbres, on one keyboard, etc.
+or have multiple sounds, maybe with different timbres, on one keyboard,
+and so on.
 
 ===== Part enabling and naming
 
