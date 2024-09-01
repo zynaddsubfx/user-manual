@@ -1,3 +1,5 @@
+// TODO: Resonance tab
+
 This section aims to introduce the user to Zyn's UI elements and explain their behaviour in detail.
 
 === Panels

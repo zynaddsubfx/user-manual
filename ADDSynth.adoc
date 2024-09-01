@@ -9,29 +9,32 @@ It features 8 voices,
 each of which can be toggled using the power button in the top-left corner of the ADDSynth panel
 or using the voice grid below the ADDSynth panel button.
 
-This section is meant to be a detailed explanation of various parts of ADDSynth.
+This section is meant to be an intuitive explanation of various sections of ADDSynth.
 If you haven't tried to use ADDSynth practically, please consult the tutorials.
 
-// TODO: Which tutorials?
+==== Editing a voice -> VOICE tabs
 
-// TODO: Group logically
+So how do you actually start editing a voice?
 
-==== Global ADDSynth parameters
+Usually, you'll first hop into the <<synth-osc, oscillator editor>> and make your voice have the desired timbre!
+As you could expect, this is done via the "Oscillator" tab.
 
-Here, you can edit the properties which will apply to the part as a whole.
+Your voice might additionally require some modulation or a bit of unison, in which case, we'll move onto the "Modulation" and "Mod-Osc" tabs!
 
-That includes changes to the
-*amplitude* and *frequency*,
-as well as an applied *filter*, if you so choose.
+In "Modulation", you can set add unsion, which is great for choirs or harmonic-rich sounds, or make your sound crazy using frequency, phase, ring or some other type of modulation. In case you want to change the modulating oscillator, you can do so in <<synth-osc, the "Mod-Osc" tab>> or by using one of the previous voices to modulate the current voice (e.g. voice 3 can be modulated by voices 1 and 2)!
+This is done by setting the dropdown displaying "Normal" to the desired oscillator.
 
-==== Voice parameters
+Once you have your desired sound, we move onto the "Voice" tab, where you can edit
+the <<synth-ampset, amplitude>>. <<synth-freqset, frequency>>,
+as well as the optional <<synth-filset, filter>>.
 
-==== Oscillator editor
+==== Editing global parameters
 
-==== Modulation oscillator editor
+Now, once you've made each voice sound like how you want them, let's make the final sound!
 
-==== Modulation settings
+First, you might want to go to the "Voice list" tab and adjust the voice levels!
+Additionally, you can enable anti-aliasing and set panning, detune and MIDI CC vibrato depth.
 
-==== Voice list
-
-==== Resonance editor
+After that, apply the finishing touches by going to "Global" and "Resonance" tabs and making changes to
+the <<synth-ampset, amplitude>> and <<synth-freqset, frequency>>,
+as well as the optional <<synth-res, resonance>> and <<synth-filset, filter>>.
