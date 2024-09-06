@@ -275,8 +275,7 @@ NOTE: Use portamento whenever you want to play only one note at a time and have 
 
 Once enabled, you can change a couple properties of your portamento.
 
-// TODO: fundamental mentioned that maybe I shouldn't capitalize these.
-You can change how long it takes it to slide using the "TIME" knob.
+You can change how long it takes it to slide using the "Time" knob.
 
 The "THRESH" number field allows you to set a semitone distance at which the portamento takes place.
 The `>` / `<` buttons set how the limit behaves.
@@ -290,11 +289,11 @@ If less than the middle value, it will slide down faster than up, and vice versa
 
 This section of the part settings panel is used for making microtonal mappings, so you most likely won't be using it often.
 
-This is the only settings settings that is shared by each part.
+These are the only settings that is shared by each part.
 
 ==== Browser
 
-// TODO: Image
+image::imgs/bank-read.png[]
 
 Allows browsing the ZynAddSubFX collection of ready-made sounds.
 It features a search bar and 4 columns, which can all be clicked to be toggled:
@@ -306,7 +305,7 @@ It features a search bar and 4 columns, which can all be clicked to be toggled:
 
 ==== Mixer
 
-// TODO: Images of master and one part strip
+image::imgs/mixer.png[]
 
 The mixer allows mixing of each part (the part mixer strip) as well as the output signal (labeled as "MASTER", the master mixer strip).
 
