@@ -165,6 +165,8 @@ The scope of that is, understandably, very large, so it warrants
 
 ==== Virtual keyboard panel
 
+image::imgs/footer.png[]
+
 While it is true that you will most often pass notes to ZynAddSubFX using MIDI, the virutal
 keyboard panel exists as a way to pass notes directly from the Zyn-Fusion UI!
 
@@ -329,6 +331,8 @@ Even though the part settings offer a volume knob, you can always use the mixer
 to have visual feedback on how loud your parts are relative to each other!
 
 ==== Kit settings panel
+
+image::imgs/kit.png[]
 
 This panel allows you to effictively configure ZynAddSubFX into a kit.
 

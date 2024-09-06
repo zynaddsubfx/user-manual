@@ -19,6 +19,8 @@ in every situation, so it's not as daunting as you might think!
 [[synth-osc]]
 ==== Oscillator editor
 
+image::imgs/osc-overall.png[]
+
 Here, you can shape the oscillator that will be used either as a main source of sound or a modulator.
 
 You'll notice the window is split into three strips, if you will,
@@ -54,6 +56,8 @@ Just don't go too overboard _(but even then, just double-tap the fader to reset 
 [[synth-ampset]]
 ==== General amplitude settings
 
+image::imgs/amp-control.png[]
+
 These settings relate to volume.
 
 Most of them are pretty standard, like volume and panning.
@@ -67,6 +71,7 @@ if you set it to 0, it will sound the same on all notes)
 
 // TODO: Verify this above. Also, what happens for 127?
 // TODO: Velocity sensing
+// TODO: These differ a bit in the software, it's good to group them all and then explain the differences
 
 [[synth-freqset]]
 ==== General frequency settings
@@ -78,6 +83,8 @@ From here, you can set the octave shift and fine-tune settings.
 Fine-tune type offers four options, each being how far the fine-tune can go.
 By default, you can go up or down 35 cents.
 
+// TODO: These differ a bit in the software, it's good to group them all and then explain the differences
+
 [[synth-filset]]
 ==== General filter settings
 
@@ -86,6 +93,7 @@ These settings relate to the applied filter.
 Here, you can set the type, cutoff, resonance, gain, number of stages, and other properties of the filter.
 
 // TODO: Explain the class, f. track, sense and scale
+// TODO: These differ a bit in the software, it's good to group them all and then explain the differences
 
 [[synth-env]]
 ==== Envelope settings

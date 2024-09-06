@@ -1,5 +1,7 @@
 === ADDSynth
 
+image::imgs/add-synth.adoc[]
+
 ADDSynth is ZynAddSubFX's additive synthesizer.
 
 This is the most common synth of choice, and you should use it any time you need
