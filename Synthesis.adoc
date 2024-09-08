@@ -138,8 +138,14 @@ Additionally, you can connect your LFO's frequency to its BPM.
 The two number fields, allow setting the numerator and denominator of the BPM, expressed in bars
 (e.g. setting it to 1/4 sets the LFO's frequency to match a quarter of a bar).
 
-// TODO: Resonance
 [[synth-res]]
 ==== Resonance editor
 
-// TODO: Talk about copy-pasting
+The resonance editor lets you add natural-sounding resonance to your sound.
+
+.What is resonance?
+NOTE:: Resonance is a property of the sound that describes how a certain sound reverberates around certain bands of frequencies.
+This makes the sound more full in those bands. Adding resonance is great for sounds like choirs and pads, which usually are more powerful
+in certain frequency spaces.
+
+The editor allows drawing a resonance curve covering the range from around 0.15kHz to around 6.35kHz.

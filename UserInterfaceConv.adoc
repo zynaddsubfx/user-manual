@@ -34,3 +34,9 @@ Holding down Ctrl will temporarily activate Learn mode - any control touched wil
 // Here should be a reference to chapter about Macro Learn
 
 Holding down Shift will temporarily activate Fine mode - this will greatly increase the input resolution allowing for more precise manipulation.
+
+=== Copy-pasting
+
+Most elements in Zyn-Fusion can be copied and pasted, using the `C` and `P` buttons, usually situated in the top-right corner of the UI element.
+
+You can copy envelope settings, LFO settings, frequency settings, filter settings, oscillators, modulation settings, whole ADDSynth, SUBSynth and PADSynth patches, and much more!
