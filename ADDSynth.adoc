@@ -1,6 +1,6 @@
 === ADDSynth
 
-image::imgs/add-synth.adoc[]
+image::imgs/add-synth.png[]
 
 ADDSynth is ZynAddSubFX's additive synthesizer.
 
