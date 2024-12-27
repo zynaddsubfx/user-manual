@@ -46,7 +46,7 @@ image::screenshots/launch-ADDsynth.png[]
 
 Next try playing around with the virtual keyboard at the bottom of the window, using your mouse.
 
-image::imgs/virtual-keyboard.png[]
+image::imgs/footer.png[]
 
 // TODO: Patch is never used in Zyn. Instrument is the perfered term.
 .Open an existing patch
