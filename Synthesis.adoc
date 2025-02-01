@@ -1,0 +1,151 @@
+// Defines the plus-minus simbol, using HTML codes
+:plusmn: &#177;
+
+This section is meant to document how ZynAddSubFX generates sound,
+and how you can use that to make any sound that comes to mind!
+
+=== Synthesis Modules
+
+Firstly, before getting into the synthesis engines,
+we should note that certain synthesis modules appear pretty often,
+so it would be very good if we covered those first.
+
+Don't worry, we'll get into the good stuff soon, this section only
+serves so we don't have to explain terms like LFO, ADSR, punch, stretch, velocity sensing and so on
+every time they appear.
+And, as you'll see, no matter how scary Zyn-Fusion might look, the same elements work the same
+in every situation, so it's not as daunting as you might think!
+
+[[synth-osc]]
+==== Oscillator editor
+
+image::imgs/osc-overall.png[]
+
+Here, you can shape the oscillator that will be used either as a main source of sound or a modulator.
+
+You'll notice the window is split into three strips, if you will,
+that being the strip with two oscillator windows and settings in the middle
+and two strips of horizontal faders, along with a scrollbar at the bottom.
+
+*The first strip* has, from left to right, your starting oscillator, oscillator settings,
+and your final oscillator that will be used in your synthesizer of choice, be that ADDSynth or PADSynth.
+
+The settings in the middle include settings like:
+
+- the base oscillator (sine, square, triangle, etc)
+- the waveshaping function
+- the modlation
+- the filter
+
+and so on.
+Feel free to move the "shape" fader below the base oscillator settings,
+it changes the oscillators in interesting ways!
+
+*The second strip* has faders which allow you to add harmonics to your sound.
+The fader sets the amplitude of the first, second, third harmonic, and so on.
+Using the scrollbar, you can go as far as to the 128th.
+
+.What are harmonics?
+NOTE: Harmonics are just your base frequency multiplied by some number.
+The second haronic is your base frequency multiplied by 2, for example.
+Harmonics, as such, add frequency content to your sound, making it more complex and interesting.
+Just don't go too overboard _(but even then, just double-tap the fader to reset it)_!
+
+*The third strip* allows you to set the phase of each harmonic.
+
+[[synth-ampset]]
+==== General amplitude settings
+
+image::imgs/amp-control.png[]
+
+These settings relate to volume.
+
+Most of them are pretty standard, like volume and panning.
+However, there is an interesting property of amplitude in ZynAddSubFX called "punch".
+
+Punch adds an additional boost in volume at the start of the sound.
+
+You can edit punch strength (how loud it is), time (how long it lasts) and
+stretch (how the length of it changes with the note;
+if you set it to 0, it will sound the same on all notes)
+
+// TODO: Verify this above. Also, what happens for 127?
+// TODO: Velocity sensing
+// TODO: These differ a bit in the software, it's good to group them all and then explain the differences
+
+[[synth-freqset]]
+==== General frequency settings
+
+These settings relate to pitch.
+
+From here, you can set the octave shift and fine-tune settings.
+
+Fine-tune type offers four options, each being how far the fine-tune can go.
+By default, you can go up or down 35 cents.
+
+// TODO: These differ a bit in the software, it's good to group them all and then explain the differences
+
+[[synth-filset]]
+==== General filter settings
+
+These settings relate to the applied filter.
+
+Here, you can set the type, cutoff, resonance, gain, number of stages, and other properties of the filter.
+
+// TODO: Explain the class, f. track, sense and scale
+// TODO: These differ a bit in the software, it's good to group them all and then explain the differences
+
+[[synth-env]]
+==== Envelope settings
+
+This section allows editing the ADSR envelope.
+
+NOTE: ADSR stands for "Attack-Decay-Sustain-Release". It is the most common form of envelope out there.
+
+These envelopes are used everywhere in ZynAddSubFX,
+for making alterationgs to amplitude, pitch and frequency.
+
+You can edit the envelope with the ADSR knobs, which is more precise,
+or with the envelope window, where you can move the envelope points around, which is more fun!
+
+If you don't see the envelope window, click on the "Envelope" text seen above the knobs.
+
+===== Free mode
+
+*_"What if I want to make a specific envelope ADSR doesn't allow?"_* - That's entirely possible,
+using the free envelope mode!
+
+To the right of the envelope window, you'll find a couple options that allow you to use the free envelope mode.
+
+Using the "Free" button, we can enable the free mode. The same button disables you, and asks you to confirm the action,
+since free mode points are not remembered if you disable the mode.
+
+You can add and remove points, freely move them around, and set the sustain point!
+
+[[synth-lfoset]]
+==== LFO settings
+
+This section allows you to edit the LFO.
+
+NOTE: LFO stands for "Low Frequency Oscillator".
+It is used for any periodic changes you wanna make to your sound,
+such as vibrato or tremolo.
+
+You can alter all the basic settings, such as oscillator type, frequrency, depth,
+starting phase, delay, ramp-up and ramp-down time.
+
+Additionally, you can connect your LFO's frequency to its BPM.
+The two number fields, allow setting the numerator and denominator of the BPM, expressed in bars
+(e.g. setting it to 1/4 sets the LFO's frequency to match a quarter of a bar).
+
+[[synth-res]]
+==== Resonance editor
+
+The resonance editor lets you add natural-sounding resonance to your sound.
+
+.What is resonance?
+NOTE:: Resonance is a property of the sound that describes how a certain sound reverberates around certain bands of frequencies.
+This makes the sound more full in those bands. Adding resonance is great for sounds like choirs and pads, which usually are more powerful
+in certain frequency spaces.
+
+The editor allows drawing a resonance curve covering the range from around 0.15kHz to around 6.35kHz.

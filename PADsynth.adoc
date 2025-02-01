@@ -1,3 +1,0 @@
-image::imgs/pad-synth.png[]
-* what is padsynth and why it's named this way?
-* signal routing diagram

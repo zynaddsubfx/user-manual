@@ -1,0 +1,42 @@
+The Zyn-Fusion GUI tries to maintain a consistent language through its controls.
+The ones you'll see most commonly are:
+
+* Buttons
+* Sliders
+* Knobs
+* Number fields
+* Input boxes
+
+The knobs and sliders can be reset to their default position with a double-click or a middle-mouse click.
+
+// TODO: No way to reset the number?
+Number fields house `+` and `-` buttons which allow incrementing and decrementing the numeric value which the field stores.
+
+Input boxes can be edited by either left- or right-mouse clicking on the box, and editing is stopped by clicking outside the box.
+
+=== Using the Keyboard
+
+Zyn-Fusion lets you use the keyboard in two ways:
+
+* playing notes with the alpha-numeric keyboard
+* accessing special functions with modifier keys
+
+For example you can play a C-4 note by pressing the Q key, or play the C-3 note with the Z key. You can also change the keyboard layout between QWERTY and AZERTY in the Global Settings.
+
+// Here should be a reference to an appropriate Global Settings subchapter
+
+TIP: you can learn more about this in the <<Global Settings>> chapter.
+
+// above is a non-working reference to another chapter. How do we make this work? Related issue: https://github.com/zynaddsubfx/user-manual/issues/3
+
+Holding down Ctrl will temporarily activate Learn mode - any control touched will be assigned to a macro.
+
+// Here should be a reference to chapter about Macro Learn
+
+Holding down Shift will temporarily activate Fine mode - this will greatly increase the input resolution allowing for more precise manipulation.
+
+=== Copy-pasting
+
+Most elements in Zyn-Fusion can be copied and pasted, using the `C` and `P` buttons, usually situated in the top-right corner of the UI element.
+
+You can copy envelope settings, LFO settings, frequency settings, filter settings, oscillators, modulation settings, whole ADDSynth, SUBSynth and PADSynth patches, and much more!
